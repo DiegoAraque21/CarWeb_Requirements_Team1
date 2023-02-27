@@ -66,6 +66,11 @@
 | 41 | Como administrador de grupo automotriz debo de poder ver gráficas y estadísticas sobre mi grupo (ventas, performance, etc.)                           | Los administradores de grupos automotrices tendran acceso a información de todas sus agencias, para verificar que tan cotizadas son y en base a eso tomar deciciones.                                                                           | S-Should Have |
 | 42 | Como vendedor, gerente, super-admin, administrador de grupo automotriz debo de cambiar mi contraseña al iniciar sesión por primera vez.               | Cambar la contraseñas despues de hacer el primer login es obligatorio por temas de seguridad.                                                                                                                                                   | M-Must Have   |
 | 43 | Como cliente debo poder ver información general sobre el vehículo a través de tarjetas.                                                               | Tarjetas individuales para cada vehículo, para que el cliente vea información relevante pero no abrumadora.                                                                                                                                     | M-Must Have   |
+---
+
+## WBS
+![WBS Car Web diagram](https://user-images.githubusercontent.com/78172208/221714997-2ac3fbf4-0dc9-4165-9f81-fdcac4d0d5c5.png)
+
 
 ---
 
