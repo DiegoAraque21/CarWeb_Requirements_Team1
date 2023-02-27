@@ -19,6 +19,13 @@
 8. [Techstack](#techstack)
 9. [Architecture](#architecture)
 
+
+## Requirements
+_Autenticación_
+- Creación de usuario con correo y contraseña.
+- Cerrar mi sesión debe ser posible para cualquier usuario del sistema.
+
+
 ## Techstack
 
 Frontend:
