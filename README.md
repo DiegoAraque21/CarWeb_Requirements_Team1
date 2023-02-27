@@ -20,6 +20,17 @@
 
 ---
 
+## User Stories
+| id | Historia de usuario                                                                                                                                   | Criterio de aceptación                                                                          | clasificación |
+| -- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------- |
+| 1  | Como cliente debo poder crear mi cuenta.                                                                                                              | Pantalla de crear cuenta que contiene campos de email, contraseña y especificas de el domicilio | M-Must Have   |
+| 2  | Como cliente, vendedor, gerente, super-admin, administrador de grupo automotriz debo poder cerrar sesión.                                             | Boton en el navigation bar para que se pueda cerrar sesión                                      | M-Must Have   |
+| 3  | Como cliente, vendedor, gerente, super-admin, administrador de grupo automotriz debo poder iniciar sesión.                                            | Forma que contiene 2 campos: email y contraseña                                                 | M-Must Have   |
+| 4  | Como cliente, vendedor, gerente, super-admin, administrador de grupo automotriz debo poder actualizar datos de mi cuenta como nombre, ubicación, etc. | Forma que permita al usuario cambiar datos personales como nombre y domicilio                   | S-Should Have |
+| 5  | Como cliente, vendedor, gerente, super-admin, administrador de grupo automotriz debo poder restablecer mi contraseña                                  | Boton que permite restablcer contraseña en caso de que se me haya olvidado                      | M-Must Have   |
+
+---
+
 ## Requirements
 **Autenticación**
 - Creación de usuario con correo y contraseña.
