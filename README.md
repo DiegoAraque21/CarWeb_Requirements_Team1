@@ -16,6 +16,7 @@
 7. [Gant](#gant)
 8. [Techstack](#techstack)
 9. [Architecture](#architecture)
+10. [Software Tests](#software-tests)
 
 ---
 
