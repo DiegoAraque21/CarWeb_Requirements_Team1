@@ -1,6 +1,25 @@
 # CarWeb_Requirements_Team1
 
-## Tech Stack
+---
+
+##### Creators: Diego Araque, Marco Torres, Salomon Dabbah, Luis Fernando Valdeón, Uriel Aguilar
+
+
+## Index
+
+---
+
+1. [Index](#index)
+2. [User Histories](#user-histories)
+3. [Requirements](#requirements)
+4. [Backlog](#backlog)
+5. [Effort and Cost Estimations](#effort-costs)
+6. [WBS](#wbs)
+7. [Gant](#gant)
+8. [Techstack](#techstack)
+9. [Architecture](#architecture)
+
+## Techstack
 
 Frontend:
 <p>
