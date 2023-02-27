@@ -1,9 +1,7 @@
 # CarWeb_Requirements_Team1
 
 ---
-Diego Araque, Marco Torres, Salomon Dabbah, Luis Fernando Valdeón, Uriel Aguilar
 ##### Creators: [@Diego Araque](https://github.com/DiegoAraque21), [@Salomon Dabbah](https://github.com/SalomonDabs), [@Marco Torres](https://github.com/marcotorresx), [@Fernando Valdeon](https://github.com/lfvm), [@Uriel Aguilar](https://github.com/u-urieldev)
-
 
 ## Index
 
@@ -19,7 +17,7 @@ Diego Araque, Marco Torres, Salomon Dabbah, Luis Fernando Valdeón, Uriel Aguila
 8. [Techstack](#techstack)
 9. [Architecture](#architecture)
 
----------------------------------------------
+---
 
 ## Requirements
 **Autenticación**
