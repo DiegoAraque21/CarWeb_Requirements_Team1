@@ -10,7 +10,7 @@
 ---
 
 1. [Index](#index)
-2. [User Histories](#user-histories)
+2. [User Stories](#user-stories)
 3. [Requirements](#requirements)
 4. [Backlog](#backlog)
 5. [Effort and Cost Estimations](#effort-costs)
