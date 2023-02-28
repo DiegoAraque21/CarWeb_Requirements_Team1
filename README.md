@@ -183,10 +183,10 @@ Para el backend proponemos una solución basada en la nube de AWS. En donde util
 
 ##### Base de Datos y Almacenamiento:
 
-PostgreSQL es el lenguaje de bases de datos que decidimos utilizar para este proyecto. Elegimos SQL debido a que nos permite hacer queries complejas y especificamente PostgreSQL debido a que tiene mejores tipos de datos que otras bases de datos SQL. Ademas de esto para guardar documentos de los clientes decidimos usar el servicio S3 de AWS, que nos permite guardar documentos, imagenes, etc.
+PostgreSQL es el lenguaje de bases de datos que decidimos utilizar para este proyecto. Elegimos SQL debido a que nos permite hacer queries complejas y especificamente PostgreSQL debido a que tiene mejores tipos de datos que otras bases de datos SQL. Utilizaremos el servicio RDS (Relational Database Service) para hostear nuestra base de datos en la nube de AWS. Ademas de esto para guardar documentos de los clientes decidimos usar el servicio S3 de AWS, que nos permite guardar documentos, imagenes, etc.
 
 <p>
-<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="[https://aws.amazon.com/es/vpc/](https://aws.amazon.com/es/s3/?nc=sn&loc=0)" target="_blank" rel="noreferrer"> <img src="https://aprenderbigdata.com/wp-content/uploads/amazon-s3-logo-300x225.png.webp" alt="typescript" width="40" height="40"/> </a>
+<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a><a href="https://aws.amazon.com/es/rds/" target="_blank" rel="noreferrer"><img src="https://www.logicata.com/wp-content/uploads/2020/08/Amazon-RDS@4x.png" alt="RDS" width="40" height="40"/></a> <a href="[https://aws.amazon.com/es/vpc/](https://aws.amazon.com/es/s3/?nc=sn&loc=0)" target="_blank" rel="noreferrer"> <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--bZ7myZIR--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ip7ork2m951siwgpkety.png" alt="s3" width="40" height="40"/> </a>
 </p>
 
 ##### Despliegue y Autenticación:
