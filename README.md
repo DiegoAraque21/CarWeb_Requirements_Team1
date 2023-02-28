@@ -156,7 +156,36 @@
 ---
 
 ## Diagrama de Gantt
-![Screenshot 2023-02-28 at 17 50 21](https://user-images.githubusercontent.com/70352787/222009575-a6c47c82-655e-419a-b54a-9a566eaaae8b.jpg)
+|                  Task Name                  | Start  (Date) | End  (Date) | Duration (Days) |
+|:-------------------------------------------:|:-------------:|:-----------:|:---------------:|
+| Requerimientos                              |   2/13/2023   |   3/6/2023  |        21       |
+| Historias de Usuario                        |   2/20/2023   |   3/6/2023  |        14       |
+| Arquitectura                                |   2/27/2023   |   3/6/2023  |        7        |
+| Diagramas UML                               |   2/27/2023   |  3/13/2023  |        14       |
+| Diseño de UI/UX                             |    3/6/2023   |  3/27/2023  |        21       |
+| Selección de servicios y nubes              |    3/6/2023   |  3/20/2023  |        14       |
+| Configuración de la DB                      |    4/3/2023   |  4/10/2023  |        7        |
+| Setup de backend en AWS                     |    4/3/2023   |  4/10/2023  |        7        |
+| Setup del Frontend                          |    4/3/2023   |  4/10/2023  |        7        |
+| Diseño API Gateway y AWS Lambda             |    4/3/2023   |  4/17/2023  |        14       |
+| Diseño de endpoints                         |    4/6/2023   |  4/13/2023  |        7        |
+| Desarrollo de endpoints                     |   4/10/2023   |  5/22/2023  |        42       |
+| Conexión con el backend                     |   4/10/2023   |  4/17/2023  |        7        |
+| Desarrollo del Frontend                     |   4/10/2023   |  5/22/2023  |        42       |
+| Autenticación y autorización                |   4/10/2023   |  4/24/2023  |        14       |
+| Roles en la nube                            |   4/10/2023   |  4/17/2023  |        7        |
+| Creación de usuarios y roles                |   4/24/2023   |   5/8/2023  |        14       |
+| Encriptar documentos                        |    5/1/2023   |  5/15/2023  |        14       |
+| Pruebas de Backend                          |   5/22/2023   |   6/5/2023  |        14       |
+| Pruebas de Frontend                         |   5/22/2023   |   6/5/2023  |        14       |
+| Plan de lanzamiento                         |   5/22/2023   |  5/29/2023  |        7        |
+| Pruebas Unitarias                           |   5/29/2023   |   6/9/2023  |        11       |
+| Pruebas de Aceptación de Usuario            |   5/29/2023   |   6/5/2023  |        7        |
+| Pruebas Integrales                          |    6/5/2023   |  6/15/2023  |        10       |
+| Coordinar fecha de lanzamiento              |    6/5/2023   |  6/12/2023  |        7        |
+| Pruebas No Funcionales (Rendimiento, Carga) |    6/5/2023   |  6/19/2023  |        14       |
+| Lanzamiento                                 |   6/12/2023   |  6/19/2023  |        7        |
+
 ![Screenshot 2023-02-28 at 17 49 31](https://user-images.githubusercontent.com/70352787/222009582-73430987-8160-4ce9-9e00-b8cff78416be.jpg)
 
 
