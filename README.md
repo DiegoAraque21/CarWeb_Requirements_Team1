@@ -8,15 +8,15 @@
 ---
 
 1. [Índice](#index)
-2. [Historias de Usuario](#user-stories)
-3. [Requerimientos](#requirements)
-4. [Backlog](#backlog)
-5. [Estimación de costos y esfuerzo](#effort-costs)
-6. [WBS](#wbs)
+2. [Historias de Usuario](#historias-de-usuario)
+3. [WBS](#wbs)
+4. [Requerimientos](#requerimientos)
+5. [Backlog](#backlog)
+6. [Estimación de costos y esfuerzo](#esfuerzo-costos)
 7. [Gant](#gant)
-8. [Arquitectura](#architecture)
-9. [Pruebas de software](#software-tests)
-10. [Techstack](#techstack)
+8. [Arquitectura](#arquitectura)
+9. [Techstack](#techstack)
+10. [Pruebas de software](#software-tests)
 
 ---
 
