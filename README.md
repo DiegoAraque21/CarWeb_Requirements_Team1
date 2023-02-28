@@ -1,4 +1,4 @@
-# CarWeb Requirements Team1
+# CarWeb_Requirements_Team1
 
 ---
 ##### Creators: [@Diego Araque](https://github.com/DiegoAraque21), [@Salomon Dabbah](https://github.com/SalomonDabs), [@Marco Torres](https://github.com/marcotorresx), [@Fernando Valdeon](https://github.com/lfvm), [@Uriel Aguilar](https://github.com/u-urieldev)
@@ -168,11 +168,26 @@ Frontend:
 </p>
 
 Backend:
+Api Wateway, lambda, vpc
+
+Storage:
 <p>
-<a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> 
+<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a>
+ec3
+</p>
+
+Hosting:
+<p>
+<a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>
 </p>
 
 Auth:
 <p>
 <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>
 </p>
+
+ChatBot:
+DialogFlow
+
+Text Recognition:
+Natural Language Processing GCP API
