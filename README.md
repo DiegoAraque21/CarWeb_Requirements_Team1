@@ -154,6 +154,9 @@
 - Análisis de gráficos y estadísticas para el super-admin, para ver información básica de cada agencia.
 - Análisis de gráficas y estadísticas por parte del administrador del grupo automotriz, sobre todas sus agencias.
 
+## Architecture
+
+
 
 ## Techstack
 
