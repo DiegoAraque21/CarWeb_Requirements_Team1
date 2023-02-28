@@ -1,4 +1,4 @@
-# CarWeb Requerimientos
+# CarWeb_Requirements_Team1
 
 ---
 ##### Creators: [@Diego Araque](https://github.com/DiegoAraque21), [@Salomon Dabbah](https://github.com/SalomonDabs), [@Marco Torres](https://github.com/marcotorresx), [@Fernando Valdeon](https://github.com/lfvm), [@Uriel Aguilar](https://github.com/u-urieldev)
@@ -70,7 +70,6 @@
 
 ## WBS
 ![WBS Car Web diagram](https://user-images.githubusercontent.com/78172208/221714997-2ac3fbf4-0dc9-4165-9f81-fdcac4d0d5c5.png)
-
 
 ---
 
@@ -170,12 +169,16 @@ Frontend:
 </p>
 
 Backend:
-Api Gateway, lambda, vpc
+<p>
+<a href="https://aws.amazon.com/es/api-gateway/" target="_blank" rel="noreferrer"> <img src="https://uploads-ssl.webflow.com/627ca6f747706dac04ccaba1/63c14fc134c432153431a0aa_logo-aws-header.png" alt="typescript" width="40" height="40"/> </a>
+</p>
+
+Api Wateway, lambda, vpc
 
 Storage:
 <p>
 <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a>
-S#3
+ec3
 </p>
 
 Hosting and Auth:
