@@ -13,7 +13,7 @@
 4. [Requerimientos](#requerimientos)
 5. [Backlog](#backlog)
 6. [Estimación de costos y esfuerzo](#esfuerzo-costos)
-7. [Diagrama de Gantt](#gant)
+7. [Diagrama de Gantt](#diagrama-de-gantt)
 8. [Arquitectura](#arquitectura)
 9. [Techstack](#techstack)
 10. [Pruebas de software](#software-tests)
