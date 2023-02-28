@@ -154,11 +154,13 @@
 - Análisis de gráficos y estadísticas para el super-admin, para ver información básica de cada agencia.
 - Análisis de gráficas y estadísticas por parte del administrador del grupo automotriz, sobre todas sus agencias.
 
+---
+
 ## Architecture
 
 ![Arquitectura CarWeb drawio](https://user-images.githubusercontent.com/57450093/221737889-ba914df5-3208-4078-bdfb-a1a3ff140ef8.png)
 
-
+---
 
 ## Techstack
 
@@ -176,12 +178,7 @@ Storage:
 ec3
 </p>
 
-Hosting:
-<p>
-<a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>
-</p>
-
-Auth:
+Hosting and Auth:
 <p>
 <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>
 </p>
