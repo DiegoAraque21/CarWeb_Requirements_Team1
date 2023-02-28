@@ -194,4 +194,6 @@ Text Recognition:
 </p>
 
 Payment:
-Stripe
+<p>
+<a href="https://stripe.com/mx?utm_campaign=paid_brand-MX_es_Search_Brand_Stripe-7351764142&utm_medium=cpc&utm_source=google&ad_content=618458268464&utm_term=stripe&utm_matchtype=e&utm_adposition=&utm_device=c" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Stripe_Logo%2C_revised_2016.svg" height="40"/> </a>
+</p>
