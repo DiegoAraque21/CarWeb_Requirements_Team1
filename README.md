@@ -14,9 +14,9 @@
 5. [Effort and Cost Estimations](#effort-costs)
 6. [WBS](#wbs)
 7. [Gant](#gant)
-8. [Techstack](#techstack)
-9. [Architecture](#architecture)
-10. [Software Tests](#software-tests)
+8. [Architecture](#architecture)
+9. [Software Tests](#software-tests)
+10. [Techstack](#techstack)
 
 ---
 
