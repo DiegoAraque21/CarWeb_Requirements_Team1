@@ -1,26 +1,26 @@
-# CarWeb_Requirements_Team1
+# CarWeb Equipo1
 
 ---
-##### Creators: [@Diego Araque](https://github.com/DiegoAraque21), [@Salomon Dabbah](https://github.com/SalomonDabs), [@Marco Torres](https://github.com/marcotorresx), [@Fernando Valdeon](https://github.com/lfvm), [@Uriel Aguilar](https://github.com/u-urieldev)
+##### Creadores: [@Diego Araque](https://github.com/DiegoAraque21), [@Salomon Dabbah](https://github.com/SalomonDabs), [@Marco Torres](https://github.com/marcotorresx), [@Fernando Valdeon](https://github.com/lfvm), [@Uriel Aguilar](https://github.com/u-urieldev)
 
-## Index
+## Índice
 
 ---
 
-1. [Index](#index)
-2. [User Stories](#user-stories)
-3. [Requirements](#requirements)
+1. [Índice](#index)
+2. [Historias de Usuario](#user-stories)
+3. [Requerimientos](#requirements)
 4. [Backlog](#backlog)
-5. [Effort and Cost Estimations](#effort-costs)
+5. [Estimación de costos y esfuerzo](#effort-costs)
 6. [WBS](#wbs)
 7. [Gant](#gant)
-8. [Architecture](#architecture)
-9. [Software Tests](#software-tests)
+8. [Arquitectura](#architecture)
+9. [Pruebas de software](#software-tests)
 10. [Techstack](#techstack)
 
 ---
 
-## User Stories
+## Historias de Usuario
 | id | Historia de usuario                                                                                                                                   | Criterio de aceptación                                                                                                                                                                                                                          | clasificación |
 | -- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
 | 1  | Como cliente debo poder crear mi cuenta.                                                                                                              | Pantalla de crear cuenta que contiene campos de email, contraseña y especificas de el domicilio                                                                                                                                                 | M-Must Have   |
@@ -73,7 +73,7 @@
 
 ---
 
-## Requirements
+## Requerimientos
 **Autenticación**
 - Creación de usuario con correo y contraseña.
 - Cerrar mi sesión debe ser posible para cualquier usuario del sistema.
@@ -155,7 +155,7 @@
 
 ---
 
-## Architecture
+## Arquitectura
 
 ![Arquitectura CarWeb drawio](https://user-images.githubusercontent.com/57450093/221737889-ba914df5-3208-4078-bdfb-a1a3ff140ef8.png)
 
