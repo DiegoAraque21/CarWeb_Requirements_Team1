@@ -73,6 +73,11 @@
 
 ---
 
+## Diagrama de Gantt
+![gant](https://user-images.githubusercontent.com/90577455/221950566-e712d1ab-18b5-4fcf-a141-bec244953bed.png)
+
+---
+
 ## Requerimientos
 **Autenticación**
 - Creación de usuario con correo y contraseña.
