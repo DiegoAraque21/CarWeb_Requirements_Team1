@@ -164,37 +164,58 @@
 ## Techstack
 
 Frontend:
+
+Se utilizara Typescript como lenguaje en el frontend en vez de Javascript. Ocupan la misma sintaxis pero es un lenguaje stricto en donde se tienen que deninir los tipos de datos y permitira que tengamos menos errores. Además se puede usar perfectamente con react, que es una de las librerias de frontend mas utilizadas actualmente y que todos en el salón hemos utilizado.
+
 <p>
 <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> 
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> 
 </p>
 
 Backend:
+
+Para el backend proponemos una solución basada en la nube de AWS. En donde utilizaremos API gateway y AWS Lamda para tener un backend escalable y serverless. Esto implicaria crear funciones con AWS Lamda, a las cuales podremos acceder a traves de rutas creadas en API Gateway. Toda la infraestructa se encontrara en una VPC (Virtual Private Cloud), este lograra que no todo el mundo pueda acceder directamente a la API.
+
 <p>
 <a href="https://aws.amazon.com/es/api-gateway/" target="_blank" rel="noreferrer"> <img src="https://cloudfront.romexsoft.com/wp-content/uploads/2020/09/Amazon-API-Gateway.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://aws.amazon.com/es/lambda/" target="_blank" rel="noreferrer"> <img src="https://miro.medium.com/v2/resize:fit:612/format:webp/0*pJZ8UMsoPEv1pjmI.png" alt="typescript" width="40" height="40"/> </a> <a href="https://aws.amazon.com/es/vpc/" target="_blank" rel="noreferrer"> <img src="https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/core-aws-services/connect-resources-with-aws-networking/images/aa91e6b1882061229f9220f4160052dc_65-b-47835-0-f-72-4801-975-a-5-f-9-d-419-e-012-c.png" alt="typescript" width="40" height="40"/> </a>
 </p>
 
 Storage:
+
+PostgreSQL es el lenguaje de bases de datos que decidimos utilizar para este proyecto. Elegimos SQL debido a que nos permite hacer queries complejas y especificamente PostgreSQL debido a que tiene mejores tipos de datos que otras bases de datos SQL. Ademas de esto para guardar documentos de los clientes decidimos usar el servicio S3 de AWS, que nos permite guardar documentos, imagenes, etc.
+
 <p>
 <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="[https://aws.amazon.com/es/vpc/](https://aws.amazon.com/es/s3/?nc=sn&loc=0)" target="_blank" rel="noreferrer"> <img src="https://aprenderbigdata.com/wp-content/uploads/amazon-s3-logo-300x225.png.webp" alt="typescript" width="40" height="40"/> </a>
 </p>
 
 Hosting and Auth:
+
+Consideramos que implementar un servicio de Autenticación desde 0 no es una prioridad y podria ser bastante tardado. POr lo que decidimos usar el servicio de firebase auth que nos ofrece google. Esto nos permitira autenticar a nuestros usuarios de una manera muy sencilla y podremos incorporar increibles funcionalidades cmo iniciar sesión con google, facebook, etc. Tomando en cuenta el hosting, es muy fácil hacerlo en firebase y consideramos que es la mejor opción porque ya lo hemos utilizado anteriormente.
+
 <p>
 <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>
 </p>
 
 ChatBot:
+
+Crear un chatbot puede ser considerado como un proyecto a parte de lo que se busca con esta materia. Por eso como equipo buscamos incorporar dialogflow, un servicio de google que nos permite usar un chatbot sin necesidad de progrmarlo a su totalidad.
+
 <p>
 <a href="https://cloud.google.com/dialogflow?hl=es-419" target="_blank" rel="noreferrer"> <img src="https://planetachatbot.com/wp-content/uploads/2021/05/DIALOGFLOW.png" height="40"/> </a>
 </p>
 
 Text Recognition:
+
+El socioformador busca que se puedan realizar busquedas a traves de lenguaje natural. Para procesarlo utilizaremos GCP Natural Language. De esta manera podremos destruturar el texto solicitado por los clientes y generar resultados que se asemejen a la busqueda.
+
 <p>
 <a href="https://cloud.google.com/natural-language?utm_source=google&utm_medium=cpc&utm_campaign=latam-MX-all-es-dr-SKWS-all-all-trial-e-dr-1605194-LUAC0014891&utm_content=text-ad-none-any-DEV_c-CRE_548115622250-ADGP_Hybrid%20%7C%20SKWS%20-%20EXA%20%7C%20Txt%20~%20AI%20&%20ML_Natural-Language-KWID_43700066578948460-kwd-477477959998&utm_term=KW_cloud%20natural%20language-ST_Cloud%20Natural%20Language&gclsrc=ds&gclid=CPfy37mct_0CFa6OxQIdMzYNew&hl=es-419" target="_blank" rel="noreferrer"> <img src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Emblem.png" height="40"/> </a>
 </p>
 
 Payment:
+
+Para los pagos tenemos pensado incorporar un third-party como lo es Stripe. Este nos permitirá incorporar diferentes metodos de pago en nuestra aplicación de una forma muy sencilla.
+
 <p>
 <a href="https://stripe.com/mx?utm_campaign=paid_brand-MX_es_Search_Brand_Stripe-7351764142&utm_medium=cpc&utm_source=google&ad_content=618458268464&utm_term=stripe&utm_matchtype=e&utm_adposition=&utm_device=c" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Stripe_Logo%2C_revised_2016.svg" height="40"/> </a>
 </p>
