@@ -69,7 +69,7 @@
 ---
 
 ## WBS
-![WBS Car Web diagram](https://user-images.githubusercontent.com/78172208/221714997-2ac3fbf4-0dc9-4165-9f81-fdcac4d0d5c5.png)
+![WBS Car Web diagram](https://user-images.githubusercontent.com/84464594/221742836-b0d2ab46-0f25-4b00-a39f-7b51d3967f17.png)
 
 ---
 
