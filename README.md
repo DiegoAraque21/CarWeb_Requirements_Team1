@@ -170,7 +170,7 @@ Frontend:
 
 Backend:
 <p>
-<a href="https://aws.amazon.com/es/api-gateway/" target="_blank" rel="noreferrer"> <img src="https://uploads-ssl.webflow.com/627ca6f747706dac04ccaba1/63c14fc134c432153431a0aa_logo-aws-header.png" alt="typescript" width="50" height="50"/> </a> <a href="https://aws.amazon.com/es/lambda/" target="_blank" rel="noreferrer"> <img src="https://miro.medium.com/v2/resize:fit:612/format:webp/0*pJZ8UMsoPEv1pjmI.png" alt="typescript" width="40" height="40"/> </a> <a href="https://aws.amazon.com/es/vpc/" target="_blank" rel="noreferrer"> <img src="https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/core-aws-services/connect-resources-with-aws-networking/images/aa91e6b1882061229f9220f4160052dc_65-b-47835-0-f-72-4801-975-a-5-f-9-d-419-e-012-c.png" alt="typescript" width="40" height="40"/> </a>
+<a href="https://aws.amazon.com/es/api-gateway/" target="_blank" rel="noreferrer"> <img src="https://cloudfront.romexsoft.com/wp-content/uploads/2020/09/Amazon-API-Gateway.svg" alt="typescript" width="50" height="50"/> </a> <a href="https://aws.amazon.com/es/lambda/" target="_blank" rel="noreferrer"> <img src="https://miro.medium.com/v2/resize:fit:612/format:webp/0*pJZ8UMsoPEv1pjmI.png" alt="typescript" width="40" height="40"/> </a> <a href="https://aws.amazon.com/es/vpc/" target="_blank" rel="noreferrer"> <img src="https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/core-aws-services/connect-resources-with-aws-networking/images/aa91e6b1882061229f9220f4160052dc_65-b-47835-0-f-72-4801-975-a-5-f-9-d-419-e-012-c.png" alt="typescript" width="40" height="40"/> </a>
 </p>
 
 Storage:
@@ -185,7 +185,7 @@ Hosting and Auth:
 
 ChatBot:
 <p>
-<a href="https://cloud.google.com/dialogflow?hl=es-419" target="_blank" rel="noreferrer"> <img src="https://planetachatbot.com/wp-content/uploads/2021/05/DIALOGFLOW.png" width="40" height="40"/> </a>
+<a href="https://cloud.google.com/dialogflow?hl=es-419" target="_blank" rel="noreferrer"> <img src="https://planetachatbot.com/wp-content/uploads/2021/05/DIALOGFLOW.png" height="40"/> </a>
 </p>
 
 Text Recognition:
