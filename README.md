@@ -170,12 +170,12 @@ Frontend:
 </p>
 
 Backend:
-Api Wateway, lambda, vpc
+Api Gateway, lambda, vpc
 
 Storage:
 <p>
 <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a>
-ec3
+S#3
 </p>
 
 Hosting and Auth:
