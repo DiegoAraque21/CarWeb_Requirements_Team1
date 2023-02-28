@@ -174,9 +174,10 @@ Se utilizara Typescript como lenguaje en el frontend en vez de Javascript. Ocupa
 
 ##### Backend:
 
-Para el backend proponemos una solución basada en la nube de AWS. En donde utilizaremos API gateway y AWS Lamda para tener un backend escalable y serverless. Esto implicaria crear funciones con AWS Lamda, a las cuales podremos acceder a traves de rutas creadas en API Gateway. Toda la infraestructa se encontrara en una VPC (Virtual Private Cloud), este lograra que no todo el mundo pueda acceder directamente a la API.
+Para el backend proponemos una solución basada en la nube de AWS. En donde utilizaremos API gateway y AWS Lamda para tener un backend escalable y serverless. Esto implicaria crear funciones con AWS Lamda (las funciones de lamda pueden crearse en diferentes lenguajes, como equipo pensamos que las mejores opcion seria usar python debido a que todos conocemos el lenguaje y es muy fácil de utilizar), a las cuales podremos acceder a traves de rutas creadas en API Gateway. Toda la infraestructa se encontrara en una VPC (Virtual Private Cloud), este lograra que no todo el mundo pueda acceder directamente a la API.
 
 <p>
+<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/></a>
 <a href="https://aws.amazon.com/es/api-gateway/" target="_blank" rel="noreferrer"> <img src="https://cloudfront.romexsoft.com/wp-content/uploads/2020/09/Amazon-API-Gateway.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://aws.amazon.com/es/lambda/" target="_blank" rel="noreferrer"> <img src="https://miro.medium.com/v2/resize:fit:612/format:webp/0*pJZ8UMsoPEv1pjmI.png" alt="typescript" width="40" height="40"/> </a> <a href="https://aws.amazon.com/es/vpc/" target="_blank" rel="noreferrer"> <img src="https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/core-aws-services/connect-resources-with-aws-networking/images/aa91e6b1882061229f9220f4160052dc_65-b-47835-0-f-72-4801-975-a-5-f-9-d-419-e-012-c.png" alt="typescript" width="40" height="40"/> </a>
 </p>
 
