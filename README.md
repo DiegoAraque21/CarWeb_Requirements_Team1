@@ -165,7 +165,7 @@
 
 ##### Frontend:
 
-Se utilizara Typescript como lenguaje en el frontend en vez de Javascript. Ocupan la misma sintaxis pero es un lenguaje stricto en donde se tienen que deninir los tipos de datos y permitira que tengamos menos errores. Además se puede usar perfectamente con react, que es una de las librerias de frontend mas utilizadas actualmente y que todos en el salón hemos utilizado.
+Se utilizará Typescript como lenguaje en el frontend en vez de Javascript. Ocupan la misma sintaxis pero es un lenguaje estricto en donde se tienen que definir los tipos de datos y permitira que tengamos menos errores. Además se puede usar perfectamente con react, que es una de las librerías de frontend mas utilizadas actualmente y que todos en el salón hemos utilizado.
 
 <p>
 <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a>
@@ -174,24 +174,24 @@ Se utilizara Typescript como lenguaje en el frontend en vez de Javascript. Ocupa
 
 ##### Backend:
 
-Para el backend proponemos una solución basada en la nube de AWS. En donde utilizaremos API gateway y AWS Lamda para tener un backend escalable y serverless. Esto implicaria crear funciones con AWS Lamda (las funciones de lamda pueden crearse en diferentes lenguajes, como equipo pensamos que las mejores opcion seria usar python debido a que todos conocemos el lenguaje y es muy fácil de utilizar), a las cuales podremos acceder a traves de rutas creadas en API Gateway. Toda la infraestructa se encontrara en una VPC (Virtual Private Cloud), este lograra que no todo el mundo pueda acceder directamente a la API.
+Para el backend proponemos una solución basada en la nube de AWS. En donde utilizaremos API gateway y AWS Lambda para tener un backend escalable, serverless y seguro. Esto implicaria crear funciones con AWS Lambda (las funciones de lambda pueden crearse en diferentes lenguajes, como equipo pensamos que la mejore opción seria usar python debido a que todos conocemos el lenguaje y es muy fácil de utilizar), a las cuales podremos acceder a traves de rutas creadas en API Gateway. Toda la infraestructa se encontrara en una VPC (Virtual Private Cloud), este lograra que no todo el mundo pueda acceder directamente a la API.
 
 <p>
 <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/></a>
-<a href="https://aws.amazon.com/es/api-gateway/" target="_blank" rel="noreferrer"> <img src="https://cloudfront.romexsoft.com/wp-content/uploads/2020/09/Amazon-API-Gateway.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://aws.amazon.com/es/lambda/" target="_blank" rel="noreferrer"> <img src="https://miro.medium.com/v2/resize:fit:612/format:webp/0*pJZ8UMsoPEv1pjmI.png" alt="typescript" width="40" height="40"/> </a> <a href="https://aws.amazon.com/es/vpc/" target="_blank" rel="noreferrer"> <img src="https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/core-aws-services/connect-resources-with-aws-networking/images/aa91e6b1882061229f9220f4160052dc_65-b-47835-0-f-72-4801-975-a-5-f-9-d-419-e-012-c.png" alt="typescript" width="40" height="40"/> </a>
+<a href="https://aws.amazon.com/es/api-gateway/" target="_blank" rel="noreferrer"> <img src="https://cloudfront.romexsoft.com/wp-content/uploads/2020/09/Amazon-API-Gateway.svg" alt="api-gateway" width="40" height="40"/> </a> <a href="https://aws.amazon.com/es/lambda/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Amazon_Lambda_architecture_logo.svg/1200px-Amazon_Lambda_architecture_logo.svg.png" alt="aws-lambda" width="40" height="40"/> </a> <a href="https://aws.amazon.com/es/vpc/" target="_blank" rel="noreferrer"> <img src="https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/core-aws-services/connect-resources-with-aws-networking/images/aa91e6b1882061229f9220f4160052dc_65-b-47835-0-f-72-4801-975-a-5-f-9-d-419-e-012-c.png" alt="vpc-aws" width="40" height="40"/> </a>
 </p>
 
 ##### Base de Datos y Almacenamiento:
 
-PostgreSQL es el lenguaje de bases de datos que decidimos utilizar para este proyecto. Elegimos SQL debido a que nos permite hacer queries complejas y especificamente PostgreSQL debido a que tiene mejores tipos de datos que otras bases de datos SQL. Utilizaremos el servicio RDS (Relational Database Service) para hostear nuestra base de datos en la nube de AWS. Ademas de esto para guardar documentos de los clientes decidimos usar el servicio S3 de AWS, que nos permite guardar documentos, imagenes, etc.
+PostgreSQL es el lenguaje de bases de datos que decidimos utilizar para este proyecto. Elegimos SQL debido a que nos permite hacer queries complejas y especificamente PostgreSQL debido a que tiene mejores tipos de datos que otras bases de datos SQL. Utilizaremos el servicio RDS (Relational Database Service) para hostear nuestra base de datos en la nube de AWS. Ademas de esto para guardar documentos de los clientes decidimos usar el servicio S3 de AWS; que nos permite guardar documentos, imagenes, etc.
 
 <p>
-<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a><a href="https://aws.amazon.com/es/rds/" target="_blank" rel="noreferrer"><img src="https://www.logicata.com/wp-content/uploads/2020/08/Amazon-RDS@4x.png" alt="RDS" width="40" height="40"/></a> <a href="[https://aws.amazon.com/es/vpc/](https://aws.amazon.com/es/s3/?nc=sn&loc=0)" target="_blank" rel="noreferrer"> <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--bZ7myZIR--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ip7ork2m951siwgpkety.png" alt="s3" width="40" height="40"/> </a>
+<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a><a href="https://aws.amazon.com/es/rds/" target="_blank" rel="noreferrer"><img src="https://www.logicata.com/wp-content/uploads/2020/08/Amazon-RDS@4x.png" alt="RDS" width="40" height="40"/></a> <a href="https://aws.amazon.com/es/s3/" target="_blank" rel="noreferrer"> <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--bZ7myZIR--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ip7ork2m951siwgpkety.png" alt="s3" width="40" height="40"/> </a>
 </p>
 
 ##### Despliegue y Autenticación:
 
-Consideramos que implementar un servicio de Autenticación desde 0 no es una prioridad y podria ser bastante tardado. POr lo que decidimos usar el servicio de firebase auth que nos ofrece google. Esto nos permitira autenticar a nuestros usuarios de una manera muy sencilla y podremos incorporar increibles funcionalidades cmo iniciar sesión con google, facebook, etc. Tomando en cuenta el hosting, es muy fácil hacerlo en firebase y consideramos que es la mejor opción porque ya lo hemos utilizado anteriormente.
+Consideramos que implementar un servicio de Autenticación desde 0 no es una prioridad y podria ser bastante tardado. Por lo que decidimos usar el servicio de firebase auth que nos ofrece google. Esto nos permitira autenticar a nuestros usuarios de una manera muy sencilla y podremos incorporar increibles funcionalidades como iniciar sesión con google, facebook, etc. El hosting es muy fácil de implementar en firebase y consideramos que es la mejor opción porque ya lo hemos utilizado.
 
 <p>
 <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>
@@ -199,10 +199,10 @@ Consideramos que implementar un servicio de Autenticación desde 0 no es una pri
 
 ##### ChatBot:
 
-Crear un chatbot puede ser considerado como un proyecto a parte de lo que se busca con esta materia. Por eso como equipo buscamos incorporar dialogflow, un servicio de google que nos permite usar un chatbot sin necesidad de progrmarlo a su totalidad.
+Crear un chatbot puede ser considerado como un proyecto a parte de lo que se busca con esta materia. Por eso como equipo buscamos incorporar dialogflow, un servicio de google cloud que nos permite usar un chatbot sin necesidad de progrqmarlo a su totalidad.
 
 <p>
-<a href="https://cloud.google.com/dialogflow?hl=es-419" target="_blank" rel="noreferrer"> <img src="https://planetachatbot.com/wp-content/uploads/2021/05/DIALOGFLOW.png" height="40"/> </a>
+<a href="https://cloud.google.com/dialogflow?hl=es-419" target="_blank" rel="noreferrer"> <img src="https://planetachatbot.com/wp-content/uploads/2021/05/DIALOGFLOW.png" alt="Dialogflow" height="40"/> </a>
 </p>
 
 ##### Procesamiento de lenguaje natural:
@@ -210,7 +210,7 @@ Crear un chatbot puede ser considerado como un proyecto a parte de lo que se bus
 El socioformador busca que se puedan realizar busquedas a traves de lenguaje natural. Para procesarlo utilizaremos GCP Natural Language. De esta manera podremos destruturar el texto solicitado por los clientes y generar resultados que se asemejen a la busqueda.
 
 <p>
-<a href="https://cloud.google.com/natural-language?utm_source=google&utm_medium=cpc&utm_campaign=latam-MX-all-es-dr-SKWS-all-all-trial-e-dr-1605194-LUAC0014891&utm_content=text-ad-none-any-DEV_c-CRE_548115622250-ADGP_Hybrid%20%7C%20SKWS%20-%20EXA%20%7C%20Txt%20~%20AI%20&%20ML_Natural-Language-KWID_43700066578948460-kwd-477477959998&utm_term=KW_cloud%20natural%20language-ST_Cloud%20Natural%20Language&gclsrc=ds&gclid=CPfy37mct_0CFa6OxQIdMzYNew&hl=es-419" target="_blank" rel="noreferrer"> <img src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Emblem.png" height="40"/> </a>
+<a href="https://cloud.google.com/natural-language?utm_source=google&utm_medium=cpc&utm_campaign=latam-MX-all-es-dr-SKWS-all-all-trial-e-dr-1605194-LUAC0014891&utm_content=text-ad-none-any-DEV_c-CRE_548115622250-ADGP_Hybrid%20%7C%20SKWS%20-%20EXA%20%7C%20Txt%20~%20AI%20&%20ML_Natural-Language-KWID_43700066578948460-kwd-477477959998&utm_term=KW_cloud%20natural%20language-ST_Cloud%20Natural%20Language&gclsrc=ds&gclid=CPfy37mct_0CFa6OxQIdMzYNew&hl=es-419" target="_blank" rel="noreferrer"> <img src="https://diamond-thumbnails.s3.us-west-2.amazonaws.com/thinkbigcms/Product/logo/d1e012b2-0f81-4d87-987d-362aca757ac2.png?hash=298750e8bc20834066726c67edf1516a" alt="Cloud Natural Language GCP" height="40"/> </a>
 </p>
 
 ##### Pagos:
@@ -218,5 +218,5 @@ El socioformador busca que se puedan realizar busquedas a traves de lenguaje nat
 Para los pagos tenemos pensado incorporar un third-party como lo es Stripe. Este nos permitirá incorporar diferentes metodos de pago en nuestra aplicación de una forma muy sencilla.
 
 <p>
-<a href="https://stripe.com/mx?utm_campaign=paid_brand-MX_es_Search_Brand_Stripe-7351764142&utm_medium=cpc&utm_source=google&ad_content=618458268464&utm_term=stripe&utm_matchtype=e&utm_adposition=&utm_device=c" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Stripe_Logo%2C_revised_2016.svg" height="40"/> </a>
+<a href="https://stripe.com/mx?utm_campaign=paid_brand-MX_es_Search_Brand_Stripe-7351764142&utm_medium=cpc&utm_source=google&ad_content=618458268464&utm_term=stripe&utm_matchtype=e&utm_adposition=&utm_device=c" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Stripe_Logo%2C_revised_2016.svg" alt="stripe" height="40"/> </a>
 </p>
