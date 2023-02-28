@@ -13,7 +13,7 @@
 4. [Requerimientos](#requerimientos)
 5. [Backlog](#backlog)
 6. [Estimación de costos y esfuerzo](#esfuerzo-costos)
-7. [Gant](#gant)
+7. [Diagrama de Gantt](#gant)
 8. [Arquitectura](#arquitectura)
 9. [Techstack](#techstack)
 10. [Pruebas de software](#software-tests)
@@ -70,11 +70,6 @@
 
 ## WBS
 ![WBS Car Web diagram](https://user-images.githubusercontent.com/84464594/221742836-b0d2ab46-0f25-4b00-a39f-7b51d3967f17.png)
-
----
-
-## Diagrama de Gantt
-![gant](https://user-images.githubusercontent.com/90577455/221950566-e712d1ab-18b5-4fcf-a141-bec244953bed.png)
 
 ---
 
@@ -157,6 +152,11 @@
 **Reportes**
 - Análisis de gráficos y estadísticas para el super-admin, para ver información básica de cada agencia.
 - Análisis de gráficas y estadísticas por parte del administrador del grupo automotriz, sobre todas sus agencias.
+
+---
+
+## Diagrama de Gantt
+![gant](https://user-images.githubusercontent.com/90577455/221950566-e712d1ab-18b5-4fcf-a141-bec244953bed.png)
 
 ---
 
