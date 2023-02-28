@@ -156,7 +156,10 @@
 ---
 
 ## Diagrama de Gantt
-![gant](https://user-images.githubusercontent.com/90577455/221950566-e712d1ab-18b5-4fcf-a141-bec244953bed.png)
+![Screenshot 2023-02-28 at 17 50 21](https://user-images.githubusercontent.com/70352787/222009575-a6c47c82-655e-419a-b5
+![Screenshot 2023-02-28 at 17 49 31](https://user-images.githubusercontent.com/70352787/222009582-73430987-8160-4ce9-9e00-b8cff78416be.jpg)
+4a-9a566eaaae8b.jpg)
+
 
 ---
 
