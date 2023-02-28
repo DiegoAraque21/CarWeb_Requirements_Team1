@@ -156,7 +156,8 @@
 
 ## Architecture
 
-<img width="769" alt="Captura de Pantalla 2023-02-27 a la(s) 20 26 52" src="https://user-images.githubusercontent.com/57450093/221737432-eb19dc2f-4d18-4086-a249-b1c84a962e2f.png">
+![Arquitectura CarWeb drawio](https://user-images.githubusercontent.com/57450093/221737889-ba914df5-3208-4078-bdfb-a1a3ff140ef8.png)
+
 
 
 ## Techstack
