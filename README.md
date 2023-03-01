@@ -194,6 +194,9 @@
 
 ## Estimación de costos y esfuerzo
 ##### Costos
+|                            |     |            |
+|----------------------------|-----|------------|
+| Esfuerzo total en MD       |     | 185        |
 | Esfuerzo total en MD       |     | 185        |
 | Salomon                    | 23% | 43         |
 | Fernado                    | 17% | 31         |
