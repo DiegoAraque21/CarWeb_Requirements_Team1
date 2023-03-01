@@ -193,6 +193,28 @@
 ---
 
 ## Estimación de costos y esfuerzo
+##### Costos
+| Esfuerzo total en MD       |     | 185        |
+| Salomon                    | 23% | 43         |
+| Fernado                    | 17% | 31         |
+| Diego                      | 22% | 40         |
+| Uriel                      | 21% | 39         |
+| Marco                      | 17% | 32         |
+|                            |     |            |
+| Costo Operacional Salomon  |     | ($2,000)   |
+| Costo Operacional Fernando |     | ($2,100)   |
+| Costo Operacional Diego    |     | ($1,510)   |
+| Costo Operacional Uriel    |     | ($2,100)   |
+| Costo Operacional Marco    |     | ($1,800)   |
+|                            |     |            |
+| Revenue ($)                |     | $750,000   |
+|                            |     |            |
+|                            |     |            |
+| Total internal cost ($)    |     | ($351,000) |
+|                            |     | $399,000   |
+| Margin (%)                 |     | 53%        |
+
+##### Esfuerzo
 
 |                      | Topic                 | Nosotros | Cliente | Salomon | Fernando | Diego | Uriel | Marco |  Total |
 |----------------------|-----------------------|:--------:|:-------:|:-------:|:--------:|:-----:|:-----:|:-----:|:------:|
