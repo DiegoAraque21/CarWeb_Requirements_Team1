@@ -12,7 +12,7 @@
 3. [WBS](#wbs)
 4. [Requerimientos](#requerimientos)
 5. [Backlog](#backlog)
-6. [Estimación de costos y esfuerzo](#estimacion-costos-esfuerzos)
+6. [Estimación de costos y esfuerzo](#estimación-de-costos-y-esfuerzo)
 7. [Diagrama de Gantt](#diagrama-de-gantt)
 8. [Arquitectura](#arquitectura)
 9. [Techstack](#techstack)
