@@ -190,7 +190,24 @@
 
 ![Screenshot 2023-02-28 at 17 49 31](https://user-images.githubusercontent.com/70352787/222009582-73430987-8160-4ce9-9e00-b8cff78416be.jpg)
 
+---
 
+## Estimación de costos y esfuerzo
+
+|                      | Topic                 | Nosotros | Cliente | Salomon | Fernando | Diego | Uriel | Marco |  Total |
+|----------------------|-----------------------|:--------:|:-------:|:-------:|:--------:|:-----:|:-----:|:-----:|:------:|
+| Project management   | Project Management    |     C    |    O    |  18 MD  |   5 MD   |  5 MD |  4 MD |  5 MD |  37 MD |
+| Project Definition   | Scoping               |     O    |    S    |   2 MD  |   2 MD   |  2 MD |  2 MD |  3 MD |  11 MD |
+|                      | Design                |     O    |    C    |  10 MD  |   5 MD   |  5 MD |  6 MD |  5 MD |  31 MD |
+| Development          | DataBase              |     O    |    S    |   2 MD  |   10 MD  |  6 MD |  2 MD |  2 MD |  22 MD |
+|                      | Backend               |     O    |    S    |   4 MD  |   10 MD  |  6 MD |  5 MD |  8 MD |  23 MD |
+|                      | FrontEnd              |     O    |    S    |   2 MD  |   5 MD   |  6 MD |  8 MD |  4 MD |  20 MD |
+|                      | Security              |     O    |    S    |   1 MD  |   1 MD   |  3 MD |  3 MD |  1 MD |  9 MD  |
+|                      | Cloud                 |     O    |    S    |   2 MD  |   5 MD   |  4 MD |  5 MD |  2 MD |  18 MD |
+| Validation           | Testing               |     O    |    C    |   1 MD  |   2 MD   |  2 MD |  3 MD |  1 MD |  9 MD  |
+| Deployment & Closure | Production Deployment |     S    |    O    |   0 MD  |   1 MD   |  0 MD |  1 MD |  0 MD |  2 MD  |
+|                      | Testing Deployment    |     C    |    O    |   1 MD  |   0 MD   |  1 MD |  0 MD |  1 MD |  3 MD  |
+| Sub-total            |                       |          |         |  43 MD  |   31 MD  | 40 MD | 39 MD | 32 MD | 185 MD |
 
 ---
 
