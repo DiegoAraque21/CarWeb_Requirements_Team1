@@ -77,84 +77,133 @@
 
 ## Requerimientos
 **Autenticación**
-- Creación de usuario con correo y contraseña.
-- Cerrar mi sesión debe ser posible para cualquier usuario del sistema.
-- Iniciar sesión con correo y contraseña para cualquier usuario.
-- Cualquier usuario debe poder cambiar su informacion. (nombre, ubicación, etc)
-- Restablecer contraseña a través de un formato específico, debe ser posible para cualquier usuario de la aplicación.
-- Cambiar contraseña para los vendedores, gerentes, super-admins y administradores de grupos automotrices es completamente necesarios (debido a que al principio se generan las cuentas con contraseñas random).
-- Iniciar sesión con un pop de google (Firebase auth).
+- Requerimeintos Funcionales
+  - El sistema permitirá a sus clientes crear su cuenta con correo y contraseña.
+  - El sistema permitirá a todos sus usuarios cerrar sesión.
+  - El sistema permitirá a todos sus usuarios iniciar sesión con correo/contraseña o con un pop-up de google.
+  - El sistema permitirá a cualquier usuario editar su información.
+  - El sistema permitirá a cualquier usuario restablecer su contraseña.
+  - El sistema obligara a los vendedores, gerentes, super-admins, agencias y administradores de grupos automotrices cambiar su contraseña despues del primer acceso al mismo.
+  
+ - Requerimientos no funcionales
+    - Toda la parte de autenticación sera gestionada por firebase auth.
 
-**Administración de empleados**
-- Ingresar email y nombre del vendedor para crear su cuenta.
-- Se generará una contraseña automática, la cual se le enviará al empleado.
+**Administración de vendedores**
+- Requerimeintos Funcionales
+  - El sistema permitirá que el gerente ingrese el email y nombre del vendedor para crear su cuenta.
+  - El sistema generará una contraseña random para el vendedor.
+  - El sistema permitirá al vendedor darle seguimientos a todos sus clientes.
+  - El sistema permitirá que el vendedor apruebe los documentos para pruebas de manejo solicitadas.
+
+- Requerimientos no Funcionales
+  - Contraseñas creadas de manera random por algun paquete (sea de javascript o python) para los vendedores
 
 **Métodos de pago Cliente**
-- Elegir método de pago, al reservar un coche.
-- Ingresar los datos de mi método de pago.
-- En caso de elegir una transferencia, la información de la cuenta bancaria de la agencia debe estar disponible.
-- Observar compras hechas en la aplicación.
+- Requerimientos Funcionales
+  - El sistema permitirá al cliente elegir el método de pago al reservar un coche.
+  - El sistema permitirá al cliente ingresar los datos del método de pago seleccionado.
+  - En caso de elegir transferencia como metodo de pago, el sistema le enseñara al cliente los datos de la cuenta bancaria de esa agencia.
+  - El sistema permitirá a los clientes darle seguimiento a todas su compras.
+  
+- Requerimeintos no funcionales
+  - Toda la parte de pagos será hecha con stripe.
+  - Al darle seguimientoa. tus compras se veran tres basicos titulos. En proceso, en camino y finalizada.
 
 **Búsqueda (Lenguaje natural y filtros)**
-- Buscar vehículos con lenguaje natural.
-- Barra de búsqueda intuitiva y fácil de acceder.
-- Filtrar de manera manual para encontrar coches de tu agrado.
-- Filtros accesibles y entendibles.
-- Iniciar sesión no es obligatorio para navegar en el sistema.
-- Mostrar un feed inicial para usuario que no tiene cuenta.
-- Comparar los mismos modelos de coches de diferentes agencias.
-- Comparar coches totalmente diferentes.
+- Requerimientos Funcionales
+  - El sistema permitirá buscar vehículos con lenguaje natural a traves de una barra de busqueda.
+  - El sistema permitirá filtrar de manera manual para buscar vehículos.
+  - El sistema permitirá navegar en el sin necesidad de tener una cuenta.
+  - El sistema permitirá comparar los mismos modelos de vehículos de diferentes agencias.
+  - El sistema permitirá comparar vehículos totalmente diferentes.
+
+- Requerimeintos no funcionales
+  - La barra de busqueda y los filtros estaran todo el tiempo a la vista.
+  - La comparación de vehículos iguales sera basada en precios y planes de financiamiento.
+
 
 **Servicio al Cliente**
-- Tener un chat para la atención de cada cliente.
-- Botón flotante en cada pantalla.
-- Comunicación con los clientes por parte de los vendedores de la respectiva agencia a la cual se le están solicitando preguntas.
-- Mensajes sin respuesta disponibles para todos los vendedores para que se les pueda dar seguimiento.
-- Si después de cierto tiempo no son seleccionadas por un vendedor, serán asignadas automáticamente de manera random.
+- Requerimientos funcionales
+  - El sistema tendrá un chat para la atención de clientes.
+  - El sistema conectara a los clientes con un vendedor es la agencia a la cual se le esta solicitando soporte.
+  
+- Requerimeintos no funcionales
+  - El chat sera implementado con un third party (dialogflow).
+  - El acceso al chat sera posible en cada pantalla de la aplicacion.
+  
 
 **Catálogo de Vehículos**
-- Se deben dar de alta el catálogo de las agencia a través de un archivo csv.
-- Definir muy bien qué campos debe tener el archivo csv.
-- Demo de archivo csv para que las agencias sepan cómo tiene que estar formateado su archivo.
-- Tarjeta del vehículo con imagen principal e información importante.
-- Todas las tarjetas contienen la misma información.
-- Los vehículos disponibles tienen que aparecer con detalles en la plataforma.
-- Botón para solicitar pruebas de manejo.
-- Botón para pagar el vehículo.
-- La plataforma tiene que tener un sistema de comparación de precios entre agencias.
-- Debido a que el coche es igual, lo que se verá en estas comparaciones son diferencias de precios y planes de financiamiento.
-- Generar gráficas para analizar las ventas de cada agencia 
+- Requerimientos funcionales
+  - El sistema permitirá dar de alta un catalogo a traves de un archivo csv.
+  - El sistema tendrá un demo de como debe verse su catalogo, para que las agencias lo descarguen y creen el suyo.
+  - El sistema visualizara los vehículos a traves de tarjetas.
+  - El sistema permitirá al cliente visualizar a detalle el vehículo que quiera.
+  - El sistema permitira solicitar pruebas de manejo para determinado vehículo.
+  - El sistema permitirá reservar el vehículo.
+  - El sistema permitirá a las agencias eliminar vehículos de su catálogo.
+  - El sistema permitirá a las agencias editar vehículos de su catálogo.
+  - El sistema permitirá a las agencias añadir vehículos a su catálogo.
+
+- Requerimientos no funcionales
+  - Solo se aceptará el tipo de archivo csv.
+  - Definir los campos que debe requerir el csv.
+  - Normalizar los modelos de vehículos en la base de datos.
 
 **Venta de Vehículos**
-- Pagar los vehículos con diferentes planes de compra.
-- Decidir con botones intuitivos que metodo quiero utilizar.
-- Requerir datos bancarios a las agencias para transferir fondos de vehículos.
-- Estados de cuenta de clientes y etapa de pago en la que se encuentra. (Respectivo vendedor tendrá acceso)
-- Visualización de procesos de venta por agencia, así como su estado actual.
-- Proyección del estado del pedido para los clientes.
+- Requerimientos funcionales
+  - El sistema permitirá a las agencias añadir diferentes planes de financiamiento.
+  - El sistema obligará a las agencias añdir datos de su cuenta bancaria.
+  - El sistema permitirá a el respectivo vendedor, gerente y administrador de agencia dar seguimiento a la venta de uno de sus vehículos.
+  - El sistema visualizara al gerente y administrador de la agencia ver todos los procesos de venta que estan ocurriendo, y en que estado se encuentran.
+
+- Requerimientos no funcionales
+  - La visualizacion de datos se hara en una pantalla tipo dashboard personalizada para cada rol y usuario.
 
 **Pruebas de Manejo**
-- Capacidad de seleccionar los documentos necesarios para la prueba de manejo, para cada agencia.
-- Capacidad para cargar documentos de los clientes a la plataforma.
-- Capacidad de los clientes para rechazar la prueba de manejo
-- Proyección del estado de la prueba de manejo
+- Requerimientos funcionales
+  - El sistema permitrá a las agencias decidir cuales documentos necesitan para que los clientes soliciten la prueba de manejo.
+  - El sistema le permitirá a los clientes cargar los documentos necesarios para solicitar las prueba de manejo.
+  - El sistema le permitira a los clientes la fecha en la que pueden tomar la prueba de manejo.
+  - El sistema no obligará a los clientes a solicitar la prueba de manejo.
+  - El sistema hará que el cliente pueda visualizar el estado de su prueba de manejo.
+  - El sistema le permitira a las agencias cambiar los distintos estados, en los cuales se encuentra determinado proceso relacionado con una prueba de manejo.
 
-**Administración de Agencias**
-- Dar de alta nuevas agencias en la plataforma con contraseñas random.
-- Dar de alta gerentes con contraseñas random.
-- Dar de alta a los vendedores con contraseñas random.
-- Configuración de planes de financiamiento por parte del gerente de agencia
-- Dar de alta catálogos de autos de las agencias mediante un archivo csv.
+- Requerimientos no funcionales
+  - Los documentos cargados por los clientes seran cifrados.
+  - Cada vehículo tendra un aparatado para solicitar la prueba de manejo.
+
+**Administración de grupo automotriz**
+- Requerimientos funcionales
+  - El sistema permitira al grupo automotriz dar de alta nuevas agencias en la plataforma.
+  - El sistema permitira a las agencias dar de alta gerentes.
+  - El sistema le permitira al grupo automotriz todos los datos necesarios para solicitar acceso al sistema
+ 
+- Requerimientos no funcionales
+  - Tanto las agencias como los gerentes seran creados con contraseñas random
 
 **Administración Super Admin**
-- Dar de alta grupos automotrices con contraseñas random.
-- Dar de alta a otros super usuarios con contraseñas random.
-- Verificación de documentos de grupos automotrices.
+- Requerimientos funcionales
+  - El sistema le permitirá al super admin dar de alta a grupos automotrices.
+  - El sistema le permitirá al super admin visualizar solicitudes de grupos automotrices para verificar sus datos.
+  - El sistema le permitirá al super ardmin crear otros super admins.
+
+- Requerimeintos no funcionales
+  - Los super-admins y grupos automotrices son creados con contraseñas random.
+  - Los documentos que suben los grupos automotrices estaran cifrados.
+  - Los superadmins podran ver a detalle todos los documentos enviados.
 
 **Reportes**
-- Análisis de gráficos y estadísticas para el super-admin, para ver información básica de cada agencia.
-- Análisis de gráficas y estadísticas por parte del administrador del grupo automotriz, sobre todas sus agencias.
+- Requerimientos funcionales
+  - El sistema le permitirá al super-admin información importante sobre el sistema y quejas.
+  - El sistema le permitirá al administrador del grupo automotriz información de todas sus agencias, gerentes, vendedores y procesos de ventas.
+  - El sistema le permitirá a la agencia ver información especifica sobre sus gerentes, vendedores y procesos de ventas.
+  - El sisetma le permitirá a los gerentes información sobre sus vendedores y procesos de ventas de sus respectiva agencia.
+  - El sistema le permitirá a los vendedores visualizar todos sus procesos de ventas e hsitorial(ventas completadas, clientes atendidos, etc).
 
+- Requerimeintos no funcionales
+  - La información para cada rol será visualizada en forma de dashbaord con gráficas especializadas.
+  - Los roles seguiran el principio de minimo privilegio, por lo que no tendran acceso a información de rangos superiores.
+  
 ---
 
 ## Diagrama de Gantt
