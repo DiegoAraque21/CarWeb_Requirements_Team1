@@ -241,6 +241,12 @@
 
 ---
 
+## Backlog
+
+Link de nuestro trello: https://trello.com/invite/carweb2/ATTI480e09136e68b66ae390449b24e823354E9807D1
+
+---
+
 ## Estimación de costos y esfuerzo
 ##### Costos
 |                            |     |            |
