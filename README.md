@@ -7,7 +7,7 @@
 
 ---
 
-1. [Índice](#index)
+1. [Índice](#índice)
 2. [Historias de Usuario](#historias-de-usuario)
 3. [WBS](#wbs)
 4. [Requerimientos](#requerimientos)
