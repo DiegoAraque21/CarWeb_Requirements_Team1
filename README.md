@@ -209,11 +209,10 @@
 ## Diagrama de Gantt
 
 #### Tabla
-<img src="./images/Tabla-Gantt-v1.jpg"/>
+![Tabla-Gantt-v1](https://user-images.githubusercontent.com/70352787/222871789-d7b28cab-2425-4b87-a147-178c5704e972.jpg)
 
 #### Diagrama
-<img src="./images/Diagrama-Gantt-v1.jpg"/>
-
+![Diagrama-Gantt-v1](https://user-images.githubusercontent.com/70352787/222871784-a3205dff-32e5-44e5-b2ab-8093dd2ab429.jpg)
 
 ---
 
