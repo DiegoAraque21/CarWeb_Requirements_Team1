@@ -225,45 +225,45 @@ Link de nuestro trello: https://trello.com/invite/carweb2/ATTI480e09136e68b66ae3
 
 ## Estimación de costos y esfuerzo
 ##### Costos
-|                            |     |            |
-|----------------------------|-----|------------|
-| Esfuerzo total en MD       |     | 185        |
-| Esfuerzo total en MD       |     | 185        |
-| Salomon                    | 23% | 43         |
-| Fernado                    | 17% | 31         |
-| Diego                      | 22% | 40         |
-| Uriel                      | 21% | 39         |
-| Marco                      | 17% | 32         |
-|                            |     |            |
-| Costo Operacional Salomon  |     | ($2,000)   |
-| Costo Operacional Fernando |     | ($2,100)   |
-| Costo Operacional Diego    |     | ($1,510)   |
-| Costo Operacional Uriel    |     | ($2,100)   |
-| Costo Operacional Marco    |     | ($1,800)   |
-|                            |     |            |
-| Revenue ($)                |     | $750,000   |
-|                            |     |            |
-|                            |     |            |
-| Total internal cost ($)    |     | ($351,000) |
-|                            |     | $399,000   |
-| Margin (%)                 |     | 53%        |
+| Project Margin analysis      |     |            |                          |                                                       |
+|------------------------------|-----|------------|--------------------------|-------------------------------------------------------|
+|                              |     |            |                          |                                                       |
+| Esfuerzo   total en MD       |     | 182        |                          |                                                       |
+| Salomon                      | 19% | 34         |                          |                                                       |
+| Fernado                      | 17% | 31         |                          |                                                       |
+| Diego                        | 21% | 39         |                          |                                                       |
+| Target CPI                   | 1%  | 1          |                          |                                                       |
+| Uriel                        | 24% | 43         |                          |                                                       |
+| Marco                        | 19% | 35         |                          |                                                       |
+|                              |     |            | Costo colegiaturas       | Gasolina trayecto a la universidad                    |
+| Costo   Operacional Salomon  |     | ($2,000)   |  $             1,100.00  |  $                                            900.00  |
+| Costo   Operacional Fernando |     | ($2,100)   |  $             1,100.00  |  $                                         1,000.00   |
+| Costo   Operacional Diego    |     | ($1,500)   |  $             1,100.00  |  $                                            400.00  |
+| Costo   Operacional Uriel    |     | ($2,100)   |  $             1,100.00  |  $                                         1,000.00   |
+| Costo   Operacional Marco    |     | ($1,800)   |  $             1,100.00  |  $                                            700.00  |
+|                              |     |            |                          |                                                       |
+| Revenue ($)                  |     | $750,000   |                          |                                                       |
+|                              |     |            |                          |                                                       |
+|                              |     |            |                          |                                                       |
+| Total   internal cost ($)    |     | ($344,900) |                          |                                                       |
+|                              |     | $405,100   |                          |                                                       |
+| Margin (%)                   |     | 54%        |                          |                                                       |
 
 ##### Esfuerzo
-
-|                      | Topic                 | Nosotros | Cliente | Salomon | Fernando | Diego | Uriel | Marco |  Total |
-|----------------------|-----------------------|:--------:|:-------:|:-------:|:--------:|:-----:|:-----:|:-----:|:------:|
-| Project management   | Project Management    |     C    |    O    |  18 MD  |   5 MD   |  5 MD |  4 MD |  5 MD |  37 MD |
-| Project Definition   | Scoping               |     O    |    S    |   2 MD  |   2 MD   |  2 MD |  2 MD |  3 MD |  11 MD |
-|                      | Design                |     O    |    C    |  10 MD  |   5 MD   |  5 MD |  6 MD |  5 MD |  31 MD |
-| Development          | DataBase              |     O    |    S    |   2 MD  |   10 MD  |  6 MD |  2 MD |  2 MD |  22 MD |
-|                      | Backend               |     O    |    S    |   4 MD  |   10 MD  |  6 MD |  5 MD |  8 MD |  23 MD |
-|                      | FrontEnd              |     O    |    S    |   2 MD  |   5 MD   |  6 MD |  8 MD |  4 MD |  20 MD |
-|                      | Security              |     O    |    S    |   1 MD  |   1 MD   |  3 MD |  3 MD |  1 MD |  9 MD  |
-|                      | Cloud                 |     O    |    S    |   2 MD  |   5 MD   |  4 MD |  5 MD |  2 MD |  18 MD |
-| Validation           | Testing               |     O    |    C    |   1 MD  |   2 MD   |  2 MD |  3 MD |  1 MD |  9 MD  |
-| Deployment & Closure | Production Deployment |     S    |    O    |   0 MD  |   1 MD   |  0 MD |  1 MD |  0 MD |  2 MD  |
-|                      | Testing Deployment    |     C    |    O    |   1 MD  |   0 MD   |  1 MD |  0 MD |  1 MD |  3 MD  |
-| Sub-total            |                       |          |         |  43 MD  |   31 MD  | 40 MD | 39 MD | 32 MD | 185 MD |
+|                        | Topic                 | Nosotros | Cliente | Salomon | Fernando | Diego | Uriel | Marco |  Total |
+|------------------------|-----------------------|:--------:|:-------:|:-------:|:--------:|:-----:|:-----:|:-----:|:------:|
+| Project   management   | Project Management    |     C    |    O    |   7 MD  |   3 MD   |  3 MD |  3 MD |  3 MD |  19 MD |
+| Project   Definition   | Scoping               |     O    |    S    |   2 MD  |   2 MD   |  2 MD |  2 MD |  3 MD |  11 MD |
+|                        | Design                |     O    |    C    |   8 MD  |   3 MD   |  3 MD |  6 MD |  5 MD |  25 MD |
+| Development            | DataBase              |     O    |    S    |   2 MD  |   10 MD  |  6 MD |  2 MD |  2 MD |  22 MD |
+|                        | Backend               |     O    |    S    |   4 MD  |   10 MD  |  6 MD |  5 MD |  8 MD |  23 MD |
+|                        | FrontEnd              |     O    |    S    |   2 MD  |   5 MD   |  6 MD |  8 MD |  4 MD |  20 MD |
+|                        | Security              |     O    |    S    |   1 MD  |   1 MD   |  3 MD |  3 MD |  1 MD |  9 MD  |
+|                        | Cloud                 |     O    |    S    |   2 MD  |   5 MD   |  4 MD |  5 MD |  2 MD |  18 MD |
+| Validation             | Testing               |     O    |    C    |   5 MD  |   6 MD   |  5 MD |  8 MD |  6 MD |  30 MD |
+| Deployment   & Closure | Production Deployment |     S    |    O    |   0 MD  |   1 MD   |  0 MD |  1 MD |  0 MD |  2 MD  |
+|                        | Testing Deployment    |     C    |    O    |   1 MD  |   0 MD   |  1 MD |  0 MD |  1 MD |  3 MD  |
+| Sub-total              |                       |          |         |  34 MD  |   31 MD  | 39 MD | 43 MD | 35 MD | 182 MD |
 
 ---
 
