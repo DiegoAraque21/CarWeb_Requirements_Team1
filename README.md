@@ -208,8 +208,9 @@
 
 ## Diagrama de Gantt
 
-#### Tabla
-![Tabla-Gantt-v1](https://user-images.githubusercontent.com/70352787/222871789-d7b28cab-2425-4b87-a147-178c5704e972.jpg)
+#### Tablas
+![Screenshot 2023-03-04 at 1 14 50](https://user-images.githubusercontent.com/70352787/222881757-b1846572-df31-4f7a-a04f-d03af4a617b8.jpg)
+![Screenshot 2023-03-04 at 1 16 34](https://user-images.githubusercontent.com/70352787/222881850-c5d83494-ba1c-45d5-af99-ca10bdaf0ae2.jpg)
 
 #### Diagrama
 ![Diagrama-Gantt-v1](https://user-images.githubusercontent.com/70352787/222871784-a3205dff-32e5-44e5-b2ab-8093dd2ab429.jpg)
