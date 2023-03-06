@@ -17,8 +17,7 @@
 11. [Atributos de la Calidad](#atributos-de-la-calidad)
 12. [Internacionalización y Requerimientos de Locación](#internacionalización-y-requerimientos-de-locación)
 13. [Otros Requerimientos](#otros-requerimientos)
-14. [Glosario](#glosario)
-15. [Modelos de Análisis](#modelos-de-análisis)
+14. [Modelos de Análisis](#modelos-de-análisis)
 
 ---
 
@@ -101,10 +100,6 @@ Nuestra visión es desarrollar una plataforma virtual en la que se puedan compra
 ---
 
 ## Otros Requerimientos
-
----
-
-## Glosario
 
 ---
 
