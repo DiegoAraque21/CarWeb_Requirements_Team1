@@ -115,6 +115,7 @@ Como super administrador, debo ser capaz de llevar una administracion de dueño 
  - Eliminar dueño registrados sistema. 
  - Dar de alta nuevos dueños.
 - Consultar documentos subidos por un dueño de grupo automotriz a fin de aceptar una solicitud de unirse al sistema.
+
 Adicionalmente, como super administrador, debo ser capaz de dar de alta a otros super administradores
 ---
 
