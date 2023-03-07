@@ -80,6 +80,10 @@ Nuestra visión es desarrollar una plataforma virtual en la que se puedan compra
 ---
 
 ## Características del Sistema
+    
+    ### Busqueda de vehiculos por lenguaje natural 
+    
+    Como usuario del sistema, debo poder buscar vehiculos utilizando natural; por ejemplo, el usuario ingresa el siguiente texto: "Busco un coche familiar para utilizar los fines de semana". Acto siguiente, el sistema debe arrojar resultados de busqueda que tengan congruencia con lo solicitado.
 
 ---
 
