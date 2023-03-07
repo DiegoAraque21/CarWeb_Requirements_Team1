@@ -150,6 +150,16 @@ del sistema.
 - En caso de encontrar un bug, podre reportarlo con un representante del sistema o pedir ayuda por medio de un chat dentro del sitio web.
 - En caso de querer mas detalles sobre un vehiculo, podre comunicarme con un vendedor o gerente por medio de un chat dentro del sitio web.
 - En caso de tener problemas con una venta o prueba de manejo, debo poder comunicarme con un representante del sistema o gerente de agencia.
+ 
+### 10.- Modelo de negocios 
+Como dueño de sistema,se me cobrara una renta mensual por diferentes casos de uso.
+
+- Se me cobrara un porcentaje por cada vehiculo que se muestre en el sitio web 
+- Se me cobrara una renta mensual por uso 
+- Se me cobrara una renta mensual por emplado 
+- Se me cobrara un porcentaje por cada venta realizada 
+- Debo poder consultar mis pagos y cobros 
+- Debo poder realizar pagos 
 
 ---
 
