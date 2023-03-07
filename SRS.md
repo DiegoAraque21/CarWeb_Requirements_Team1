@@ -80,6 +80,61 @@ Nuestra visión es desarrollar una plataforma virtual en la que se puedan compra
 ---
 
 ## Características del Sistema
+    
+### 1.- Venta de Vehiculos
+
+Como cliente, debo poder comprar un vehiculo utilizando el sitio web, pare ello debo poder realizar lo siguiente:
+    
+- Seleccionar el vehiculo que deseo adquirir 
+- Introducir mis datos de pago. 
+- Subir documentos requeridos para la compra del vehiculo ( comporbante de domicilio, credito, etc. ).
+- Consultar el estado de mi pedido. 
+
+
+ ### 2.- Busqueda de vehiculos por lenguaje natural 
+    
+Como usuario del sistema, debo poder buscar vehiculos utilizando natural; por ejemplo, el usuario ingresa el siguiente texto: "Busco un coche familiar para utilizar los fines de semana". Acto siguiente, el sistema debe arrojar resultados de busqueda que tengan congruencia con lo solicitado.
+ 
+### 3.- Catalogo de vehiculos 
+Como dueño de grupo automotriz, o gerente de una agencia, debo poder dar de alta y administrar el catalogo de vehiculos que se venderan a los clientes del sitio web. Esta administracion incluye:
+
+ - Dar de alta un vehiculo, utilizando su nombre, modelo, año, imagen, motor, etc.
+ - Editar vehiculos existentes, ya sea cambiar su nombre, imagen, precio, etc.
+ - Eliminar vehiculos del catalogo. 
+ - Subir multiples vehiculos al catalogo por medio de un documento tipo excel. 
+ - Consulta del catalogo de vehiculos.
+ 
+### 4.- Administracion de empleados 
+Como dueño de grupo automotriz, o gerente de una agencia, debo poder administrar los usuarios de mi agencia o grupo automotriz, esto incluye:
+ - Dar de alta un empleados, utilizando su nombre, rol, dirección, correo, etc.
+ - Eliminar empleados del sistema. 
+    
+### 5.- Administracion de Dueños   
+Como super administrador, debo ser capaz de llevar una administracion de dueño automotrizes, esto incluye:
+- Conslultar dueños registrados en el sistema.
+- Eliminar dueño registrados sistema. 
+- Dar de alta nuevos dueños.
+- Consultar documentos subidos por un dueño de grupo automotriz a fin de aceptar una solicitud de unirse al sistema.
+- Dar de alta a otros super administradores.
+    
+    
+ ### 6.- Autenticación
+ Cualquier usuario del sistema podra iniciar sesión, administrar datos de su cuenta, o eliminar su cuenta. Sin embargo, cada usuario tiene un flujo diferente de autenticación:
+    
+- Como cliente debo poderme registrar en la plataforma utilizando mi correo electronico, contraseña y datos personales.
+- Como empleado, un gerente debera poder dar de alta mi cuenta. Se me proporcionara una contraseña temporal que podre actualizar al iniciar sesión con mi correo y contraseña.
+- Como gerente, un dueño debera poder dar de alta mi cuenta. Se me proporcionara una contraseña temporal que podre actualizar al iniciar sesión con mi correo y contraseña.
+- Como dueño, podre mandar una solicitud para unirme al sistema, para ello debere poder subir los documentos necesarios. Cuando mi solicitud sea aprovada, podre acceder a mi cuenta utlizando mi correo y contraseña
+    
+ ### 7.- Reportes
+ 
+ Cada usuario tendra accesso a diferentes tipos de reportes, dependiendo del tipo de cuenta del usuario (super admin, dueño, gerente).
+    
+- Como super administrador, debo ver reportes relacionados a las diferentes agencias registradas en el sistema, asi como reportes relacionados a las ganancias del sistema, dueños de grupos automotrizes, ventas, etc.
+- Como dueño de grupo automotriz, debo ser capas de vizualisar reportes individuales de cada agencia que tengo registrada, esto incluye, ventas por vehiculo, por categoria, por empleado, ventas por mes. Ademas tambien podre consultar reportes relacionados a los empleados registrados en el sistema.
+- Como gerente de agencia, puedo ver reportes relacionados a mis agencias, incluyendo ventas y rendimiento individual de cada empleado.
+    
+ 
 
 ---
 
