@@ -111,9 +111,9 @@ Como dueño de grupo automotriz, o gerente de una agencia, debo poder administra
     
 ### 4.- Administracion de Dueños   
 Como super administrador, debo ser capaz de llevar una administracion de dueño automotrizes, esto incluye:
- - Conslultar dueños registrados en el sistema.
- - Eliminar dueño registrados sistema. 
- - Dar de alta nuevos dueños.
+- Conslultar dueños registrados en el sistema.
+- Eliminar dueño registrados sistema. 
+- Dar de alta nuevos dueños.
 - Consultar documentos subidos por un dueño de grupo automotriz a fin de aceptar una solicitud de unirse al sistema.
 
 Adicionalmente, como super administrador, debo ser capaz de dar de alta a otros super administradores
