@@ -82,7 +82,8 @@ Nuestra visión es desarrollar una plataforma virtual en la que se puedan compra
 ## Características del Sistema
     
 ### 1.- Venta de Vehiculos
-Como cliente, debo poder comprar un vehiculo utilizando el sitio web, pare ello debo poder realizar lo siguiente:
+
+    Como cliente, debo poder comprar un vehiculo utilizando el sitio web, pare ello debo poder realizar lo siguiente:
     - Seleccionar el vehiculo que deseo adquirir 
     - Introducir mis datos de pago. 
     - Subir documentos requeridos para la compra del vehiculo ( comporbante de domicilio, credito, etc. ).
