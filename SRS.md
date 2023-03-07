@@ -84,12 +84,13 @@ Nuestra visión es desarrollar una plataforma virtual en la que se puedan compra
 ### 1.- Venta de Vehiculos
 
 Como cliente, debo poder comprar un vehiculo utilizando el sitio web, pare ello debo poder realizar lo siguiente:
-    - Seleccionar el vehiculo que deseo adquirir 
-    - Introducir mis datos de pago. 
-    - Subir documentos requeridos para la compra del vehiculo ( comporbante de domicilio, credito, etc. ).
-    - Consultar el estado de mi pedido. 
     
- 
+- Seleccionar el vehiculo que deseo adquirir 
+- Introducir mis datos de pago. 
+- Subir documentos requeridos para la compra del vehiculo ( comporbante de domicilio, credito, etc. ).
+- Consultar el estado de mi pedido. 
+
+
  ### 2.- Busqueda de vehiculos por lenguaje natural 
     
 Como usuario del sistema, debo poder buscar vehiculos utilizando natural; por ejemplo, el usuario ingresa el siguiente texto: "Busco un coche familiar para utilizar los fines de semana". Acto siguiente, el sistema debe arrojar resultados de busqueda que tengan congruencia con lo solicitado.
