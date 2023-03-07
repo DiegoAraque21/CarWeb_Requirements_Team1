@@ -116,6 +116,15 @@ Como super administrador, debo ser capaz de llevar una administracion de dueño 
 - Dar de alta nuevos dueños.
 - Consultar documentos subidos por un dueño de grupo automotriz a fin de aceptar una solicitud de unirse al sistema.
 - Dar de alta a otros super administradores.
+    
+ ### 6.- Reportes
+ 
+ Cada usuario tendra accesso a diferentes tipos de reportes, dependiendo del tipo de cuenta del usuario (super admin, dueño, gerente, cliente).
+    
+- Como super administrador, debo ver reportes relacionados a las diferentes agencias registradas en el sistema, asi como reportes relacionados a las ganancias del sistema, dueños de grupos automotrizes, ventas, etc.
+    
+ 
+
 ---
 
 ## Requerimientos de Datos
