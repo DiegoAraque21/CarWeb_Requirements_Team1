@@ -105,7 +105,7 @@ Como cliente, debo poder pedir pruebas de manejo, para lograrlo debo poder reali
     
 Como usuario del sistema, debo poder buscar vehiculos utilizando natural; por ejemplo, el usuario ingresa el siguiente texto: "Busco un coche familiar para utilizar los fines de semana". Acto siguiente, el sistema debe arrojar resultados de busqueda que tengan congruencia con lo solicitado.
      
-    #### Prioridad alta
+   #### Prioridad alta
 
 ### 4.- Catalogo de vehiculos 
 Como dueño de grupo automotriz, o gerente de una agencia, debo poder dar de alta y administrar el catalogo de vehiculos que se venderan a los clientes del sitio web. Esta administracion incluye:
@@ -116,13 +116,15 @@ Como dueño de grupo automotriz, o gerente de una agencia, debo poder dar de alt
  - Subir multiples vehiculos al catalogo por medio de un documento tipo excel. 
  - Consulta del catalogo de vehiculos.
     
-        #### Prioridad alta
+    #### Prioridad alta
 
  
 ### 5.- Administracion de empleados 
 Como dueño de grupo automotriz, o gerente de una agencia, debo poder administrar los usuarios de mi agencia o grupo automotriz, esto incluye:
  - Dar de alta un empleados, utilizando su nombre, rol, dirección, correo, etc.
  - Eliminar empleados del sistema. 
+    
+   #### prioridad alta
     
 ### 6.- Administracion de Dueños   
 Como super administrador, debo ser capaz de llevar una administracion de dueño automotrizes, esto incluye:
@@ -131,7 +133,9 @@ Como super administrador, debo ser capaz de llevar una administracion de dueño 
 - Dar de alta nuevos dueños.
 - Consultar documentos subidos por un dueño de grupo automotriz a fin de aceptar una solicitud de unirse al sistema.
 - Dar de alta a otros super administradores.
-    
+   
+   #### prioridad alta
+
     
  ### 7.- Autenticación
  Cualquier usuario del sistema podra iniciar sesión, administrar datos de su cuenta, o eliminar su cuenta. Sin embargo, cada usuario tiene un flujo diferente de autenticación:
@@ -139,7 +143,11 @@ Como super administrador, debo ser capaz de llevar una administracion de dueño 
 - Como cliente debo poderme registrar en la plataforma utilizando mi correo electronico, contraseña y datos personales.
 - Como empleado, un gerente debera poder dar de alta mi cuenta. Se me proporcionara una contraseña temporal que podre actualizar al iniciar sesión con mi correo y contraseña.
 - Como gerente, un dueño debera poder dar de alta mi cuenta. Se me proporcionara una contraseña temporal que podre actualizar al iniciar sesión con mi correo y contraseña.
-- Como dueño, podre mandar una solicitud para unirme al sistema, para ello debere poder subir los documentos necesarios. Cuando mi solicitud sea aprovada, podre acceder a mi cuenta utlizando mi correo y contraseña
+- Como dueño, podre mandar una solicitud para unirme al sistema, para ello debere poder subir los documentos necesarios. Cuando mi solicitud sea aprovada, podre acceder a mi cuenta utlizando mi correo y contraseña.
+    
+    
+   #### prioridad alta
+
     
  ### 8.- Reportes
  
@@ -149,6 +157,7 @@ Como super administrador, debo ser capaz de llevar una administracion de dueño 
 - Como dueño de grupo automotriz, debo ser capas de vizualisar reportes individuales de cada agencia que tengo registrada, esto incluye, ventas por vehiculo, por categoria, por empleado, ventas por mes. Ademas tambien podre consultar reportes relacionados a los empleados registrados en el sistema.
 - Como gerente de agencia, puedo ver reportes relacionados a mis agencias, incluyendo ventas y rendimiento individual de cada empleado.
     
+   #### prioridad media
 
  ### 9.- Soporte
  
@@ -157,7 +166,8 @@ del sistema.
 - En caso de encontrar un bug, podre reportarlo con un representante del sistema o pedir ayuda por medio de un chat dentro del sitio web.
 - En caso de querer mas detalles sobre un vehiculo, podre comunicarme con un vendedor o gerente por medio de un chat dentro del sitio web.
 - En caso de tener problemas con una venta o prueba de manejo, debo poder comunicarme con un representante del sistema o gerente de agencia.
- 
+  #### prioridad media
+
 ### 10.- Modelo de negocios 
 Como dueño de sistema,se me cobrara una renta mensual por diferentes casos de uso.
 
@@ -167,6 +177,8 @@ Como dueño de sistema,se me cobrara una renta mensual por diferentes casos de u
 - Se me cobrara un porcentaje por cada venta realizada 
 - Debo poder consultar mis pagos y cobros 
 - Debo poder realizar pagos 
+
+ #### prioridad alta
 
 ---
 
