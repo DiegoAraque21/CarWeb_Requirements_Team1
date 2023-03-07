@@ -86,7 +86,7 @@ Nuestra visión es desarrollar una plataforma virtual en la que se puedan compra
 Como usuario del sistema, debo poder buscar vehiculos utilizando natural; por ejemplo, el usuario ingresa el siguiente texto: "Busco un coche familiar para utilizar los fines de semana". Acto siguiente, el sistema debe arrojar resultados de busqueda que tengan congruencia con lo solicitado.
  
 ### 2.- Catalogo de vehiculos 
-    Como dueño de grupo automotriz, o gerente de una agencia, debo poder dar de alta y administrar el catalogo de vehiculos que se venderan a los clientes del sitio web. Esta administracion incluye:
+Como dueño de grupo automotriz, o gerente de una agencia, debo poder dar de alta y administrar el catalogo de vehiculos que se venderan a los clientes del sitio web. Esta administracion incluye:
 
     - Dar de alta un vehiculo, utilizando su nombre, modelo, año, imagen, motor, etc.
     - Editar vehiculos existentes, ya sea cambiar su nombre, imagen, precio, etc.
