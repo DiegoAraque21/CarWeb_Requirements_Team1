@@ -223,8 +223,6 @@ Como dueño de sistema,se me cobrara una renta mensual por diferentes casos de u
 ---
 
 ## Internacionalización y Requerimientos de Locación
-    
-Actualmente nuestra plataforma será utilizada exclusivamente en la República Mexicana, por lo que no es necesario hacer cambios específicos para otros países o ubicaciones. En caso de que la plataforma crezca y se decida la expansión del negocio podemos hacer planes para dicho desarrollo.
 
 ---
 
