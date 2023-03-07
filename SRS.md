@@ -90,12 +90,20 @@ Como cliente, debo poder comprar un vehiculo utilizando el sitio web, pare ello 
 - Subir documentos requeridos para la compra del vehiculo ( comporbante de domicilio, credito, etc. ).
 - Consultar el estado de mi pedido. 
 
+### 2.- Pruebas de manejo
+Como cliente, debo poder pedir pruebas de manejo, para lograrlo debo poder realizar las siguientes acciones:
+- Seleccionar la agencia del vehiculo que quiero probar. 
+- Seleccionar un vehiculo dentro de la agencia.
+- Enviar una solicitud de prueba de manejo.
+- Consultar mis solicitudes.
+- Contactar a un empleado en caso de necesitar ayuda.
 
- ### 2.- Busqueda de vehiculos por lenguaje natural 
+
+ ### 3.- Busqueda de vehiculos por lenguaje natural 
     
 Como usuario del sistema, debo poder buscar vehiculos utilizando natural; por ejemplo, el usuario ingresa el siguiente texto: "Busco un coche familiar para utilizar los fines de semana". Acto siguiente, el sistema debe arrojar resultados de busqueda que tengan congruencia con lo solicitado.
  
-### 3.- Catalogo de vehiculos 
+### 4.- Catalogo de vehiculos 
 Como dueño de grupo automotriz, o gerente de una agencia, debo poder dar de alta y administrar el catalogo de vehiculos que se venderan a los clientes del sitio web. Esta administracion incluye:
 
  - Dar de alta un vehiculo, utilizando su nombre, modelo, año, imagen, motor, etc.
@@ -104,12 +112,12 @@ Como dueño de grupo automotriz, o gerente de una agencia, debo poder dar de alt
  - Subir multiples vehiculos al catalogo por medio de un documento tipo excel. 
  - Consulta del catalogo de vehiculos.
  
-### 4.- Administracion de empleados 
+### 5.- Administracion de empleados 
 Como dueño de grupo automotriz, o gerente de una agencia, debo poder administrar los usuarios de mi agencia o grupo automotriz, esto incluye:
  - Dar de alta un empleados, utilizando su nombre, rol, dirección, correo, etc.
  - Eliminar empleados del sistema. 
     
-### 5.- Administracion de Dueños   
+### 6.- Administracion de Dueños   
 Como super administrador, debo ser capaz de llevar una administracion de dueño automotrizes, esto incluye:
 - Conslultar dueños registrados en el sistema.
 - Eliminar dueño registrados sistema. 
@@ -118,7 +126,7 @@ Como super administrador, debo ser capaz de llevar una administracion de dueño 
 - Dar de alta a otros super administradores.
     
     
- ### 6.- Autenticación
+ ### 7.- Autenticación
  Cualquier usuario del sistema podra iniciar sesión, administrar datos de su cuenta, o eliminar su cuenta. Sin embargo, cada usuario tiene un flujo diferente de autenticación:
     
 - Como cliente debo poderme registrar en la plataforma utilizando mi correo electronico, contraseña y datos personales.
@@ -126,7 +134,7 @@ Como super administrador, debo ser capaz de llevar una administracion de dueño 
 - Como gerente, un dueño debera poder dar de alta mi cuenta. Se me proporcionara una contraseña temporal que podre actualizar al iniciar sesión con mi correo y contraseña.
 - Como dueño, podre mandar una solicitud para unirme al sistema, para ello debere poder subir los documentos necesarios. Cuando mi solicitud sea aprovada, podre acceder a mi cuenta utlizando mi correo y contraseña
     
- ### 7.- Reportes
+ ### 8.- Reportes
  
  Cada usuario tendra accesso a diferentes tipos de reportes, dependiendo del tipo de cuenta del usuario (super admin, dueño, gerente).
     
@@ -134,7 +142,14 @@ Como super administrador, debo ser capaz de llevar una administracion de dueño 
 - Como dueño de grupo automotriz, debo ser capas de vizualisar reportes individuales de cada agencia que tengo registrada, esto incluye, ventas por vehiculo, por categoria, por empleado, ventas por mes. Ademas tambien podre consultar reportes relacionados a los empleados registrados en el sistema.
 - Como gerente de agencia, puedo ver reportes relacionados a mis agencias, incluyendo ventas y rendimiento individual de cada empleado.
     
+
+ ### 9.- Soporte
  
+Como usuario debo poder obtener soporte por parte del sistema, dependiendo de la necesidad, podre hablar con un vendedor o gerente, o con un representante 
+del sistema.
+- En caso de encontrar un bug, podre reportarlo con un representante del sistema o pedir ayuda por medio de un chat dentro del sitio web.
+- En caso de querer mas detalles sobre un vehiculo, podre comunicarme con un vendedor o gerente por medio de un chat dentro del sitio web.
+- En caso de tener problemas con una venta o prueba de manejo, debo poder comunicarme con un representante del sistema o gerente de agencia.
 
 ---
 
