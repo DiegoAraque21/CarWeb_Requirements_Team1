@@ -90,7 +90,7 @@ Como cliente, debo poder comprar un vehiculo utilizando el sitio web, pare ello 
 - Subir documentos requeridos para la compra del vehiculo ( comporbante de domicilio, credito, etc. ).
 - Consultar el estado de mi pedido. 
 
-    Prioridad: ALTA
+    #### Prioridad alta
 ### 2.- Pruebas de manejo
 Como cliente, debo poder pedir pruebas de manejo, para lograrlo debo poder realizar las siguientes acciones:
 - Seleccionar la agencia del vehiculo que quiero probar. 
@@ -99,11 +99,14 @@ Como cliente, debo poder pedir pruebas de manejo, para lograrlo debo poder reali
 - Consultar mis solicitudes.
 - Contactar a un empleado en caso de necesitar ayuda.
 
+    #### Prioridad alta
 
  ### 3.- Busqueda de vehiculos por lenguaje natural 
     
 Como usuario del sistema, debo poder buscar vehiculos utilizando natural; por ejemplo, el usuario ingresa el siguiente texto: "Busco un coche familiar para utilizar los fines de semana". Acto siguiente, el sistema debe arrojar resultados de busqueda que tengan congruencia con lo solicitado.
- 
+     
+    #### Prioridad alta
+
 ### 4.- Catalogo de vehiculos 
 Como dueño de grupo automotriz, o gerente de una agencia, debo poder dar de alta y administrar el catalogo de vehiculos que se venderan a los clientes del sitio web. Esta administracion incluye:
 
@@ -112,6 +115,9 @@ Como dueño de grupo automotriz, o gerente de una agencia, debo poder dar de alt
  - Eliminar vehiculos del catalogo. 
  - Subir multiples vehiculos al catalogo por medio de un documento tipo excel. 
  - Consulta del catalogo de vehiculos.
+    
+        #### Prioridad alta
+
  
 ### 5.- Administracion de empleados 
 Como dueño de grupo automotriz, o gerente de una agencia, debo poder administrar los usuarios de mi agencia o grupo automotriz, esto incluye:
