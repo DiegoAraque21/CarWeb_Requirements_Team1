@@ -80,12 +80,20 @@ Nuestra visión es desarrollar una plataforma virtual en la que se puedan compra
 ---
 
 ## Características del Sistema
+    
+### 1.- Venta de Vehiculos
+Como cliente, debo poder comprar un vehiculo utilizando el sitio web, pare ello debo poder realizar lo siguiente:
+    - Seleccionar el vehiculo que deseo adquirir 
+    - Introducir mis datos de pago. 
+    - Subir documentos requeridos para la compra del vehiculo ( comporbante de domicilio, credito, etc. ).
+    - Consultar el estado de mi pedido. 
+    
  
- ### 1.- Busqueda de vehiculos por lenguaje natural 
+ ### 2.- Busqueda de vehiculos por lenguaje natural 
     
 Como usuario del sistema, debo poder buscar vehiculos utilizando natural; por ejemplo, el usuario ingresa el siguiente texto: "Busco un coche familiar para utilizar los fines de semana". Acto siguiente, el sistema debe arrojar resultados de busqueda que tengan congruencia con lo solicitado.
  
-### 2.- Catalogo de vehiculos 
+### 3.- Catalogo de vehiculos 
 Como dueño de grupo automotriz, o gerente de una agencia, debo poder dar de alta y administrar el catalogo de vehiculos que se venderan a los clientes del sitio web. Esta administracion incluye:
 
  - Dar de alta un vehiculo, utilizando su nombre, modelo, año, imagen, motor, etc.
@@ -94,7 +102,7 @@ Como dueño de grupo automotriz, o gerente de una agencia, debo poder dar de alt
  - Subir multiples vehiculos al catalogo por medio de un documento tipo excel. 
  - Consulta del catalogo de vehiculos.
  
-### 3.- Administracion de empleados 
+### 4.- Administracion de empleados 
 Como dueño de grupo automotriz, o gerente de una agencia, debo poder administrar los usuarios de mi agencia o grupo automotriz, esto incluye:
  - Dar de alta un empleados, utilizando su nombre, rol, dirección, correo, etc.
  - Eliminar empleados del sistema. 
