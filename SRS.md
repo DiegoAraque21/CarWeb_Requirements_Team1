@@ -117,7 +117,16 @@ Como super administrador, debo ser capaz de llevar una administracion de dueño 
 - Consultar documentos subidos por un dueño de grupo automotriz a fin de aceptar una solicitud de unirse al sistema.
 - Dar de alta a otros super administradores.
     
- ### 6.- Reportes
+    
+ ### 6.- Autenticación
+ Cualquier usuario del sistema podra iniciar sesión, administrar datos de su cuenta, o eliminar su cuenta. Sin embargo, cada usuario tiene un flujo diferente de autenticación:
+    
+- Como cliente debo poderme registrar en la plataforma utilizando mi correo electronico, contraseña y datos personales.
+- Como empleado, un gerente debera poder dar de alta mi cuenta. Se me proporcionara una contraseña temporal que podre actualizar al iniciar sesión con mi correo y contraseña.
+- Como gerente, un dueño debera poder dar de alta mi cuenta. Se me proporcionara una contraseña temporal que podre actualizar al iniciar sesión con mi correo y contraseña.
+- Como dueño, podre mandar una solicitud para unirme al sistema, para ello debere poder subir los documentos necesarios. Cuando mi solicitud sea aprovada, podre acceder a mi cuenta utlizando mi correo y contraseña
+    
+ ### 7.- Reportes
  
  Cada usuario tendra accesso a diferentes tipos de reportes, dependiendo del tipo de cuenta del usuario (super admin, dueño, gerente).
     
