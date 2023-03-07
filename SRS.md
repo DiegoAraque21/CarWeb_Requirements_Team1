@@ -90,9 +90,14 @@ Como dueño de grupo automotriz, o gerente de una agencia, debo poder dar de alt
 
  - Dar de alta un vehiculo, utilizando su nombre, modelo, año, imagen, motor, etc.
  - Editar vehiculos existentes, ya sea cambiar su nombre, imagen, precio, etc.
- - Eliminar vehiculos del catalogo 
- - Subir multiples vehiculos al catalogo por medio de un documento tipo excel 
- - Consulta del catalogo de vehiculos
+ - Eliminar vehiculos del catalogo. 
+ - Subir multiples vehiculos al catalogo por medio de un documento tipo excel. 
+ - Consulta del catalogo de vehiculos.
+ 
+### 3.- Administracion de empleados 
+Como dueño de grupo automotriz, o gerente de una agencia, debo poder administrar los usuarios de mi agencia o grupo automotriz, esto incluye:
+ - Dar de alta un empleados, utilizando su nombre, rol, dirección, correo, etc.
+ - Eliminar empleados del sistema. 
 ---
 
 ## Requerimientos de Datos
