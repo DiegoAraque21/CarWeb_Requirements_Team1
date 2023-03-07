@@ -122,6 +122,8 @@ Como super administrador, debo ser capaz de llevar una administracion de dueño 
  Cada usuario tendra accesso a diferentes tipos de reportes, dependiendo del tipo de cuenta del usuario (super admin, dueño, gerente, cliente).
     
 - Como super administrador, debo ver reportes relacionados a las diferentes agencias registradas en el sistema, asi como reportes relacionados a las ganancias del sistema, dueños de grupos automotrizes, ventas, etc.
+- Como dueño de grupo automotriz, debo ser capas de vizualisar reportes individuales de cada agencia que tengo registrada, esto incluye, ventas por vehiculo, por categoria, por empleado, ventas por mes. Ademas tambien podre consultar reportes relacionados a los empleados registrados en el sistema.
+- Como gerente de agencia, puedo ver reportes relacionados a mis agencias, incluyendo ventas y rendimiento individual de cada empleado.
     
  
 
