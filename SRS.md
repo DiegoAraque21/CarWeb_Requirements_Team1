@@ -40,7 +40,7 @@ Nuestro documento contiene las siguientes convenciones tipográficas:
 | DB       | Base de datos (del inglés Data Base)                                                           |
 | AI       | Inteligencia Artificial (del inglés Artificial Intelligence)                                   |
 | PM       | Gerente del Proyecto (del inglés Project Manager)                                              |
-| NDS      | ?                                                                                              |
+| NDS      | Nearshore Delivery Systems, Socio Formador                                                     |
 | AWS      | Amazon Web Services                                                                            |
 | GCP      | Google Cloud Platform                                                                          |
 | CSV      | Valores Separados por Comas (del inglés Comma Separated Values)                                |
@@ -50,6 +50,7 @@ Nuestro documento contiene las siguientes convenciones tipográficas:
 | API      | Interfaz de Programación de Aplicaciones (del inglés Application Programming Interface)        |
 | JS       | Java Script                                                                                    |
 | SRS      | Requerimientos de Especificación de Software (del inglés Software Requirements Specifications) |
+| TS       | TypeScript                                                                                     |
 
 - Convenciones de sintaxis:
 
@@ -67,11 +68,38 @@ Nuestra visión es desarrollar una plataforma virtual en la que se puedan compra
 
 ### Referencias
   
-(2022). Consultado el 6 de marzo, 2023, NDS Cognitive Labs página web: https://ndscognitivelabs.com/
+(2022). Consultado el 6 de marzo, 2023, NDS Cognitive Labs página web: https://ndscognitivelabs.com/ 
 
-(1998) IEEE. Consultado el 6 de marzo, 2023, IEEE Std 830-1998 IEEE Recommended Practice for Software Requirements Specifications. IEEE Computer Society. https://www.cse.msu.edu/SRSExample-webapp
+(1998) IEEE. Consultado el 6 de marzo, 2023, IEEE Std 830-1998 IEEE Recommended Practice for Software Requirements Specifications. IEEE Computer Society. 
+https://www.cse.msu.edu/SRSExample-webapp
 
+(2023) Documentación de AWS EC2, Consultado el 7 de marzo, 2023, Amazon.com página web: https://docs.aws.amazon.com/ec2/?icmpid=docs_homepage_compute 
 
+(2023) Documentación de Google Cloud, Consultado el 7 de marzo, 2023, Google Cloud página web: https://cloud.google.com/docs?hl=es-419 
+
+(2023) Documentación de Stripe, Consultado el 7 de marzo, 2023, Stripe.com página web: https://stripe.com/docs 
+
+(2020) JavaScript With Syntax For Types.  Consultado el 7 de marzo, 2023, typescriptlang página web: https://www.typescriptlang.org/ 
+
+(2021)  Consultado el 7 de marzo, 2023, Reactjs.org página web: https://reactjs.org/  
+
+(2023) Amazon API Gateway | API Management | Amazon Web Services   Consultado el 7 de marzo, 2023, Amazon Web Services, Inc. página web: https://aws.amazon.com/es/api-gateway/ 
+
+‌(2023) Welcome to Python.org.  Consultado el 7 de marzo, 2023, Python.org página web: https://www.python.org/ 
+
+(2023) AWS | Lambda - Gestión de recursos informáticos.  Consultado el 7 de marzo, 2023, Amazon Web Services, Inc. página web: https://aws.amazon.com/es/lambda/ 
+
+(2023) AWS | Red virtual privada en la nube (VPC).  Consultado el 7 de marzo, 2023, Amazon Web Services, Inc. página web: https://aws.amazon.com/es/vpc/
+
+(2023) Group, D. PostgreSQL.  Consultado el 7 de marzo, 2023, PostgreSQL página web: https://www.postgresql.org/ 
+
+(2023) AWS | Servicio de bases de datos relacionales (RDS).  Consultado el 7 de marzo, 2023, Amazon Web Services, Inc. página web: https://aws.amazon.com/es/rds/
+
+(2023) AWS | Almacenamiento de datos seguro en la nube (S3).  Consultado el 7 de marzo, 2023, Amazon Web Services, Inc. página web: https://aws.amazon.com/es/s3/
+
+(2022) Firebase.  Consultado el 7 de marzo, 2023, Firebase página web: https://firebase.google.com/?hl=es-419 
+
+(2023) Documentación de Dialogflow ES.  Consultado el 7 de marzo, 2023, Google Cloud página web: https://cloud.google.com/dialogflow/es/docs?hl=es-419 
 
 ---
 
