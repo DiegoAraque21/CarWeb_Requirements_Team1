@@ -11,6 +11,11 @@
     3. [Alcance del proyecto](#alcance-del-proyecto)
     4. [Referencias](#referencias)
 2. [Descripción General](#descripción-general)
+    1. [Perspectiva del Producto](#perspectiva-del-producto)
+    2. [Clases de Usuario y Características](#clases-de-usuario-y-características)
+    3. [Ambiente Operacional](#ambiente-operacional)
+    4. [Restricciones de la implementación y el diseño](#restricciones-de-la-implementación-y-el-diseño)
+    5. [Suposiciones y Dependencias](#suposiciones-y-dependencias)
 3. [Características del Sistema](#características-del-sistema)
 4. [Requerimientos de Datos](#requerimientos-de-datos)
 5. [Requerimientos Externos de la Interfaz](#requerimientos-externos-de-la-interfaz)
@@ -104,6 +109,79 @@ https://www.cse.msu.edu/SRSExample-webapp
 ---
 
 ## Descripción General
+    
+### Perspectiva del Producto
+    
+El producto se basa en una aplicación que le permita a distintos grupos automotrices y sus agencias tener presencia en la web. Brindando mucha comodidad a los clientes finales, debido a que no se tienen que trasladar directamente a la agencia a comprar el coche. Lo podrán hacer todo desde la comodidad de sus casas incluyendo la solicitud de las pruebas de manejo (al ser solicitadas, la idea es que se envia un coche listo para ser probado a la dirección del usuario que la solícito). Hay productos que ofrecen cosas similares, como Kavak. Pero nos diferenciamos de ellos, debido a que solo las agencias serán capaces de vender sus vehículos, después de ser dados de alta por NDS. En otras palabras, yo como individuo no podre vender mi coche en la plataforma.
+
+Como cliente seré capaz de comprar el coche que más se ajuste a mis necesidades, con la oportunidad de elegir el plan de financiamiento ofrecido por la agencia seleccionada. Este producto es completamente nuevo y busca crear una nueva forma de comprar vehículos en la República Mexicana.
+
+    
+### Clases de Usuario y Características
+    
+- Cliente:
+
+Este usuario es el que navegará por la plataforma en busca de vehículos de su agrado. Con el fin de comprarlos de la manera que más le convenga, sin necesidad de ir presencialmente a una agencia. El cliente no necesita tener una cuenta para la navegación, pero sí será necesaria para tener acceso a la atención al cliente, solicitar pruebas de manejo y reservar algún vehículo.
+
+Se busca incorporar una búsqueda de lenguaje natural, para que el usuario sea capaz de encontrar el coche que le guste de una manera fácil e intuitiva. Aunque de igual manera se le presentarán filtros, si esa es su preferencia de búsqueda. De esta manera tendremos una plataforma "user-friendly", en la cual el cliente no le costará trabajo entenderla.
+
+
+- Vendedor:
+
+El vendedor es el usuario que tendrá contacto directo con los clientes. Estará encargado de aceptar pruebas de manejo, darle seguimiento a los clientes que soliciten soporte y aprobar reservas. Como vendedor, podrás ver todos los coches del catálogo de mi agencia, pero no seré capaz de editar ninguna información.
+
+- Gerente:
+
+El gerente estará encargado de darle seguimiento a todos los vendedores de sus agencias y también en darlos de alta. Tendrán acceso a información de valor, que les permitirá acceder al desempeño de sus vendedores. De igual manera será el encargado de dar de alta el catálogo y darle seguimiento en el futuro (podre cambiar los vehículos del catálogo como gerente).
+
+- Administrador de agencia:
+
+El dueño de la agencia tendrá información sobre todos sus subordinados (gerentes, vendedores) y además sobre el desempeño de su agencia y catálogo. De igual manera, es el que da de alta a todos sus gerentes. El administrador de agencia también tiene la capacidad de modificar el catálogo y darle seguimiento. Y podrán desactivar las cuentas de todos sus subordinados (gerentes y vendedores).
+
+- Administrador de grupo automotriz:
+
+Un grupo automotriz puede tener muchas agencias bajo su control. Como administrador, seré capaz de dar de alta a todas las agencias y ver el desempeño de cada una en la plataforma. Tomando en cuenta que es el usuario con más privilegios podrá observar información d valor de todas las agencias que se encuentran bajo su mando.
+
+- Super Administrador:
+
+El superadministrador está encargado de dar de alta a todos los grupos automotrices. Revisaran la validez de los documentos enviados, y en caso de ser válidos los darán de alta. Los super-administradores serán empleados de NDS. Y de igual manera tendrán información sobre la aplicación, pero nada específico sobre los otros usuarios.
+    
+### Ambiente Operacional
+    
+
+![Arquitectura CarWeb drawio](https://user-images.githubusercontent.com/57450093/221737889-ba914df5-3208-4078-bdfb-a1a3ff140ef8.png)
+Figura 1. Arquitectura Propuesta
+    
+El software planteado correrá de distintas formas. El frontend estará hosteado en firebase, que es un servicio de google que lo permite fácilmente. Este correrá en la región us-central1 de google cloud. Todos los otros servicios que decidamos usar de la nube de google se encontrarán en esta región.
+
+En la otra mano, el backend correrá en AWS. En la arquitectura planteada, nuestro backend será serverless. Todo estará en una VPC (Virtual Private Cloud), utilizaremos Máquinas Virtuales ofrecidas por el servicio EC2, para poder conectarnos a estos servicios. Estas máquinas virtuales estarían usando el sistema operativo Amazon Linux 2 kernel 5.10 (since it 's included in the free tier). De igual manera el servicio RDS se utilizará para hostear la base de datos, API Gateway para crear los endpoints de nuestra API, AWS Lambda para crear las funciones que modifican y obtendrán datos de nuestra base de datos y por último S3 para guardar los archivos que suban los usuarios de la aplicación. Todos estos servicios y cualquier otro que se incluya en el futuro que pertenezca a AWS correrán en la región us-west-1.
+
+Elegimos estas zonas debido a que se nos dijo que será utilizada en toda la región mexicana, y estos datacenters de cada nube, son los más cercanos a México.
+
+Para los pagos es muy importante incorporar un third-party. Como en este caso lo sería Stripe, este permitirá añadir a un tercero muy usado en la industria que se encargue de este tema, sin tener que preocuparnos de temas de seguridad en el ámbito de pagos.
+
+Por último se tiene que implementar un chatbot, por lo que decidimos usar dialogflow (un servicio de google cloud). Este servicio debe coexistir con la aplicación desarrollada, ya que le da mucho valor a la aplicación tener un servicio de atención al cliente que brinde atención personalizada a cada cliente.
+
+Por último como tecnologías se utilizará React (versión 18.1), Nodejs (versión 18.15), python (versión 3.8), typescript (versión 4.9.5), tailwind css (versión 3.2) y PostgreSQL (versión 15.2).
+    
+### Restricciones de la implementación y el Diseño
+    
+- 10 semanas de desarrollo. Aunque es tiempo suficiente para abarcar gran cantidad del producto, no todas las áreas se podrán finalizar.
+- 100 dólares por persona en AWS, que no se acumulan. El hecho de no poder juntar todos estos créditos, nos limita mucho el uso de la nube. Aunque sí se puede lograr, es necesario que ocupemos bien los créditos para evitar desastres. De igual manera por tener este límite, no podremos usar las mejores opciones de acuerdo a nuestro objetivo por motivos de precios.
+- Debido a que todo el salón forma el equipo, tenemos que limitar los lenguajes, a los que ya hemos utilizado todos en semestres anteriores. En este caso estamos atados a utilizar React, nodejs y python.
+- Todos somos estudiantes de ingeniería de software, por lo que nuestras habilidades de diseño no son las mejores. Se buscará generar las interfaces más intuitivas en base a nuestras habilidades.
+- En términos de pruebas asumimos que solo se harán pruebas unitarias, tanto de caja negra como de caja blanca. Las no funcionales no serán realizadas por temas de tiempo y el hecho de requerir software externo.
+
+    
+### Suposiciones y Dependencias
+    
+- Se utilizará Stripe como third-party de pagos. Asumimos que servirá aun y cuando se incorporen los planes de financiamiento de cada agencia.
+- Suponemos que el modelo de negocios será un pago mensual, dependiendo de la cantidad de agencias que tiene el grupo automotriz y de la cantidad de vehículos que incluye cada catálogo.
+- Suponemos que será suficiente implementar nuestra solución en la nube con los 100 créditos ofrecidos por el tec.
+- Al querer que las empresas suban su catálogo en un archivo CSV, esperamos que las agencias tengan imágenes de sus vehículos en alguna nube o en el internet.
+- Suponemos que la nube de AWS, tiene algún servicio que permite cifrar todos los archivos que suben los clientes a la aplicación.
+- Dependemos de reuniones semanales con el socio formador, para implementar de buena forma una metodología ágil. En la cual recibimos feedback de NDS y lo tomamos en cuenta para el desarrollo.
+
 
 ---
 
