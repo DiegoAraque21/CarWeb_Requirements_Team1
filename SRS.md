@@ -10,14 +10,14 @@
     2. [Convenciones del documento](#convenciones-del-documento)
     3. [Alcance del proyecto](#alcance-del-proyecto)
     4. [Referencias](#referencias)
-7. [Descripción General](#descripción-general)
-8. [Características del Sistema](#características-del-sistema)
-9. [Requerimientos de Datos](#requerimientos-de-datos)
-10. [Requerimientos Externos de la Interfaz](#requerimientos-externos-de-la-interfaz)
-11. [Atributos de la Calidad](#atributos-de-la-calidad)
-12. [Internacionalización y Requerimientos de Locación](#internacionalización-y-requerimientos-de-locación)
-13. [Otros Requerimientos](#otros-requerimientos)
-14. [Modelos de Análisis](#modelos-de-análisis)
+2. [Descripción General](#descripción-general)
+3. [Características del Sistema](#características-del-sistema)
+4. [Requerimientos de Datos](#requerimientos-de-datos)
+5. [Requerimientos Externos de la Interfaz](#requerimientos-externos-de-la-interfaz)
+6. [Atributos de la Calidad](#atributos-de-la-calidad)
+7. [Internacionalización y Requerimientos de Locación](#internacionalización-y-requerimientos-de-locación)
+8. [Otros Requerimientos](#otros-requerimientos)
+9. [Modelos de Análisis](#modelos-de-análisis)
 
 ---
 
@@ -229,6 +229,8 @@ Actualmente nuestra plataforma será utilizada exclusivamente en la República M
 ---
 
 ## Otros Requerimientos
+    
+En nuestras pláticas con el socio formador se nos informó que NDS va a encargarse de forma integral del aspecto legal, regulatorio y financiero. Para observar o analizar los requerimientos principales puedes acceder a [esta sección del documento](#características-del-sistema) antes presentada.
     
 ---
 
