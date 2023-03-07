@@ -90,6 +90,7 @@ Como cliente, debo poder comprar un vehiculo utilizando el sitio web, pare ello 
 - Subir documentos requeridos para la compra del vehiculo ( comporbante de domicilio, credito, etc. ).
 - Consultar el estado de mi pedido. 
 
+    Prioridad: ALTA
 ### 2.- Pruebas de manejo
 Como cliente, debo poder pedir pruebas de manejo, para lograrlo debo poder realizar las siguientes acciones:
 - Seleccionar la agencia del vehiculo que quiero probar. 
