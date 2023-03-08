@@ -297,7 +297,7 @@ Como dueño de sistema,se me cobrará una renta mensual por diferentes casos de 
 - Debo poder consultar mis pagos y cobros 
 - Debo poder realizar pagos 
 
- #### Prioridad alta
+    #### Prioridad alta
 
 ---
 
