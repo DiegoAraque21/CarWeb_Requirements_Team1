@@ -20,6 +20,10 @@
 4. [Requerimientos de Datos](#requerimientos-de-datos)
 5. [Requerimientos Externos de la Interfaz](#requerimientos-externos-de-la-interfaz)
 6. [Atributos de la Calidad](#atributos-de-la-calidad)
+    1. [Usabilidad](#usabilidad)
+    2. [Desempeño](#desempeño)
+    3. [Seguridad y Privacidad](#seguridad-y-privacidad)
+    4. [Otros Importantes](#otros-importantes)
 7. [Internacionalización y Requerimientos de Locación](#internacionalización-y-requerimientos-de-locación)
 8. [Otros Requerimientos](#otros-requerimientos)
 9. [Modelos de Análisis](#modelos-de-análisis)
@@ -297,7 +301,52 @@ Como dueño de sistema,se me cobrara una renta mensual por diferentes casos de u
 ---
 
 ## Atributos de la Calidad
+    
+### Usabilidad
+    
+Primero que todo, lo que más sobresale en la usabilidad es la habilidad que le daremos a los usuarios de buscar el vehículo que desee a través de lenguaje natural. Esto quiere decir que con un prompt y un click, el cliente recibirá una respuesta del sistema acorde con lo solicitado. Debido a que esto puede resultar ser muy complicado, añadiremos filtros convencionales.
 
+Además, el cliente no necesitará tener una cuenta para navegar por la plataforma. Crear una cuenta será necesario solo para cuando se soliciten pruebas de manejo o reserva de vehículos.
+
+Por parte de las agencias, tendrán la facilidad de subir su catálogo a través de un archivo csv. Esto hará que el proceso de dar de alta todos sus vehículos sea más rápido. 
+
+El acceso a la atención del cliente será sumamente fácil. Ya que en cada interfaz de la plataforma, existirá un botón flotante, que indica claramente que activa un chat. De esta manera el usuario nunca pensará que está solo y siempre se le ofrecerá ayuda.
+
+Al usuario se le permitirá comparar los vehículos de su elección y de igual manera los planes de financiamiento que ofrecen distintas agencias para el mismo vehículo. De esta manera el cliente tendrá la información necesaria, para tomar la decisión que se ajuste más a sus necesidades.
+    
+La plataforma será responsive, por lo que el usuario final podrá ver toda la información desde una computadora, tableta o teléfono celular.
+    
+Por último la plataforma debe de ser consistente. Todas las pantallas usarán la misma paleta de colores, font, etc.
+    
+### Desempeño
+    
+El desempeño de nuestra aplicación depende de muchos factores. Primero que todo, al ser serverless, escalará automáticamente y evitaremos muchos problemas de cuello de botella. De igual manera, debido a que no podremos maximizar los servicios debido a límite de créditos no buscamos lo más rápido si no algo que se encuentre en un rango que ofrezca buen desempeño. Por último si el usuario no tiene conexión a internet la plataforma no funcionará y si la conexión es muy mala el desempeño se verá afectado, debido a que se tardará más en conseguir los datos.
+
+Una restricción muy importante de desempeño que tenemos es que ninguna función lambda tarde más de 15 minutos, debido a que es el máximo que puede tomar para ejecutarse según la documentación de AWS.
+
+### Seguridad y Privacidad
+
+El sistema guardará toda la información sensible del usuario: contraseñas, documentos, etc. cifradas en la base de datos.
+
+Después de cierto tiempo de inactividad, la sesión del usuario será cerrada.
+
+Toda la comunicación entre el frontend y el backend será hecha mediante HTTPS. Lo que significa que estará cifrada.
+Los documentos guardados en S3 estarán cifrados.
+
+En términos de pagos, se creará un webhook para stripe. Este solo se puede acceder cuando se ha hecho un pago a través del third-party. De esta manera solo se podrá acceder a esto si se hace el pago.
+
+Toda la API, base de datos y el storage se encontrarán en una VPC. Esta VPC tendrá una regla de seguridad que solo le permitirá a los servicios que se encuentran dentro de ella conectarse. De esta manera el último punto de acceso será API Gateway y máquinas virtuales que creemos en la misma VPC.
+
+Los roles seguirán la regla del mínimo privilegio. Esto quiere decir que no se les enseñara más de lo que tienen que ver. Los super-admins solo ven información sobre la app, pero nada específico de los grupos automotrices. Los grupos automotrices van a poder ver toda la información de sus agencias y empleados. Los dueños de las agencias solo tendrán acceso a toda la información de su agencia. Los gerentes tendrán permisos de editar, crear y visualizar el catálogo, además de visualizar el desempeño de sus empleados. Por último los vendedores solo podrán visualizar el catálogo y darle seguimiento a sus clientes asignados, además podrán aceptar pruebas de manejo y reservas de vehículos.
+    
+### Otros Importantes
+
+En términos de disponibilidad, debido a que está enfocado a la república mexicana. Buscaremos bajar la carga de los servidores en horas de flujo bajo.
+
+Algo que también es de suma importancia, es el hecho de que la plataforma funcionará perfectamente en google chrome, mozilla firefox, microsoft edge y safari.
+
+El sistema será completamente escalable gracias a las tecnologías de la nube de AWS que escogimos en nuestra arquitectura. API Gateway y AWS Lambda.
+       
 ---
 
 ## Internacionalización y Requerimientos de Locación
