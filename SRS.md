@@ -124,19 +124,17 @@ https://www.cse.msu.edu/SRSExample-webapp
     
 ### Perspectiva del Producto
     
-El producto se basa en una aplicación que le permita a distintos grupos automotrices y sus agencias tener presencia en la web. Brindando mucha comodidad a los clientes finales, debido a que no se tienen que trasladar directamente a la agencia a comprar el coche. Lo podrán hacer todo desde la comodidad de sus casas incluyendo la solicitud de las pruebas de manejo (al ser solicitadas, la idea es que se envia un coche listo para ser probado a la dirección del usuario que la solícito). Hay productos que ofrecen cosas similares, como Kavak. Pero nos diferenciamos de ellos, debido a que solo las agencias serán capaces de vender sus vehículos, después de ser dados de alta por NDS. En otras palabras, yo como individuo no podre vender mi coche en la plataforma.
+El producto se basa en una aplicación web que le permita a distintos grupos automotrices y sus agencias tener presencia en la web. Brindando mucha comodidad a los clientes finales, debido a que no se tienen que trasladar directamente a la agencia a comprar el coche. Lo podrán hacer todo desde la comodidad de sus casas incluyendo la solicitud de las pruebas de manejo (al ser solicitadas, la idea es que se envíe un coche listo para ser probado a la dirección del usuario que la solicitó). Hay productos que ofrecen cosas similares, como Kavak. Pero nos diferenciamos de ellos, debido a que solo las agencias serán capaces de vender sus vehículos, después de ser dados de alta por NDS. En otras palabras, yo como individuo no podré vender mi coche en la plataforma.
 
 Como cliente seré capaz de comprar el coche que más se ajuste a mis necesidades, con la oportunidad de elegir el plan de financiamiento ofrecido por la agencia seleccionada. Este producto es completamente nuevo y busca crear una nueva forma de comprar vehículos en la República Mexicana.
 
-    
 ### Clases de Usuario y Características
     
 - Cliente:
 
 Este usuario es el que navegará por la plataforma en busca de vehículos de su agrado. Con el fin de comprarlos de la manera que más le convenga, sin necesidad de ir presencialmente a una agencia. El cliente no necesita tener una cuenta para la navegación, pero sí será necesaria para tener acceso a la atención al cliente, solicitar pruebas de manejo y reservar algún vehículo.
 
-Se busca incorporar una búsqueda de lenguaje natural, para que el usuario sea capaz de encontrar el coche que le guste de una manera fácil e intuitiva. Aunque de igual manera se le presentarán filtros, si esa es su preferencia de búsqueda. De esta manera tendremos una plataforma "user-friendly", en la cual el cliente no le costará trabajo entenderla.
-
+Se busca incorporar una búsqueda, para que el usuario sea capaz de encontrar el coche que le guste de una manera fácil e intuitiva. Aunque de igual manera se le presentarán filtros, si esa es su preferencia de búsqueda. De esta manera tendremos una plataforma "user-friendly", en la cual el cliente no le costará trabajo entenderla. Como un extra se tratará de implementar búsqueda por lenguaje natural, esto se hará si el tiempo lo permite.
 
 - Vendedor:
 
@@ -164,9 +162,9 @@ El superadministrador está encargado de dar de alta a todos los grupos automotr
 ![Arquitectura CarWeb drawio](https://user-images.githubusercontent.com/57450093/221737889-ba914df5-3208-4078-bdfb-a1a3ff140ef8.png)
 Figura 1. Arquitectura Propuesta
     
-El software planteado correrá de distintas formas. El frontend estará hosteado en firebase, que es un servicio de google que lo permite fácilmente. Este correrá en la región us-central1 de google cloud. Todos los otros servicios que decidamos usar de la nube de google se encontrarán en esta región.
+El software planteado correrá de distintas formas. El frontend estará hosteado en firebase, que es un servicio de google, que a través de muy pocos clics permite hostear la aplicación web fácilmente. Este correrá en la región us-central1 de google cloud. Todos los otros servicios que decidamos usar de la nube de google se encontrarán en esta región.
 
-En la otra mano, el backend correrá en AWS. En la arquitectura planteada, nuestro backend será serverless. Todo estará en una VPC (Virtual Private Cloud), utilizaremos Máquinas Virtuales ofrecidas por el servicio EC2, para poder conectarnos a estos servicios. Estas máquinas virtuales estarían usando el sistema operativo Amazon Linux 2 kernel 5.10 (since it 's included in the free tier). De igual manera el servicio RDS se utilizará para hostear la base de datos, API Gateway para crear los endpoints de nuestra API, AWS Lambda para crear las funciones que modifican y obtendrán datos de nuestra base de datos y por último S3 para guardar los archivos que suban los usuarios de la aplicación. Todos estos servicios y cualquier otro que se incluya en el futuro que pertenezca a AWS correrán en la región us-west-1.
+En la otra mano, el backend correrá en AWS. En la arquitectura planteada, nuestro backend será serverless. Todo estará en una VPC (Virtual Private Cloud), utilizaremos Máquinas Virtuales ofrecidas por el servicio EC2, para poder conectarnos a estos servicios. Estas máquinas virtuales estarían usando el sistema operativo Amazon Linux 2 kernel 5.10 (debido a que está en la free-tier de AWS). De igual manera el servicio RDS se utilizará para hostear la base de datos, API Gateway para crear los endpoints de nuestra API, AWS Lambda para crear las funciones que modifican y obtendrán datos de nuestra base de datos y por último S3 para guardar los archivos que suban los usuarios de la aplicación. Todos estos servicios y cualquier otro que se incluya en el futuro que pertenezca a AWS correrán en la región us-west-1.
 
 Elegimos estas zonas debido a que se nos dijo que será utilizada en toda la región mexicana, y estos datacenters de cada nube, son los más cercanos a México.
 
@@ -178,11 +176,12 @@ Por último como tecnologías se utilizará React (versión 18.1), Nodejs (versi
     
 ### Restricciones de la implementación y el Diseño
     
-- 10 semanas de desarrollo. Aunque es tiempo suficiente para abarcar gran cantidad del producto, no todas las áreas se podrán finalizar.
+- 10 semanas de desarrollo. Aunque es tiempo suficiente para abarcar gran cantidad del producto, no todas las áreas se podrán finalizar, por lo que se privilegiará lo que se ha definido como “Must”.
 - 100 dólares por persona en AWS, que no se acumulan. El hecho de no poder juntar todos estos créditos, nos limita mucho el uso de la nube. Aunque sí se puede lograr, es necesario que ocupemos bien los créditos para evitar desastres. De igual manera por tener este límite, no podremos usar las mejores opciones de acuerdo a nuestro objetivo por motivos de precios.
-- Debido a que todo el salón forma el equipo, tenemos que limitar los lenguajes, a los que ya hemos utilizado todos en semestres anteriores. En este caso estamos atados a utilizar React, nodejs y python.
+- Debido a que todo el salón forma el equipo de desarrollo, tenemos que limitar los lenguajes, a los que ya hemos utilizado todos en semestres anteriores. En este caso estamos atados a utilizar React, nodejs y python.
 - Todos somos estudiantes de ingeniería de software, por lo que nuestras habilidades de diseño no son las mejores. Se buscará generar las interfaces más intuitivas en base a nuestras habilidades.
 - En términos de pruebas asumimos que solo se harán pruebas unitarias, tanto de caja negra como de caja blanca. Las no funcionales no serán realizadas por temas de tiempo y el hecho de requerir software externo.
+
 
     
 ### Suposiciones y Dependencias
