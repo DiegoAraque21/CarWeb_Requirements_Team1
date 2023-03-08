@@ -208,6 +208,7 @@ Como cliente, debo poder comprar un vehículo utilizando el sitio web, pare ello
 - Consultar el estado de mi pedido. 
 
     #### Prioridad alta
+    
 ### Pruebas de manejo
 Como cliente, debo poder pedir pruebas de manejo, para lograrlo debo poder realizar las siguientes acciones:
 - Seleccionar la agencia del vehiculo que quiero probar. 
@@ -241,7 +242,7 @@ Como dueño de grupo automotriz, o gerente de una agencia, debo poder administra
  - Dar de alta un empleados, utilizando su nombre, rol, dirección, correo, etc.
  - Eliminar empleados del sistema. 
     
-   #### prioridad alta
+   #### Prioridad alta
     
 ### Administración de Dueños   
 Como super administrador, debo ser capaz de llevar una administración de dueño automotrizes, esto incluye:
@@ -251,7 +252,7 @@ Como super administrador, debo ser capaz de llevar una administración de dueño
 - Consultar documentos subidos por un dueño de grupo automotriz a fin de aceptar una solicitud de unirse al sistema.
 - Dar de alta a otros super administradores.
    
-   #### prioridad alta
+   #### Prioridad alta
 
     
  ### Autenticación
@@ -263,7 +264,7 @@ Como super administrador, debo ser capaz de llevar una administración de dueño
 - Como dueño, podre mandar una solicitud para unirme al sistema, para ello deberé poder subir los documentos necesarios. Cuando mi solicitud sea aprovada, podré acceder a mi cuenta utlizando mi correo y contraseña.
     
     
-   #### prioridad alta
+   #### Prioridad alta
 
     
  ### Reportes
@@ -274,7 +275,7 @@ Como super administrador, debo ser capaz de llevar una administración de dueño
 - Como dueño de grupo automotriz, debo ser capas de vizualisar reportes individuales de cada agencia que tengo registrada, esto incluye, ventas por vehiculo, por categoría, por empleado, ventas por mes. Ademas tambien podre consultar reportes relacionados a los empleados registrados en el sistema.
 - Como gerente de agencia, puedo ver reportes relacionados a mis agencias, incluyendo ventas y rendimiento individual de cada empleado.
     
-   #### prioridad media
+   #### Prioridad media
 
  ### Soporte
  
@@ -283,7 +284,8 @@ del sistema.
 - En caso de encontrar un bug, podre reportarlo con un representante del sistema o pedir ayuda por medio de un chat dentro del sitio web.
 - En caso de querer mas detalles sobre un vehículo, podré comunicarme con un vendedor o gerente por medio de un chat dentro del sitio web.
 - En caso de tener problemas con una venta o prueba de manejo, debo poder comunicarme con un representante del sistema o gerente de agencia.
-  #### prioridad media
+
+    #### Prioridad media
 
 ### Modelo de negocios 
 Como dueño de sistema,se me cobrará una renta mensual por diferentes casos de uso.
@@ -295,7 +297,7 @@ Como dueño de sistema,se me cobrará una renta mensual por diferentes casos de 
 - Debo poder consultar mis pagos y cobros 
 - Debo poder realizar pagos 
 
- #### prioridad alta
+ #### Prioridad alta
 
 ---
 
