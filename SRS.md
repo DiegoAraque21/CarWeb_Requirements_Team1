@@ -197,7 +197,7 @@ Por último como tecnologías se utilizará React (versión 18.1), Nodejs (versi
 
 ## Características del Sistema
     
-### 1.- Venta de Vehículos
+### Venta de Vehículos
 
 Como cliente, debo poder comprar un vehículo utilizando el sitio web, pare ello debo poder realizar lo siguiente:
     
@@ -207,7 +207,7 @@ Como cliente, debo poder comprar un vehículo utilizando el sitio web, pare ello
 - Consultar el estado de mi pedido. 
 
     #### Prioridad alta
-### 2.- Pruebas de manejo
+### Pruebas de manejo
 Como cliente, debo poder pedir pruebas de manejo, para lograrlo debo poder realizar las siguientes acciones:
 - Seleccionar la agencia del vehiculo que quiero probar. 
 - Seleccionar un vehiculo dentro de la agencia.
@@ -217,13 +217,13 @@ Como cliente, debo poder pedir pruebas de manejo, para lograrlo debo poder reali
 
     #### Prioridad alta
 
- ### 3.- Búsqueda de vehículos por lenguaje natural 
+ ### Búsqueda de vehículos por lenguaje natural 
     
 Como usuario del sistema, debo poder buscar vehículos utilizando natural; por ejemplo, el usuario ingresa el siguiente texto: "Busco un coche familiar para utilizar los fines de semana". Acto siguiente, el sistema debe arrojar resultados de busqueda que tengan congruencia con lo solicitado.
      
    #### Prioridad alta
 
-### 4.- Catálogo de vehículos 
+### Catálogo de vehículos 
 Como dueño de grupo automotriz, o gerente de una agencia, debo poder dar de alta y administrar el catálogo de vehículos que se venderán a los clientes del sitio web. Esta administración incluye:
 
  - Dar de alta un vehículo, utilizando su nombre, modelo, año, imagen, motor, etc.
@@ -235,14 +235,14 @@ Como dueño de grupo automotriz, o gerente de una agencia, debo poder dar de alt
     #### Prioridad alta
 
  
-### 5.- Administración de empleados 
+### Administración de empleados 
 Como dueño de grupo automotriz, o gerente de una agencia, debo poder administrar los usuarios de mi agencia o grupo automotriz, esto incluye:
  - Dar de alta un empleados, utilizando su nombre, rol, dirección, correo, etc.
  - Eliminar empleados del sistema. 
     
    #### prioridad alta
     
-### 6.- Administración de Dueños   
+### Administración de Dueños   
 Como super administrador, debo ser capaz de llevar una administración de dueño automotrizes, esto incluye:
 - Conslultar dueños registrados en el sistema.
 - Eliminar dueño registrados sistema. 
@@ -253,7 +253,7 @@ Como super administrador, debo ser capaz de llevar una administración de dueño
    #### prioridad alta
 
     
- ### 7.- Autenticación
+ ### Autenticación
  Cualquier usuario del sistema podrá iniciar sesión, administrar datos de su cuenta, o eliminar su cuenta. Sin embargo, cada usuario tiene un flujo diferente de autenticación:
     
 - Como cliente debo poderme registrar en la plataforma utilizando mi correo eléctronico, contraseña y datos personales.
@@ -265,7 +265,7 @@ Como super administrador, debo ser capaz de llevar una administración de dueño
    #### prioridad alta
 
     
- ### 8.- Reportes
+ ### Reportes
  
  Cada usuario tendra accesso a diferentes tipos de reportes, dependiendo del tipo de cuenta del usuario (super admin, dueño, gerente).
     
@@ -275,7 +275,7 @@ Como super administrador, debo ser capaz de llevar una administración de dueño
     
    #### prioridad media
 
- ### 9.- Soporte
+ ### Soporte
  
 Como usuario debo poder obtener soporte por parte del sistema, dependiendo de la necesidad, podre hablar con un vendedor o gerente, o con un representante 
 del sistema.
@@ -284,7 +284,7 @@ del sistema.
 - En caso de tener problemas con una venta o prueba de manejo, debo poder comunicarme con un representante del sistema o gerente de agencia.
   #### prioridad media
 
-### 10.- Modelo de negocios 
+### Modelo de negocios 
 Como dueño de sistema,se me cobrará una renta mensual por diferentes casos de uso.
 
 - Se me cobrará un porcentaje por cada vehículo que se muestre en el sitio web 
