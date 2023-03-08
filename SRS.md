@@ -80,7 +80,7 @@ Nuestro documento contiene las siguientes convenciones tipográficas:
   
 ### Alcance del proyecto
   
-Nuestra visión es desarrollar una plataforma virtual en la que se puedan comprar autos nuevos sin la necesidad de acudir a una agencia. Planeamos implementar herramientas de inteligencia artificial (utilizando servicios de nube) a nuestra plataforma, para facilitar búsquedas, mejor atención al cliente y en general ofrecer la mejor experiencia posible. Nuestra misión es facilitar y agilizar el trámite de la compra de vehículos en toda la República Mexicana y poner al alcance de cualquier usuario pruebas de manejo a domicilio de los autos en los que esté interesado.
+Nuestra visión es desarrollar una plataforma digital en la que se puedan comprar autos nuevos sin la necesidad de acudir a una agencia. Planeamos implementar herramientas de AI (utilizando servicios de nube) a nuestra plataforma, para facilitar búsquedas, mejor atención al cliente y en general ofrecer la mejor experiencia posible. Nuestra misión es proporcionar un sistema fácil y eficiente para la compra de vehículos en toda la República Mexicana y poner al alcance de cualquier usuario pruebas de manejo a domicilio de los autos en los que esté interesado.
 
 
 ### Referencias
