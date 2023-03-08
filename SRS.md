@@ -36,8 +36,6 @@
     4. [Otros Importantes](#otros-importantes)
 7. [Internacionalización y Requerimientos de Locación](#internacionalización-y-requerimientos-de-locación)
 8. [Otros Requerimientos](#otros-requerimientos)
-9. [Modelos de Análisis](#modelos-de-análisis)
-
 ---
 
 ## Introducción
@@ -369,9 +367,5 @@ Actualmente nuestra plataforma será utilizada exclusivamente en la República M
     
 En nuestras pláticas con el socio formador se nos informó que NDS va a encargarse de forma integral del aspecto legal, regulatorio y financiero. Para observar o analizar los requerimientos principales puedes acceder a [esta sección del documento](#características-del-sistema) antes presentada.
     
----
-
-## Modelos de Análisis
-
 ---
 
