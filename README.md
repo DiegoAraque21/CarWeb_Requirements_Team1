@@ -170,7 +170,7 @@
 
 ## Requerimientos
 **Autenticación**
-- Requerimeintos Funcionales
+- Requerimientos Funcionales
   - El sistema permitirá a sus clientes crear su cuenta con correo y contraseña.
   - El sistema permitirá a todos sus usuarios cerrar sesión.
   - El sistema permitirá a todos sus usuarios iniciar sesión con correo/contraseña o con un pop-up de google.
@@ -182,7 +182,7 @@
     - Toda la parte de autenticación sera gestionada por firebase auth.
 
 **Administración de vendedores**
-- Requerimeintos Funcionales
+- Requerimientos Funcionales
   - El sistema permitirá que el gerente ingrese el email y nombre del vendedor para crear su cuenta.
   - El sistema generará una contraseña random para el vendedor.
   - El sistema permitirá al vendedor darle seguimientos a todos sus clientes.
@@ -200,7 +200,7 @@
   
 - Requerimeintos no funcionales
   - Toda la parte de pagos será hecha con stripe.
-  - Al darle seguimientoa. tus compras se veran tres basicos titulos. En proceso, en camino y finalizada.
+  - Al darle seguimiento a tus compras se veran tres titulos básicos. En proceso, en camino y finalizada.
 
 **Búsqueda (Lenguaje natural y filtros)**
 - Requerimientos Funcionales
@@ -214,17 +214,15 @@
   - La barra de busqueda y los filtros estaran todo el tiempo a la vista.
   - La comparación de vehículos iguales sera basada en precios y planes de financiamiento.
 
-
 **Servicio al Cliente**
 - Requerimientos funcionales
   - El sistema tendrá un chat para la atención de clientes.
-  - El sistema conectara a los clientes con un vendedor es la agencia a la cual se le esta solicitando soporte.
+  - El sistema conectará a los clientes con un vendedor es la agencia a la cual se le esta solicitando soporte.
   
 - Requerimeintos no funcionales
   - El chat sera implementado con un third party (dialogflow).
   - El acceso al chat sera posible en cada pantalla de la aplicacion.
   
-
 **Catálogo de Vehículos**
 - Requerimientos funcionales
   - El sistema permitirá dar de alta un catalogo a traves de un archivo csv.
@@ -293,7 +291,7 @@
   - El sisetma le permitirá a los gerentes información sobre sus vendedores y procesos de ventas de sus respectiva agencia.
   - El sistema le permitirá a los vendedores visualizar todos sus procesos de ventas e hsitorial(ventas completadas, clientes atendidos, etc).
 
-- Requerimeintos no funcionales
+- Requerimientos no funcionales
   - La información para cada rol será visualizada en forma de dashbaord con gráficas especializadas.
   - Los roles seguiran el principio de minimo privilegio, por lo que no tendran acceso a información de rangos superiores.
   
