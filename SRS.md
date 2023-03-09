@@ -424,7 +424,7 @@ Para comprender los datos y campos que serán usados a lo largo del proyecto, as
     
 https://drive.google.com/file/d/171kF48YTRDYluUXe_cOdQKLoMWoi97nI/view?usp=sharing 
 
-![Diagramas DB drawio](https://user-images.githubusercontent.com/90577455/223881345-36e173bb-405a-4b7e-80c0-293acfee8315.png)
+![Diagramas DB (1)](https://user-images.githubusercontent.com/90577455/224091710-613ed424-7c01-4ffb-8126-286d308d5112.jpg)
     
 ### Diccionario de Datos
 
