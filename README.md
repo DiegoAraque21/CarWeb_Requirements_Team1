@@ -17,6 +17,7 @@
 8. [Arquitectura](#arquitectura)
 9. [Techstack](#techstack)
 10. [Pruebas de software](#software-tests)
+11. [Administración de riesgos](#administración-de-riesgos)
 
 ---
 
@@ -357,6 +358,17 @@ Link de nuestro trello: https://trello.com/invite/carweb2/ATTI480e09136e68b66ae3
 | Sub-total              |                       |          |         |  34 MD  |   31 MD  | 39 MD | 43 MD | 35 MD | 182 MD |
 
 ---
+
+## Administración de riesgos
+
+| Riesgo                                                                               | Descripción de riesgo                                                                                                | Acción de mitigación                                                                                                                                                                                                                                                                                                                                                         | Probabilidad de que ocurra | Tamaño de pérdida |
+|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|-------------------|
+| Escacez de tiempo (10 semanas de desarrollo) o entrega incompleta del producto final | Falta de tiempo para alcanzar los requerimientos del proyecto y entregarlo con errores o de manera incompleta.       | Los requerimientos seran dividos con prioridades (Must, Should, Could). Como equipo los desarrollaremos en ese orden, para acabar primero las funcionalidades mas importantes de la plataforma y asegurar el MVP. Una vez que el MVP está completado podemos abordar los demás requerimientos entregando un producto completo a tiempo.                                      | Media                      | Alta              |
+| Bajo desempeño o rendimiento del sitio web                                           | El producto no logra el desempeño o rendimiento esperado                                                             | Hacer reuniones semanales con el socio formador con el objetivo de recibir retroalimentación y asegurarnos de que el desempeño cumpla con las expectativas. Además de hacer pruebas funcionales e informales que garanticen el funcionamiento y el rendimiento de la plataforma respectivamente.                                                                             | Baja                       | Alta              |
+| Problemas de comunicación entre desarrolladores                                      | Pueden aparecer como merge conflicts,  incongruencia en el diseño, brechas de habilidades o de rapidez               | Para evitar merge conflicts asegurarse de que cada quien trabaje en archivos diferentes, o en caso de que trabajen en el mismo archivo que no lo hagan al mismo tiemo. Agendar tres reuniones semanales para que cada desarrollador le comunique al equipo lo que está trabajando, para que todos los desarrolladores esten al día de lo que esta ocurriendo en el proyecto. | Muy Alta                   | Media             |
+| Costos demasiado altos (Sobrepasar los 100 creditos de AWS)                          | Problemas en la estimación de costos que dan como resultado una valuación incorrecta o acabarnos los créditos de AWS | Basar la estimación de costos en ejemplos reales, WBS y el diagrama de Gantt, garantizando una estimación real y factible para el proyecto. En el caso de AWS es muy importante cerrar la sesión de la máquina virtual y de otros servicios después de usarlos al igual que investigar y leer documentación sobre estos para economizar los créditos disponibles.            | Media                      | Muy Alta          |
+| Poca seguridad al manejar datos bancarios de usuario                                 | Problemas de filtración de datos al momento de que el cliente ingrese sus datos bancarios.                           | Utilizar una API segura como Stripe que se especializa en estos temas y que proporciona herrmientas e interfaces confiables para el proceso.                                                                                                                                                                                                                                 | Muy baja                   | Muy Alta          |
+
 
 ## Arquitectura
 
