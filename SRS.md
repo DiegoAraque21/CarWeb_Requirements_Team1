@@ -7,18 +7,19 @@ Cambio
 ---
 
 [Tabla de Contenidos](#tabla-de-contenidos)
-1. [Introducción](#introducción)
+1. [Historial de revisiones](#historial-de-revisiones)
+2. [Introducción](#introducción)
     1. [Propósito](#propósito)
     2. [Convenciones del documento](#convenciones-del-documento)
     3. [Alcance del proyecto](#alcance-del-proyecto)
     4. [Referencias](#referencias)
-2. [Descripción General](#descripción-general)
+3. [Descripción General](#descripción-general)
     1. [Perspectiva del Producto](#perspectiva-del-producto)
     2. [Clases de Usuario y Características](#clases-de-usuario-y-características)
     3. [Ambiente Operacional](#ambiente-operacional)
     4. [Restricciones de la implementación y el diseño](#restricciones-de-la-implementación-y-el-diseño)
     5. [Suposiciones y Dependencias](#suposiciones-y-dependencias)
-3. [Características del Sistema](#características-del-sistema)
+4. [Características del Sistema](#características-del-sistema)
     1. [Venta de Vehículos](#venta-de-vehículos)
     2. [Pruebas de manejo](#pruebas-de-manejo)
     3. [Búsqueda de vehículos por lenguaje natural](#búsqueda-de-vehículos-por-lenguaje-natural)
@@ -29,24 +30,30 @@ Cambio
     8. [Reportes](#reportes)
     9. [Soporte](#soporte)
     10. [Modelo de negocios](#modelo-de-negocios)
-4. [Requerimientos de Datos](#requerimientos-de-datos)
+5. [Requerimientos de Datos](#requerimientos-de-datos)
     1. [Modelo de Datos Lógicos](#modelo-de-datos-lógicos)
     2. [Diccionario de Datos](#diccionario-de-datos)
     3. [Reportes](#reportes)
     4. [Adquisición e Integridad de Datos](#adquisición-e-integridad-de-datos)
-5. [Requerimientos Externos de la Interfaz](#requerimientos-externos-de-la-interfaz)
+6. [Requerimientos Externos de la Interfaz](#requerimientos-externos-de-la-interfaz)
     1. [Interfaces de Usuario](#interfaces-de-usuario)
     2. [Interfaces de Software](#interfaces-de-software)
     3. [Interfaces de Hardware](#interfaces-de-hardware)
     4. [Interfaces de Comunicación](#interfaces-de-comunicación)
-6. [Atributos de la Calidad](#atributos-de-la-calidad)
+7. [Atributos de la Calidad](#atributos-de-la-calidad)
     1. [Usabilidad](#usabilidad)
     2. [Desempeño](#desempeño)
     3. [Seguridad y Privacidad](#seguridad-y-privacidad)
     4. [Otros Importantes](#otros-importantes)
-7. [Internacionalización y Requerimientos de Locación](#internacionalización-y-requerimientos-de-locación)
-8. [Otros Requerimientos](#otros-requerimientos)
+8. [Internacionalización y Requerimientos de Locación](#internacionalización-y-requerimientos-de-locación)
+9. [Otros Requerimientos](#otros-requerimientos)
 ---
+
+## Historial de Revisiones
+
+| Nombre      | Fecha      | Razón de Cambio          | Versión |
+|-------------|------------|--------------------------|---------|
+| CarWeb-v0.1 | 9 de marzo | Llenar todo el documento | v0.1    |
 
 ## Introducción
 
