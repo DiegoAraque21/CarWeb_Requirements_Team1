@@ -370,6 +370,157 @@ Para tener completo control y seguridad de todos los servicios de la aplicación
 
 ## Requerimientos Externos de la Interfaz
 
+### Interfaces de Usuario.
+**Pagina Principal (Cliente).** <br>
+La interfaz de usuario comenzará con un feed en el que se mostrarán los autos que la aplicación elija bajo ciertos criterios (paid partnership, populares, etc.) a modo de tarjetas con las fotos de los automóviles y los títulos correspondientes. existirá una navbar a un costado de la página principal en donde el usuario podrá navegar a las distintas secciones de la página. En el top de esta página principal, el usuario encontrará una barra de búsqueda, en la cual podrá insertar las características del auto que busca en lenguaje natural.
+
+Shortcuts. 
+- Enter: Buscar un auto con lenguaje natural.
+
+Gestos: 
+- Scroll en Y: Mostrar más autos.
+
+<br>**Iniciar sesión (Cliente).** <br>
+El cliente podrá iniciar sesión en esta ventana que contará con dos inputs, uno para el e-mail y otro para la contraseña, contará con un botón de iniciar sesión y otro para crear cuenta, así mismo existirá un botón para hacer login con Google.
+
+Botones.
+- Iniciar sesión.
+- Crear cuenta.
+
+Alertas de error.
+- Error al iniciar sesión.
+- Error al crear cuenta.
+
+<br>**Información de auto (Cliente).** <br>
+Al dar click en una card del auto, se navegará hacia otra ventana la cual contendrá una navbar con un botón para regresar. En el top de esta se mostrarán imágenes del auto. Debajo se mostrará el título del carro con algunas de sus características, como el color, el modelo. Al hacer scroll podremos encontrar las versiones del mismo y características adicionales de este la cual serán especificados por la agencia. A un costado de la mencionada sección encontraremos una sección con los precios de contado y de financiamiento, debajo de este un botón para pagar.
+
+Shortcuts.
+- Delete: Volver a la página anterior.
+
+Gestos:
+- Scroll en Y: Mostrar más información.
+
+Botones.
+- Pagar.
+- Regresar.
+
+<br> **Realizar pago.** <br>
+Al dar click para el botón de pagar, se mostrará un dialog con inputs de los datos de la tarjeta bancaria, utilizando la interfaz de Stripe. 
+
+Shortcuts.
+- Delete: Volver a la página anterior.
+
+Gestos.
+- Click fuera del modal: Volver a la página anterior.
+
+<br> **Información de vendedores (Gerentes de agencia).** <br>
+Los administradores de agencia tendrán un panel en el que podrán dar de alta vendedores, este contará de dos pestañas las cuales se cambiarán entre sí por medio de botones. En la pantalla registrar se pedirán datos de un nuevo vendedor y contará con un botón para registrar al empleado, este abrirá un modal en el que aparecerán los datos del vendedor registrado junto con una contraseña predefinida. En la pestaña administrar, el administrador podrá ver gráficas para cada uno de los vendedores y así mismo información relevante para cada uno de sus productos anunciados.
+
+Shortcuts.
+- Delete: Volver a la página anterior.
+
+Botones.
+- Botón pestaña registrar.
+- Botón pestaña administrar.
+- Botón registrar empleado.
+
+<br> **Información de agencias (Marcas).** <br> 
+Las marcas tendrán un panel en el que podrán dar de alta agencias, este contará de dos pestañas las cuales se cambiarán entre sí por medio de botones. En la pantalla registrar se pedirán datos de la nueva agencia y contará con un botón para registrar al gerente de la agencia, este abrirá un modal en el que aparecerán los datos de la agencia junto con una contraseña predefinida para el gerente. En la pestaña administrar, el administrador podrá ver gráficas para cada una de las agencias y gerentes.
+
+Shortcuts.
+- Delete: Volver a la página anterior.
+
+Botones.
+- Botón pestaña registrar.
+- Botón pestaña administrar.
+- Botón registrar agencia.
+
+<br> **Aprobación (Marcas).** <br>
+En esta ventana, las marcas serán capaces de subir los documentos solicitados para la aplicación, en esta se podrá visualizar tales archivos así como ver el estatus de la solicitud.
+
+Botones.
+- Subir archivos.
+
+Alertas de error.
+- Tipo de archivo no permitido.
+
+<br> **Solicitud de nuevas marcas (Super administradores).** <br>
+Los super administradores tendrán un panel en donde podrán ver las marcas que han mandado solicitudes para registrarse en la aplicación. En esta podrán encontrar los archivos correspondientes que cada marca ha subido y podrán visualizar dichos archivos, en la parte inferior se encontrará un botón para aceptar a la marca.  
+
+Botones.
+- Botón pestaña aceptar marca
+
+<br> **Seguimiento de compra (Vendedores).** <br>
+En esta ventana los vendedores podrán ver los status de sus diferentes clientes, podrán administrar las ventas, los pagos o las pruebas de manejo, en esta sección, también podrán revisar los documentos subidos por el cliente y autorizar pruebas de manejo. El vendedor tendrá múltiples pestañas para sus distintos clientes con información relevante sobre ellos en cada una.
+
+Botones.
+- Autorizar prueba de manejo.
+- Autorizar compra.
+
+<br> **Subir catálogo (Gerentes).** <br>
+En esta ventana se le permitirá a los gerentes de agencia subir un archivo csv a manera de drag and drop, una vez subido, se mostrará una vista previa de todas las cards de los carros que se subieron, dando click en estas se llevara a la misma ventana de información del vehículo que la que el cliente posee y finalmente tendrá un botón para confirmar su catálogo.
+
+Botones.
+- Autorizar catalogo.
+
+Alertas de error.
+- Tipo de archivo no permitido.
+
+### Interfaces de Software
+<br> **Auth.** <br>
+El cliente utilizara Firebase para registrar una nueva cuenta y para iniciar sesión, para ambos procesos el input será un e-mail y una contraseña, el sistema utilizará la librería firebase-auth para iniciar sesión o crear cuenta respectivamente con método de la librería, la cual le devolverá al sistema un objeto tipo JSON en el que encontraremos si la respuesta fue exitosa o no.
+- Input: Correo electrónico y contraseña.
+- Output: Login/creación de cuenta o mensaje de error.
+
+
+<br> **Pagos:** < br>
+El cliente pagará ingresando los datos en la aplicación, el sistema utilizará Stripe para realizar los pagos de automóviles, utiliza la interfaz de usuario proporcionada por la misma y así mismo su API para realizar el cobro, a esta se le enviaran los datos bancarios y regresará un objeto tipo JSON con la información del cobro.
+- Input: Datos bancarios.
+- Output: Pago exitoso o mensaje de error.
+
+<br> **Servicios en la nube:** <br>
+El sistema utilizará API gateway como servicio de AWS para la comunicación, entre el cliente y los servicios en la nube, enviando peticiones HTTP  (Get, Post, Put, Delete, etc.) hacia el servicio AWS lambda.
+- Input: Peticion HTTP.
+- Output: Response tipó JSON. 
+
+<br> **Bases de datos.** <br>
+Se utiliza PostgreSQL como servicio de AWS para la base de datos. Las funciones de AWS lambda, enviaran request a la base de datos y estas regresaran un response tipo JSON.
+- Input: Acción para la base de datos.
+- Output: Response tipó JSON. 
+
+Se utilizará S3 bucket para almacenar archivos, igualmente como servicio en la nube, las mismas funciones lambda serán las encargadas de comunicarse con este servicio.
+- Input: Acción para S3.
+- Output: Response tipó JSON. 
+
+<br> **Frontend.** <br>
+Para la estilización del frontend utilizaremos el framework para css Tailwind, esto para tener mayor rapidez y código limpio al momento del desarrollo del frontend.
+
+### Interfaces de Hardware
+El sistema no contará con interfaces de hardware.
+    
+### Interfaces de Comunicación
+**Navegador web:** <br>
+- Soporte para navegación segura en línea.
+- Compatibilidad con los protocolos web estándar, como HTTP y HTTPS.
+- Admite la visualización de archivos pdf.
+- Admite la descarga de archivos desde la web.
+
+<br> **Protocolos de red:** <br>
+- Admite la integración con tecnologías de red existentes, como Wi-Fi y 3G/4G/5G.
+
+<br> **Formularios electrónicos:** <br>
+- Admite la creación y el envío de formularios.
+- Admite la validación de datos del formulario y la verificación de errores.
+- Los campos están sanitizados para prevenir ataques de inyección.
+
+<br> **Formatos de mensaje pertinentes:** <br>
+- Los formatos de comunicación entre API’s serán tipo JSON.
+
+<br> **Encriptación o seguridad de la comunicación:** <br>
+- Se deberá proteger la información de los clientes asi como de los usuarios.
+- Las contraseñas se guardan cifradas en la base de datos.
+- Se podrán usar tecnologías de cifrado, como TLS, SSL y SSH, para proteger la comunicación.
+
 ---
 
 ## Atributos de la Calidad
