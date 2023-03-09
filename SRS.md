@@ -34,14 +34,17 @@ Cambio
     2. [Diccionario de Datos](#diccionario-de-datos)
     3. [Reportes](#reportes)
     4. [Adquisición e Integridad de Datos](#adquisición-e-integridad-de-datos)
-6. [Requerimientos Externos de la Interfaz](#requerimientos-externos-de-la-interfaz)
-7. [Atributos de la Calidad](#atributos-de-la-calidad)
+5. [Requerimientos Externos de la Interfaz](#requerimientos-externos-de-la-interfaz)
+    1. [Interfaces de Usuario](#interfaces-de-usuario.)
+    2. [Interfaces de Hardware](#interfaces-de-hardware)
+    3. [Interfaces de Comunicación](#interfaces-de-comunicación)
+6. [Atributos de la Calidad](#atributos-de-la-calidad)
     1. [Usabilidad](#usabilidad)
     2. [Desempeño](#desempeño)
     3. [Seguridad y Privacidad](#seguridad-y-privacidad)
     4. [Otros Importantes](#otros-importantes)
-8. [Internacionalización y Requerimientos de Locación](#internacionalización-y-requerimientos-de-locación)
-9. [Otros Requerimientos](#otros-requerimientos)
+7. [Internacionalización y Requerimientos de Locación](#internacionalización-y-requerimientos-de-locación)
+8. [Otros Requerimientos](#otros-requerimientos)
 ---
 
 ## Introducción
