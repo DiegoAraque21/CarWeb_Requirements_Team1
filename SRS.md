@@ -2,8 +2,6 @@
 
 ## Tabla de Contenidos
 
-Cambio
-
 ---
 
 [Tabla de Contenidos](#tabla-de-contenidos)
