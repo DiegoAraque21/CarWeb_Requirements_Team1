@@ -35,7 +35,7 @@ Cambio
     3. [Reportes](#reportes)
     4. [Adquisición e Integridad de Datos](#adquisición-e-integridad-de-datos)
 5. [Requerimientos Externos de la Interfaz](#requerimientos-externos-de-la-interfaz)
-    1. [Interfaces de Usuario](#interfaces-de-usuario.)
+    1. [Interfaces de Usuario](#interfaces-de-usuario)
     2. [Interfaces de Hardware](#interfaces-de-hardware)
     3. [Interfaces de Comunicación](#interfaces-de-comunicación)
 6. [Atributos de la Calidad](#atributos-de-la-calidad)
