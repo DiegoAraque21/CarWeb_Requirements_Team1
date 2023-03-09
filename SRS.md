@@ -20,10 +20,10 @@
 4. [Características del Sistema](#características-del-sistema)
     1. [Venta de Vehículos](#venta-de-vehículos)
     2. [Pruebas de manejo](#pruebas-de-manejo)
-    3. [Búsqueda de vehículos por lenguaje natural](#búsqueda-de-vehículos-por-lenguaje-natural)
+    3. [Búsqueda de vehículos](#búsqueda-de-vehículos)
     4. [Catálogo de vehículos](#catálogo-de-vehículos)
     5. [Administración de empleados](#administración-de-empleados)
-    6. [Administración de dueños](#administración-de-dueños)
+    6. [Administración de Super Administradores](#administración-de-super-administradores)
     7. [Autenticación](#autenticación)
     8. [Reportes](#reportes)
     9. [Soporte](#soporte)
@@ -45,6 +45,7 @@
     4. [Otros Importantes](#otros-importantes)
 8. [Internacionalización y Requerimientos de Locación](#internacionalización-y-requerimientos-de-locación)
 9. [Otros Requerimientos](#otros-requerimientos)
+10. [Requerimientos no Funcionales](#requerimientos-no-funcionales)
 ---
 
 ## Historial de Revisiones
@@ -216,88 +217,174 @@ Por último como tecnologías se utilizará React (versión 18.1), Nodejs (versi
 ### Venta de Vehículos
 
 Como cliente, debo poder comprar un vehículo utilizando el sitio web, pare ello debo poder realizar lo siguiente:
-    
-- Seleccionar el vehículo que deseo adquirir 
-- Introducir mis datos de pago. 
-- Subir documentos requeridos para la compra del vehículo ( comporbante de domicilio, credito, etc. ).
-- Consultar el estado de mi pedido. 
+        
+- Seleccionar el vehículo que deseo adquirir
+
+- Introducir mis datos de pago.
+
+- Subir documentos requeridos para la compra del vehículo ( comprobante de domicilio, crédito, etc. ).
+
+- Consultar el estado de mi pedido.
+
+- Las agencias podrán añadir distintos planes de financiamiento para sus vehículos.
+
+- Las agencias necesitan ingresar datos de su cuenta bancaria obligatoriamente
+
 
     #### Prioridad alta
     
 ### Pruebas de manejo
+    
 Como cliente, debo poder pedir pruebas de manejo, para lograrlo debo poder realizar las siguientes acciones:
-- Seleccionar la agencia del vehiculo que quiero probar. 
-- Seleccionar un vehiculo dentro de la agencia.
+    
+- Seleccionar la agencia del vehículo que quiero probar.
+
+- Seleccionar un vehículo dentro de la agencia.
+
 - Enviar una solicitud de prueba de manejo.
+
 - Consultar mis solicitudes.
+
 - Contactar a un empleado en caso de necesitar ayuda.
+
+- Agencias deciden cuáles documentos necesita para que los clientes soliciten la prueba de manejo.
+
+- Clientes cargar los documentos necesarios para solicitar las pruebas de manejo.
+
+- Los clientes decidirán  la fecha en la que pueden tomar la prueba de manejo.
+
+- No se obligará a los clientes a solicitar la prueba de manejo.
+
+- Las agencias podrán cambiar los distintos estados, en los cuales se encuentra determinado proceso relacionado con una prueba de manejo.
+
 
     #### Prioridad alta
 
- ### Búsqueda de vehículos por lenguaje natural 
+ ### Búsqueda de vehículos
     
-Como usuario del sistema, debo poder buscar vehículos utilizando natural; por ejemplo, el usuario ingresa el siguiente texto: "Busco un coche familiar para utilizar los fines de semana". Acto siguiente, el sistema debe arrojar resultados de busqueda que tengan congruencia con lo solicitado.
+Como cliente voy a poder buscar vehículos, a través de filtros, o con un prompt por nombre. De otra forma si el tiempo lo permite se buscará implementar una búsqueda de vehículos utilizando natural; por ejemplo, el usuario ingresa el siguiente texto: "Busco un coche familiar para utilizar los fines de semana". Acto siguiente, el sistema debe arrojar resultados de búsqueda que tengan congruencia con lo solicitado.
+    
+- Buscar vehículos con lenguaje natural a través de una barra de búsqueda.
+
+
+- Filtrar de manera manual para buscar vehículos.
+
+
+- Navegar en él sin necesidad de tener una cuenta.
+
+
+- Comparar los mismos modelos de vehículos de diferentes agencias.
+
+
+- Comparar vehículos totalmente diferentes.
+
      
    #### Prioridad alta
 
 ### Catálogo de vehículos 
+    
 Como dueño de grupo automotriz, o gerente de una agencia, debo poder dar de alta y administrar el catálogo de vehículos que se venderán a los clientes del sitio web. Esta administración incluye:
 
- - Dar de alta un vehículo, utilizando su nombre, modelo, año, imagen, motor, etc.
- - Editar vehículos existentes, ya sea cambiar su nombre, imagen, precio, etc.
- - Eliminar vehículos del cátalogo. 
- - Subir multiples vehiculos al catálogo por medio de un documento tipo excel. 
- - Consulta del catálogo de vehículos.
+- Dar de alta un vehículo, utilizando su nombre, modelo, año, imagen, motor, etc.
+
+- Editar vehículos existentes, ya sea cambiar su nombre, imagen, precio, etc.
+
+- Eliminar vehículos del catálogo.
+
+- Subir múltiples vehículos al catálogo por medio de un documento tipo excel.
+
+- Consulta del catálogo de vehículos.
+
+- El sistema tendrá un demo de cómo debe verse su catálogo, para que las agencias lo descarguen y creen el suyo
+
+- Se visualizarán los vehículos a través de tarjetas.
+
+- Se visualizará a detalle cualquier vehículo.
+
+- Solicitar pruebas de manejo para determinado vehículo.
+
+- Se podrá reservar el vehículo.
+
     
     #### Prioridad alta
 
  
-### Administración de empleados 
+### Administración de empleados
+    
 Como dueño de grupo automotriz, o gerente de una agencia, debo poder administrar los usuarios de mi agencia o grupo automotriz, esto incluye:
+    
  - Dar de alta un empleados, utilizando su nombre, rol, dirección, correo, etc.
  - Eliminar empleados del sistema. 
     
    #### Prioridad alta
     
-### Administración de Dueños   
+### Administración de Super Administradores   
+    
 Como super administrador, debo ser capaz de llevar una administración de dueño automotrizes, esto incluye:
+    
 - Consultar dueños registrados en el sistema.
+    
 - Eliminar dueño registrados sistema. 
+    
 - Dar de alta nuevos dueños.
+    
 - Consultar documentos subidos por un dueño de grupo automotriz a fin de aceptar una solicitud de unirse al sistema.
+    
 - Dar de alta a otros super administradores.
    
    #### Prioridad alta
 
     
  ### Autenticación
- Cualquier usuario del sistema podrá iniciar sesión, administrar datos de su cuenta, o eliminar su cuenta. Sin embargo, cada usuario tiene un flujo diferente de autenticación:
     
-- Como cliente debo poderme registrar en la plataforma utilizando mi correo eléctronico, contraseña y datos personales.
-- Como empleado, un gerente debera poder dar de alta mi cuenta. Se me proporcionará una contraseña temporal que podre actualizar al iniciar sesión con mi correo y contraseña.
-- Como gerente, un dueño debera poder dar de alta mi cuenta. Se me proporcionará una contraseña temporal que podre actualizar al iniciar sesión con mi correo y contraseña.
-- Como dueño, podre mandar una solicitud para unirme al sistema, para ello deberé poder subir los documentos necesarios. Cuando mi solicitud sea aprovada, podré acceder a mi cuenta utlizando mi correo y contraseña.
+Cualquier usuario del sistema podrá iniciar sesión, administrar datos de su cuenta, o eliminar su cuenta. Sin embargo, cada usuario tiene un flujo diferente de autenticación:
     
-    
+- Como cliente debo poderme registrar en la plataforma utilizando mi correo electrónico, contraseña y datos personales.
+
+- Como empleado, un gerente deberá poder dar de alta mi cuenta. Se me proporcionará una contraseña temporal que podré actualizar al iniciar sesión con mi correo y contraseña.
+
+- Como gerente, un dueño deberá poder dar de alta mi cuenta. Se me proporcionará una contraseña temporal que podré actualizar al iniciar sesión con mi correo y contraseña.
+
+- Como dueño de agencia, un dueño de grupo automotriz dará de alta mi cuenta. Se me proporcionará una contraseña temporal que podré actualizar al iniciar sesión con mi correo y contraseña.
+
+- Como dueño de grupo automotriz, podré mandar una solicitud para unirme al sistema, para ello deberé poder subir los documentos necesarios. Cuando mi solicitud sea aprobada, podré acceder a mi cuenta utilizando mi correo y contraseña.
+
+- Todos los usuarios podrán cerrar sesión.
+
+- Todos los usuarios podrán iniciar sesión con correo/contraseña o con un pop-up de google.
+
+- Cualquier usuario podrá editar su información.
+
+- Cualquier usuario podrá restablecer su contraseña
+
    #### Prioridad alta
 
     
- ### Reportes
+### Reportes
  
- Cada usuario tendra accesso a diferentes tipos de reportes, dependiendo del tipo de cuenta del usuario (super admin, dueño, gerente).
+Cada usuario tendra accesso a diferentes tipos de reportes, dependiendo del tipo de cuenta del usuario (super admin, dueño, gerente).
     
-- Como super administrador, debo ver reportes relacionados a las diferentes agencias registradas en el sistema, asi como reportes relacionados a las ganancias del sistema, dueños de grupos automotrizes, ventas, etc.
-- Como dueño de grupo automotriz, debo ser capas de vizualisar reportes individuales de cada agencia que tengo registrada, esto incluye, ventas por vehiculo, por categoría, por empleado, ventas por mes. Ademas tambien podre consultar reportes relacionados a los empleados registrados en el sistema.
-- Como gerente de agencia, puedo ver reportes relacionados a mis agencias, incluyendo ventas y rendimiento individual de cada empleado.
-    
+- Como super administrador, debo ver reportes relacionados a las diferentes agencias registradas en el sistema, así como reportes relacionados a las ganancias del sistema, dueños de grupos automotrices, ventas, etc.
+
+- Como dueño de grupo automotriz, debo ser capaz de visualizar reportes individuales de cada agencia que tengo registrada, esto incluye, ventas por vehículo, por categoría, por empleado, ventas por mes. Además también podré consultar reportes relacionados a los empleados registrados en el sistema.
+
+- Como dueño de agencia podré ver reportes relacionados a mi agencia, incluyendo ventas y rendimiento individual de cada empleado, incluyendo rendimiento de mis gerentes.
+
+- Como gerente de agencia, puedo ver reportes relacionados a mi agencia, incluyendo ventas y rendimiento individual de cada empleado.
+
+- Como vendedor puedo darle seguimiento a mis ventas y también aceptar pruebas de manejo entrantes en la plataforma.
+
    #### Prioridad media
 
- ### Soporte
+### Soporte
  
 Como usuario debo poder obtener soporte por parte del sistema, dependiendo de la necesidad, podre hablar con un vendedor o gerente, o con un representante 
 del sistema.
+    
 - En caso de encontrar un bug, podre reportarlo con un representante del sistema o pedir ayuda por medio de un chat dentro del sitio web.
+    
 - En caso de querer mas detalles sobre un vehículo, podré comunicarme con un vendedor o gerente por medio de un chat dentro del sitio web.
+    
 - En caso de tener problemas con una venta o prueba de manejo, debo poder comunicarme con un representante del sistema o gerente de agencia.
 
     #### Prioridad media
@@ -306,10 +393,15 @@ del sistema.
 Como dueño de sistema,se me cobrará una renta mensual por diferentes casos de uso.
 
 - Se me cobrará un porcentaje por cada vehículo que se muestre en el sitio web 
+    
 - Se me cobrará una renta mensual por uso 
+    
 - Se me cobrará una renta mensual por emplado 
+    
 - Se me cobrara un porcentaje por cada venta realizada 
+    
 - Debo poder consultar mis pagos y cobros 
+    
 - Debo poder realizar pagos 
 
     #### Prioridad alta
@@ -593,3 +685,54 @@ En nuestras pláticas con el socio formador se nos informó que NDS va a encarga
     
 ---
 
+## Requerimientos no Funcionales
+
+### Autenticación
+
+- Toda la parte de autenticación será gestionada por firebase auth.
+
+### Administración de empleados
+    
+- Contraseñas creadas de manera aleatoria por algún paquete (sea de javascript o python) para los vendedores
+    
+### Metodo de pago cliente
+
+- Toda la parte de pagos será hecha con stripe.
+
+- Al darle seguimiento a tus compras se verán tres títulos básicos. En proceso, en camino y finalizada.
+
+### Búsqueda de vehículos
+    
+- La barra de búsqueda y los filtros estarán todo el tiempo a la vista.
+
+- La comparación de vehículos iguales será basada en precios y planes de financiamiento.
+
+### Soporte
+    
+- El chat será implementado con un third party (dialogflow).
+
+- El acceso al chat será accesible en cada pantalla de la aplicación.
+
+### Catálogo de Vehículos
+    
+- Solo se aceptará el tipo de archivo csv.
+
+- Definir los campos que debe requerir el csv.
+
+- Normalizar los modelos de vehículos en la base de datos.
+
+### Venta de Vehículos
+
+- La visualización de datos se hará en una pantalla tipo dashboard personalizada para cada rol y usuario.
+    
+### Pruebas de Manejo
+    
+- Los documentos cargados por los clientes serán cifrados.
+    
+- Cada vehículo tendrá un apartado para solicitar la prueba de manejo.
+
+### Reportes
+    
+- La información para cada rol será visualizada en forma de dashboard con gráficas especializadas.
+
+- Los roles seguirán el principio de mínimo privilegio, por lo que no tendrán acceso a información de rangos superiores.
