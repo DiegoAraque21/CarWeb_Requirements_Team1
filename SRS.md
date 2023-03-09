@@ -2,6 +2,8 @@
 
 ## Tabla de Contenidos
 
+Cambio
+
 ---
 
 [Tabla de Contenidos](#tabla-de-contenidos)
@@ -28,14 +30,18 @@
     9. [Soporte](#soporte)
     10. [Modelo de negocios](#modelo-de-negocios)
 4. [Requerimientos de Datos](#requerimientos-de-datos)
-5. [Requerimientos Externos de la Interfaz](#requerimientos-externos-de-la-interfaz)
-6. [Atributos de la Calidad](#atributos-de-la-calidad)
+    1. [Modelo de Datos Lógicos](#modelo-de-datos-lógicos)
+    2. [Diccionario de Datos](#diccionario-de-datos)
+    3. [Reportes](#reportes)
+    4. [Adquisición e Integridad de Datos](#adquisición-e-integridad-de-datos)
+6. [Requerimientos Externos de la Interfaz](#requerimientos-externos-de-la-interfaz)
+7. [Atributos de la Calidad](#atributos-de-la-calidad)
     1. [Usabilidad](#usabilidad)
     2. [Desempeño](#desempeño)
     3. [Seguridad y Privacidad](#seguridad-y-privacidad)
     4. [Otros Importantes](#otros-importantes)
-7. [Internacionalización y Requerimientos de Locación](#internacionalización-y-requerimientos-de-locación)
-8. [Otros Requerimientos](#otros-requerimientos)
+8. [Internacionalización y Requerimientos de Locación](#internacionalización-y-requerimientos-de-locación)
+9. [Otros Requerimientos](#otros-requerimientos)
 ---
 
 ## Introducción
@@ -302,7 +308,64 @@ Como dueño de sistema,se me cobrará una renta mensual por diferentes casos de 
 ---
 
 ## Requerimientos de Datos
+    
+Para este sistema se va a necesitar obtener, procesar y almacenar muchos datos tanto de las agencias como de los usuarios. En esta sección se describirán los distintos tipos de datos y sus agrupaciones.
 
+Entradas de información del sistema:
+1. Archivo CSV con el inventario de autos de una agencia. El archivo será leído y los datos se guardarán en la base de datos.
+2. Formularios para crear cuentas de usuarios y clientes. Los datos capturados serán guardados en la base de datos.
+3. Archivos de verificación de identidad de clientes y existencia de agencias y grupos. Estos archivos serán subidos y encriptados en un bucket de S3.
+
+    
+### Modelo de Datos Lógicos
+    
+Para comprender los datos y campos que serán usados a lo largo del proyecto, así como la relación entre ellos, se realizó un diagrama entidad-relación donde se representan las tablas esperadas para nuestra base de datos. Cada Tabla contiene campos con su tipo de dato. El diagrama se puede ver en la siguiente liga:
+    
+https://drive.google.com/file/d/171kF48YTRDYluUXe_cOdQKLoMWoi97nI/view?usp=sharing 
+
+![Diagramas DB drawio](https://user-images.githubusercontent.com/90577455/223881345-36e173bb-405a-4b7e-80c0-293acfee8315.png)
+    
+### Diccionario de Datos
+
+El siguiente diccionario de datos describe cada campo de nuestros modelos entidad-relación. Para una mejor visualización y manejo se realizó en google sheets. Se puede acceder a él por medio de la siguiente liga:
+    
+https://docs.google.com/spreadsheets/d/1dj_NSC68d_dddoCCb_ERvuY2XQfWQLtKqfIQMko_fYk/edit?usp=sharing 
+    
+    
+### Reportes
+
+Hay una gran cantidad de reportes que se pueden generar con los datos que se obtengan de la aplicación, pero los más esenciales son los reportes de ventas para las agencias y vendedores y los reportes de ingresos para los super administradores.
+    
+**Reportes de Ventas de Vendedores:**
+El sistema puede analizar las ventas realizadas por cada vendedor en el tiempo, por lo tanto se pueden generar reportes sobre las ventas de un vendedor para que los gerentes de agencias puedan evaluar el desempeño del personal.
+
+**Reporte de Ventas de Agencia:**
+El sistema podrá generar reportes de ventas sobre el tiempo de una agencia en particular. Se podrá ver el crecimiento con respecto a los meses anteriores y total ingresado.
+
+El siguiente es un ejemplo de reporte de ventas. El formato y diseño será diferente pero el contenido será similar:
+    
+<img width="479" alt="image" src="https://user-images.githubusercontent.com/90577455/223881597-b521767a-cf4f-4a5f-bb20-1b0bf12e6b47.png">
+
+**Reportes de Ingresos de CarWeb:**
+Los super administradores (personal de CarWeb) podrán ver reportes de ingresos de la plataforma. Estos reportes deberán desglosar la cantidad ingresada por el tipo de entrada. 
+El siguiente es un ejemplo de reporte de ingresos. El formato y diseño será diferente pero el contenido será similar:
+
+<img width="486" alt="image" src="https://user-images.githubusercontent.com/90577455/223881652-1a020b6d-b3ee-4977-80e1-ea90b72900f3.png">
+    
+    
+### Adquisición e Integridad de Datos
+    
+Para este sistema se requiere mucho control y sensibilidad con los datos puesto que se estará subiendo y almacenando información delicada y privada tanto de usuarios, clientes y agencias.
+
+**Encriptación de Documentos:**
+El sistema requiere confirmar la identidad de clientes y agencias, por lo tanto se pedirá que ambos suban documentos con su información privada o personal como comprobantes de domicilio, INE, etc. Es crucial que estos documentos estén encriptados para asegurar la integridad y autenticidad de los datos e incluso si hay fugas de información sea seguro que nadie pueda leer los archivos.
+
+**Autenticación de Usuarios y Clientes:**
+Para asegurar una correcta autenticación de los usuarios y clientes usaremos los servicios de Firebase Auth los cuales nos proporcionarán tokens de autenticación, y con ellos podremos checar las sesiones tanto de los usuarios como clientes.
+
+**VPC:**
+Para tener completo control y seguridad de todos los servicios de la aplicación desplegamos todos los servicios en una VPC de AWS. Con esto conseguiremos que ningún agente externo pueda acceder a los servicios o modificar los permisos de los usuarios.
+    
 ---
 
 ## Requerimientos Externos de la Interfaz
