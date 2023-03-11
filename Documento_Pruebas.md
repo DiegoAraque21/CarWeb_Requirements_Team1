@@ -20,3 +20,16 @@
     
     
 ---
+
+##Objetivos: 
+Las metas que se desean alcanzar en el desarrollo de las pruebas de software están relacionadas con cumplir todos los requerimientos funcionales que el socio formador nos proveyó y a grandes rasgos estas son nuestras metas:
+
+* Autenticación funcional y segura
+* Búsqueda de vehículos exacta y fidedigna
+* Chat con servicio al cliente amigable 
+* Visualización de vehículos flexible y accesible
+* Performance confiable y preciso
+* Pruebas de manejo rápidas y a domicilio
+* Experiencia de compra de vehículos fiable, funcional, rápida y flexible
+
+El objetivo principal de las pruebas es asegurar de que entreguemos un producto funcional, seguro, con capacidad escalable, adaptabilidad, económico y con una experiencia de usuario amigable, que pueda generar ingresos al socio formador y al mismo tiempo revolucione la compra de vehículos nuevos en toda la República Mexicana.
