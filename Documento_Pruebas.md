@@ -17,6 +17,17 @@
     7. [Etapa 7 Pruebas de compra de vehículos](#etapa-7-pruebas-de-compra-de-vehículos)
      
 3. [Requerimientos para pruebas](#requerimientos-para-pruebas)
+5. [Estrategia de pruebas](#estrategia-de-pruebas)
+    1. [Descripción de pruebas](#descripción-de-pruebas)
+    2. [Objetivos de pruebas](#objetivos-de-pruebas)
+    3. [Suposiciones de las pruebas](#suposiciones-de-las-pruebas)
+    4. [Objetos de pruebas](#objetos-de-prueba)
+    5. [Alcance de las pruebas](#alcance-de-las-pruebas)
+    6. [Niveles de pruebas](#niveles-de-pruebas)
+    7. [Criterios de aceptación de pruebas](#criterios-de-aceptación-de-pruebas)
+    8. [Entregables de pruebas](#entregables-de-pruebas)
+    9. [Lista de hitos](#lista-de-hitos)
+    10. [Estimación del esfuerzo de prueba](#estimación-del-esfuerzo-de-prueba)
     
     
 ---
@@ -49,6 +60,7 @@ Las etapas de pruebas se distribuirán de la siguiente manera:
 ##### Etapa 6: Pruebas del proceso de agendar pruebas de manejo
 ##### Etapa 7: Pruebas de compra de vehículos
 
+---
 
 ## Requerimientos para pruebas: 
 A continuación podrán observar una lista de requerimientos detallados de prueba en donde se especificarán cada uno de los módulos que tienen que ser probados para asegurar que la plataforma funcione de forma adecuada:
@@ -77,3 +89,13 @@ A continuación podrán observar una lista de requerimientos detallados de prueb
 * Pruebas para visualizar la información de las cuentas bancarias de las agencias
 * Pruebas para realizar pagos mensuales y de contado
 * Pruebas de fiabilidad generales para asegurarnos de que estamos entregando una plataforma de calidad
+
+---
+
+## Estrategia de pruebas
+
+### Niveles de Pruebas
+
+
+
+---
