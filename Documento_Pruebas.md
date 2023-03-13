@@ -181,4 +181,6 @@ Ritmo: Cada vez que se complete una funcionalidad de la plataforma, se le enseñ
 
 ##### - Pruebas de aceptación de usuarios
 
+### Entregables de Pruebas
+
 ---
