@@ -180,6 +180,20 @@ Ritmo: Cada vez que se complete una funcionalidad de la plataforma, se le enseñ
 
 ### Proceso de Manejo de Pruebas
 
+#### Pruebas Informales 
+
+**Participantes: Desarrolladores** 
+
+Las pruebas informales se llevaran acabo durante el sprint, cada desarrollador debera de probar su codigo antes de enviar un pull rquest al repositorio. Esto con fin de agilizar el proceso de pruebas y reducir la cantidad de bugs a la hora de hacer las pruebas formales.
+
+De igual manera, mientras se desarrolla, cada programador debe asegurarse que se estan llevando los lineamientos de calidad de software, como nombramiento de variables correctas, tener el codigo en ingles, separar codigo en funciones, etc. Lo cual ayudara a mejorar la legibilidad del codigo.
+
+Por ultimo cada programador debera proponer al menos tres pruebas unitarias, ya sean casos de exito o de error. Mas adelante el encargado de pruebas del sprint aprobara las pruebas unitarias que se deberan de desarrollar el siguiente sprint.
+
+#### Pruebas Informales 
+
+**Participantes: Desarrolladores y Jefes de Pruebas** 
+
 ### Criterios de aceptación de pruebas
 
 ##### - Pruebas Unitarias
