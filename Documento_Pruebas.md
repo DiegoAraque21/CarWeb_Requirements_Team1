@@ -198,6 +198,14 @@ Pruebas de caja Negra:
 
 - El tester debera programar las pruebas unitarias requeridas por el jefe, ya sean de backend, frontend o incluso pruebase de integración.
 
+Pruebas de caja Blanca:
+
+- En caso de encontrar un Bug, o que fallen las pruebas de caja negra, el tester debera de notificar al equipo.
+- Una vez notifcado, el jefe de de testing, debera de decidir si es necesario llevar una prueba de caja blanca o si no es necesario para solucionar el problema.
+- En caso de que sea necesario una prueba de caja blanca, el tester debera relizar un analisis profundo del modulo que se esta desarrollando, con fin de encontrar el problema. Una vez identificado el problema, el bug debera de ser resuelto por la misma persona que realizo la prueba de caja blanca.
+- Cuando el tester termine la preuba de caja blanca, se realizaran de nuevo pruebas de caja negra. 
+- El ciclo continua hasta que se hayan resuelto los problemas encontrados
+
 ### Criterios de aceptación de pruebas
 
 ##### - Pruebas Unitarias
