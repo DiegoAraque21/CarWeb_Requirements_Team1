@@ -96,6 +96,48 @@ A continuación podrán observar una lista de requerimientos detallados de prueb
 
 ### Niveles de Pruebas
 
+##### - Pruebas Unitarias
 
+Propósito: Estas pruebas son realizadas para verificar la funcionalidad de los requerimientos funcionales ya definidos.
+
+Alcance: Todos los requerimientos funcionales que terminan siendo implementados para generar el producto serán probados.
+
+Probadores: Equipo de Pruebas
+
+Método: Se harán pruebas de caja negra para cada requerimiento funcional del sistema. En caso de que las prubas fallen, el equipo de pruebs estará encargado de correr pruebas de caja blanca para identificar en donde yace el problema
+
+Ritmo: Cada vez que logremos algun hito, se realizaran las pruebas para verificar que todo esta en orden.
+
+##### - Pruebas de integración
+
+Propósito: Aqui probaremos la interacción de nuestra plataforma con distintos servicios, como lo es la base de datos, comunicación entre frontend y backend, etc. 
+
+Alcance: Se buscara probar todas las interacciones de multiples procesos de esta manera. Para así verificar que no estamos teniendo ningun problema en ese sentido.
+
+Probadores: Equipo de Pruebas
+
+Método: Se seguira el metodo "Top Down", el que busca que se hagan pruebas de integración en modulos de alto nivel primero y hasta el final hacer pruebas de bajo nivel.
+
+Ritmo: Para realizar este tipo de pruebas necesitamos tener ya alguna parte del sistema avanzada. De igual manera definiremos hitos en relacion a pruebas de integración, que nos harán saber cuando es el momento indicado para probar.
+
+##### - Pruebas de aceptación de usuario
+
+Propósito: Le presentaremos la plataforma a el socio formador, ellos nos darán critica constructiva para ajustarnos aún más a sus necesidades.
+
+Alcance: Cadda semana y de igual manera hasta el final del proceso de desarrollo el socio formador verá todas las funcionalidades que se han implementado hasta el momento y nos darán su opinión al respecto.
+
+Probadores: Socio formador (NDS) con el equipo de pruebas
+
+Método: Presentar el software de manera formal al socio formador para que nos den retroalimentación. 
+
+Ritmo: Cada vez que se complete una funcionalidad de la plataforma, se le enseñara al socio formador.
+
+### Criterios de aceptación de pruebas
+
+##### - Pruebas Unitarias
+
+##### - Pruebas de Integración
+
+##### - Pruebas de aceptación de usuarios
 
 ---
