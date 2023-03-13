@@ -26,7 +26,12 @@
     6. [Entregables de pruebas](#entregables-de-pruebas)
     7. [Lista de hitos](#lista-de-hitos)
     8. [Estimación del esfuerzo de prueba](#estimación-del-esfuerzo-de-prueba)
-    
+  
+
+6. [Proceso de Manejo de Pruebas]
+
+
+ 
     
 ---
 
@@ -172,6 +177,8 @@ Probadores: Socio formador (NDS) con el equipo de pruebas
 Método: Presentar el software de manera formal al socio formador para que nos den retroalimentación. 
 
 Ritmo: Cada vez que se complete una funcionalidad de la plataforma, se le enseñara al socio formador.
+
+### Proceso de Manejo de Pruebas
 
 ### Criterios de aceptación de pruebas
 
