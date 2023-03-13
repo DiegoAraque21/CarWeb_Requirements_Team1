@@ -181,8 +181,7 @@ Ritmo: Cada vez que se complete una funcionalidad de la plataforma, se le enseñ
 ### Proceso de Manejo de Pruebas
 
 #### Pruebas Informales 
-
-**Participantes: Desarrolladores** 
+##### Participantes: Desarrolladores
 
 Las pruebas informales se llevaran acabo durante el sprint, cada desarrollador debera de probar su codigo antes de enviar un pull rquest al repositorio. Esto con fin de agilizar el proceso de pruebas y reducir la cantidad de bugs a la hora de hacer las pruebas formales.
 
