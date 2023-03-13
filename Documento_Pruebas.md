@@ -133,7 +133,7 @@ Las pruebas y sus resultados serán registrados en una aplicación tercera. Las 
 - Tanto el documento de pruebas como los demás documentos estarán actualizados con los cambios que se realicen a lo largo del proyecto.
 - Las historias de usuario están bien definidas.
 - Se llevará registro de todas las pruebas realizadas así como de sus resultados.
-
+- Debido a limitaciones de tiempo solo se buscará hacer pruebas unitarias y de integración. Por lo que las pruebas de rendimiento, carga y estrés no se realizarán.
 
 ### Niveles de Pruebas
 
