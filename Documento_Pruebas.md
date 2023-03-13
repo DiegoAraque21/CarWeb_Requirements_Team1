@@ -28,7 +28,7 @@
     8. [Estimación del esfuerzo de prueba](#estimación-del-esfuerzo-de-prueba)
   
 
-6. [Proceso de Manejo de Pruebas]
+6. [Proceso de Manejo de Pruebas](#Proceso-de-Manejo-de-Pruebas)
 
 
  
