@@ -189,9 +189,14 @@ De igual manera, mientras se desarrolla, cada programador debe asegurarse que se
 
 Por ultimo cada programador debera proponer al menos tres pruebas unitarias, ya sean casos de exito o de error. Mas adelante el encargado de pruebas del sprint aprobara las pruebas unitarias que se deberan de desarrollar el siguiente sprint.
 
-#### Pruebas Informales 
-
+#### Pruebas Formales 
 **Participantes: Desarrolladores y Jefes de Pruebas** 
+
+Pruebas de caja Negra:
+
+- Cada sprint, el jefe de pruebas debera revisar las propuestas enviadas previamente por los desarolladores. Despues de confirmar estas, el jefe debera asignar a cada desarrollador cierto numero de pruebas, de preferencia de algo que no hayan trabajado previamente, con fin de evitar sesgos.
+
+El desarrollador debera programar las pruebas unitarias requeridas por el jefe, ya sean de backend, frontend o incluso pruebase de integración.
 
 ### Criterios de aceptación de pruebas
 
