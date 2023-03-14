@@ -12,11 +12,12 @@
 3. [WBS](#wbs)
 4. [Requerimientos](#requerimientos)
 5. [Backlog](#backlog)
-6. [Estimación de costos y esfuerzo](#estimación-de-costos-y-esfuerzo)
-7. [Diagrama de Gantt](#diagrama-de-gantt)
-8. [Arquitectura](#arquitectura)
-9. [Techstack](#techstack)
-10. [Administración de riesgos](#administración-de-riesgos)
+6. [Misión Visión y Valores del Proyecto](#misión-visión-y-valores-del-proyecto)
+7. [Estimación de costos y esfuerzo](#estimación-de-costos-y-esfuerzo)
+8. [Diagrama de Gantt](#diagrama-de-gantt)
+9. [Arquitectura](#arquitectura)
+10. [Techstack](#techstack)
+11. [Administración de riesgos](#administración-de-riesgos)
 
 ---
 
@@ -316,6 +317,14 @@ https://tec312034.monday.com/boards/4085501437/views/92544208
 Link de nuestro trello: https://trello.com/invite/carweb2/ATTI480e09136e68b66ae390449b24e823354E9807D1
 
 ---
+
+## Misión Visión y Valores del Proyecto
+
+Nuestra visión es desarrollar una plataforma virtual en la que se puedan comprar autos nuevos sin la necesidad de acudir a una agencia. Planeamos implementar herramientas de inteligencia artificial a nuestro programa en forma de APIs.
+
+Nuestra misión es facilitar y agilizar el trámite de la compra de vehículos en la toda la República Mexicana.
+
+Nuestros valores están relacionados con una ética de trabajo impecable, entregas a tiempo y productos de calidad. Queremos crear una diferencia en la industria automotriz formando experiencias positivas con nuestros clientes.
 
 ## Estimación de costos y esfuerzo
 ##### Costos
