@@ -51,14 +51,12 @@ El objetivo principal de las pruebas es asegurar de que entreguemos un producto 
 ## Alcance
 
 **Stakeholders (NDS):**
-
 Ellos utilizarán este documento para analizar y determinar si estamos entregando la plataforma que ellos esperan y si cumple con los requerimientos acordados.
 
 **Project Manager:**
 El PM va a utilizar este documento para programar las pruebas estáticas en los sprints subsecuentes, así como validar los recorridos de las funcionalidades críticas.
 
 **Miembros del equipo (desarrolladores):**
-
 Nosotros utilizaremos este documento para programar, planear y desarrollar las pruebas dinámicas.
 
 
