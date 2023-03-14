@@ -66,24 +66,36 @@ En este periodo únicamente nos enfocaremos en realizar pruebas funcionales de c
 ## Requerimientos para pruebas
 A continuación podrán observar una lista de requerimientos detallados de prueba en donde se especificarán cada uno de los módulos que tienen que ser probados para asegurar que la plataforma funcione de forma adecuada:
 
+### Etapa 1 Pruebas de autenticación y administración de usuarios
 * Pruebas de registro, login y autenticación de usuarios
 * Pruebas de administración de empleados (para dar de alta vendedores, gerentes, dueños de agencia, etc.)
 * Pruebas  de administración de agencias (para dar de alta super-admins, grupos automotrices, agencias individuales, etc.)
 * Pruebas para dar de alta nuevas agencias
+
+### Etapa 2 Pruebas de búsqueda y filtración de vehículos
 * Pruebas para asegurarnos de que la API de GCP está recibiendo el lenguaje natural y está guardando los valores importantes de los vehículos de forma pertinente
 * Pruebas para asegurarnos de que los filtros convencionales estén funcionando de manera correcta
-* Pruebas de contacto entre el servicio al cliente y el usuario
+
+### Etapa 3: Pruebas de chat con el servicio al cliente
+*  Pruebas de contacto entre el servicio al cliente y el usuario
+
+### Etapa 4: Pruebas de visualización y catálogo de automóviles
 * Pruebas para visualizar las tarjetas de los vehículos registrados en la plataforma
 * Pruebas para comparar las características y precios de los diferentes vehículos que la plataforma ofrece
 * Pruebas para dar de alta el catálogo de los vehículos de cada agencia
+
+### Etapa 5: Pruebas de performance y estadísticas de agencias
 * Pruebas relacionadas con las estadísticas de las ventas, contactos, performance e información general de las agencias
 * Pruebas del estado del proceso en el que se encuentra una venta activa
-* Pruebas de todo el proceso para agendar una prueba de manejo:
+
+### Etapa 6: Pruebas del proceso de agendar pruebas de manejo
 * Probar que se puedan subir y verificar los documentos personales
 * Probar que el cliente se ponga en contacto con el vendedor de la agencia
 * Probar la selección de ubicación por parte del cliente para acordar la entrega del automóvil 
 * Probar la selección de fecha y horario asignado para realizar la prueba de manejo
-* Pruebas de la compra de vehículos:
+
+### Etapa 7: Pruebas de compra de vehículos y fiabilidad
+
 * Pruebas relacionadas a la configuración de planes de financiamiento por parte de las agencias
 * Pruebas para seleccionar plan de financiamiento por parte del cliente
 * Pruebas para elegir método de pago 
