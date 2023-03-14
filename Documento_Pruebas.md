@@ -286,8 +286,18 @@ Como equipo cambiaremos toda la documentación para generalizar el ambiente de t
 
 En terminos de la documentacion de la api, se tienen que especificar todas las particularidades de un endpoint. En otras palabras una breve descripción de que hace, definir cuales son sus entradas y tambien sus salidas.
 
-POr ultimo las pruebas de recorrido las hara un desarrollador o probador a lado de un estudiante de otro salón. Tomara notas de todo lo que se comente y se darán prioridades para hacer los cambios que se consideren totalmente necesarios.
+Por ultimo las pruebas de recorrido las hara un desarrollador o probador a lado de un estudiante de otro salón. Tomara notas de todo lo que se comente y se darán prioridades para hacer los cambios que se consideren totalmente necesarios.
 
 ### Entregables de Pruebas
+
+| ID | Nombre del entregable             | Autor             | Crítico                   |
+|----|-----------------------------------|-------------------|---------------------------|
+| 1  | Plan de pruebas de software       | Equipo de Pruebas | Esteban Castillo          |
+| 2  | Casos de prueba                   | Equipo de Pruebas | Esteban Castillo y Felipe |
+| 3  | Pruebas de integración            | Equipo de Pruebas | Esteban Castillo y Felipe |
+| 4  | Pruebas de funcionalidad          | Equipo de Pruebas | Esteban Castillo y Felipe |
+| 5  | Pruebas de aceptación del usuario | Equipo de Pruebas | Esteban Castillo y Felipe |
+| 6  | Informes semanales de pruebas     | Equipo de Pruebas | Esteban Castillo y Felipe |
+| 7  | Reporte final de pruebas          | Equipo de Pruebas | Esteban Castillo y Felipe |
 
 ---
