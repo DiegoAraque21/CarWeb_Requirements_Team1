@@ -168,7 +168,7 @@ Método: Presentar el software de manera formal al socio formador para que nos d
 
 Ritmo: Cada vez que se complete una funcionalidad de la plataforma, se le enseñara al socio formador.
 
-#### - Pruebas informales
+##### - Pruebas informales
 
 Próposito: Hacer pull-request y merges de calidad. En otras palabras que el desarrollador se asegure que lo que hico funciona bien sin realizar ninguna prueba unitaria.
 
@@ -180,7 +180,7 @@ Método: Revisiones de desarrolladores en cada task del backlog para verificar q
 
 Ritmo: Este tipo de pruebas tienen un ritmo muy diferente a las demas. Principalmente porque la hace el desarrollador y dependen de cuando se terminen cada actividad.
 
-#### - Pruebas estáticas
+##### - Pruebas estáticas
 
 Próposito: Actualizar documentos para que el salón entero tenga documentación bien formulada para empezar con el desarrollo. Empezar con la documentación de la API, para que todo el equipo este informado de todos los endpoints y de sus funcionalidades. Por ultimo se hará pruebsa de recorrido con estudiantes del otros salón para recibir retroalimentación y criticas.
 
