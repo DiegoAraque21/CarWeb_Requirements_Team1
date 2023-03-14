@@ -24,7 +24,7 @@
     4. [Niveles de pruebas](#niveles-de-pruebas)
     5. [Criterios de aceptación de pruebas](#criterios-de-aceptación-de-pruebas)
     6. [Entregables de pruebas](#entregables-de-pruebas)
-    7. [Estimación del esfuerzo de prueba](#estimación-del-esfuerzo-de-prueba)
+    7. [Estimación del esfuerzo de pruebas](#estimación-del-esfuerzo-de-pruebas)
     
     
 ---
@@ -299,5 +299,10 @@ Por ultimo las pruebas de recorrido las hara un desarrollador o probador a lado 
 | 5  | Pruebas de aceptación del usuario | Equipo de Pruebas | Esteban Castillo y Felipe |
 | 6  | Informes semanales de pruebas     | Equipo de Pruebas | Esteban Castillo y Felipe |
 | 7  | Reporte final de pruebas          | Equipo de Pruebas | Esteban Castillo y Felipe |
+
+
+### Estimación del esfuerzo de pruebas
+
+
 
 ---
