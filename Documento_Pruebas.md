@@ -50,11 +50,15 @@ El objetivo principal de las pruebas es asegurar de que entreguemos un producto 
 
 ## Alcance
 
-Stakeholders (NDS):
+**Stakeholders (NDS):**
+
 Ellos utilizarán este documento para analizar y determinar si estamos entregando la plataforma que ellos esperan y si cumple con los requerimientos acordados.
-Project Manager:
-El PM va a utilizar este documento para programar las pruebas estáticas en los sprints subsecuentes.
-Miembros del equipo (desarrolladores)
+
+**Project Manager:**
+El PM va a utilizar este documento para programar las pruebas estáticas en los sprints subsecuentes, así como validar los recorridos de las funcionalidades críticas.
+
+**Miembros del equipo (desarrolladores):**
+
 Nosotros utilizaremos este documento para programar, planear y desarrollar las pruebas dinámicas.
 
 
@@ -110,24 +114,30 @@ A continuación podrán observar una lista de requerimientos detallados de prueb
 Para asegurar el correcto funcionamiento del sistema, en comparación a lo necesitado y establecido por el cliente, se necesita tener una estrategia para la ejecución de pruebas. Nuestra propuesta de estrategia considera las necesidades y limitaciones que se tienen en el proyecto.
 
 ### Descripción de la Estrategia
-**1. Pruebas Unitarias**
+
+**1. Pruebas Informales**
+
+Las primeras pruebas a realizar en cada componente elaborado deberán ser las pruebas informales, las cuales serán ejecutadas por los mismos desarrolladores al terminar sus componentes verificando que el componente funcione como se esperaba. Esto puede ahorrar mucho tiempo y recursos puesto que las siguientes no se harán pruebas más elaboradas si se detectan los errores en esta primera etapa.
+
+
+**2. Pruebas Unitarias**
 
 Las primeras pruebas a desarrollar serán las unitarias, dichas pruebas se harán en paralelo con el desarrollo del proyecto, ejecutando las cada que se desarrolle un nuevo componente o módulo con el fin de detectar errores en tempranas etapas y evitar costos en un futuro. 
 El primer tipo de prueba unitaria que se deberá ejecutar al desarrollar un nuevo componente será la ‘caja negra’ de entrada y salida para todos los componentes y ‘caja negra’ de historias de usuario con funcionalidades críticas. Si la prueba es exitosa se continuará con los siguientes componentes. En caso de fallar, se ejecutará la prueba de ‘caja blanca’ de camino básico para detectar en qué parte exactamente está el error.
 
-**2. Pruebas de Integración**
+**3. Pruebas de Integración**
 
 Las pruebas de integración se harán cuando se hayan hecho pruebas unitarias sobre todos los componentes de una parte del sistema. Se harán pruebas de integración ascendentes para conseguir identificar los errores con mayor facilidad.
 
-**3. Pruebas de Aceptación**
+**4. Pruebas de Aceptación**
 
 Cada cierto número de sprints se hará una prueba de aceptación con el cliente en base a las historias de usuario, previamente definidas, para que acepte el funcionamiento y comportamiento de esa funcionalidad. En caso de aceptación se continuará con el desarrollo. En caso de falló se revisará la diferencia con lo establecido en los requerimientos y se decidirá si los cambios proceden o se ignoran.
 
-**4. Pruebas Estáticas**
+**5. Pruebas Estáticas**
 
 Las pruebas estáticas se realizan simultáneamente con las demás pruebas puesto que tanto este documento como los demás que describen el sistema deben de actualizarse y verificar que sigan siendo correctos mientras avanza el sistema.
 
-**5. Pruebas No Funcionales**
+**6. Pruebas No Funcionales**
 
 Las pruebas no funcionales se realizarán en menor medida y solo las esenciales requeridas por el cliente por cuestiones de falta de tiempo y recursos. Las pruebas de carga y rendimiento se ejecutarán en las últimas semanas del proyecto.
 
