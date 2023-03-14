@@ -188,6 +188,8 @@ Método: Presentar el software de manera formal al socio formador para que nos d
 
 Ritmo: Cada vez que se complete una funcionalidad de la plataforma, se le enseñara al socio formador.
 
+---
+
 ### Proceso de Manejo de Pruebas
 
 #### Participantes
@@ -219,15 +221,5 @@ Pruebas de caja Blanca:
 - En caso de que sea necesario una prueba de caja blanca, el tester debera relizar un analisis profundo del modulo que se esta desarrollando, con fin de encontrar el problema. Una vez identificado el problema, el bug debera de ser resuelto por la misma persona que realizo la prueba de caja blanca.
 - Cuando el tester termine la preuba de caja blanca, se realizaran de nuevo pruebas de caja negra. 
 - El ciclo continua hasta que se hayan resuelto los problemas encontrados
-
-### Criterios de aceptación de pruebas
-
-##### - Pruebas Unitarias
-
-##### - Pruebas de Integración
-
-##### - Pruebas de aceptación de usuarios
-
-### Entregables de Pruebas
 
 ---
