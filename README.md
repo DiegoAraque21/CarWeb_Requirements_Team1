@@ -16,8 +16,7 @@
 7. [Diagrama de Gantt](#diagrama-de-gantt)
 8. [Arquitectura](#arquitectura)
 9. [Techstack](#techstack)
-10. [Pruebas de software](#software-tests)
-11. [Administración de riesgos](#administración-de-riesgos)
+10. [Administración de riesgos](#administración-de-riesgos)
 
 ---
 
