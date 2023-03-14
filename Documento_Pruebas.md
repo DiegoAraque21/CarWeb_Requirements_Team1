@@ -50,17 +50,16 @@ El objetivo principal de las pruebas es asegurar de que entreguemos un producto 
 
 ## Alcance
 
-Asunciones y riesgos: 
-En este periodo únicamente nos enfocaremos en realizar pruebas funcionales de caja negra para revisar los componentes principales de nuestra plataforma. En caso de que las pruebas de caja negra fallen tendremos que implementar pruebas de caja negra. En este momento no está dentro de nuestro alcance hacer pruebas no funcionales por falta de tiempo y presupuesto, pero si en el futuro el socio formador desea que realicemos este tipo de pruebas podemos tomarlo en cuenta para implementarlo en un nuevo plan con fechas de entrega y presupuestos más razonables. 
+Stakeholders (NDS):
+Ellos utilizarán este documento para analizar y determinar si estamos entregando la plataforma que ellos esperan y si cumple con los requerimientos acordados.
+Project Manager:
+El PM va a utilizar este documento para programar las pruebas estáticas en los sprints subsecuentes.
+Miembros del equipo (desarrolladores)
+Nosotros utilizaremos este documento para programar, planear y desarrollar las pruebas dinámicas.
 
-Las etapas de pruebas se distribuirán de la siguiente manera:
-##### Etapa 1 Pruebas de autenticación y administración de usuarios
-##### Etapa 2: Pruebas de búsqueda y filtración de vehículos
-##### Etapa 3: Pruebas de chat con el servicio al cliente
-##### Etapa 4: Pruebas de visualización y catálogo de automóviles
-##### Etapa 5: Pruebas de performance y estadísticas de agencias
-##### Etapa 6: Pruebas del proceso de agendar pruebas de manejo
-##### Etapa 7: Pruebas de compra de vehículos
+
+
+En este periodo únicamente nos enfocaremos en realizar pruebas funcionales de caja negra para revisar los componentes principales de nuestra plataforma. En caso de que las pruebas de caja negra fallen tendremos que implementar pruebas de caja blanca. En este momento no está dentro de nuestro alcance hacer pruebas no funcionales por falta de tiempo y presupuesto, pero si en el futuro el socio formador desea que realicemos este tipo de pruebas podemos tomarlo en cuenta para implementarlo en un nuevo plan con fechas de entrega y presupuestos más razonables. 
 
 ---
 
