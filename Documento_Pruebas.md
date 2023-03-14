@@ -169,7 +169,29 @@ Método: Presentar el software de manera formal al socio formador para que nos d
 
 Ritmo: Cada vez que se complete una funcionalidad de la plataforma, se le enseñara al socio formador.
 
+#### - Pruebas informales
+
+Próposito: Hacer pull-request y merges de calidad. En otras palabras que el desarrollador se asegure que lo que hico funciona bien sin realizar ninguna prueba unitaria.
+
+Alcance: Cada vez que se termine un task del backlog, el desarrolador estará encargado de entregarlo bien hecho. De esta manera diminuiriamos la cantidad de errores que salgan en los otros tipos de pruebas.
+
+Probadores: Desarrolladores
+
+Método: Revisiones de desarrolladores en cada task del backlog para verificar que todo esta funcionando correctamente de acuerdo con los criterios de aceptación ya definidos.
+
+Ritmo: Este tipo de pruebas tienen un ritmo muy diferente a las demas. Principalmente porque la hace el desarrollador y dependen de cuando se terminen cada actividad.
+
 #### - Pruebas estáticas
+
+Próposito: Actualizar documentos para que el salón entero tenga documentación bien formulada para empezar con el desarrollo. Empezar con la documentación de la API, para que todo el equipo este informado de todos los endpoints y de sus funcionalidades. Por ultimo se hará pruebsa de recorrido con estudiantes del otros salón para recibir retroalimentación y criticas.
+
+Alcance: Se actualizaran todo los documentos creados en las primeras 5 semanas, se creara uno en relación a la api (el cual sera modificado durante las 10 semanas) y por ultimo cada vez que cumplamos un milestone de desarrollo se buscaran hacer pruebas de recorrido.
+
+Probadores: Equipo de pruebas y desarrollo para la actualizacion de la documentación. Estudiantes del otro salón para las pruebas de recorrido.
+
+Método: Elegiremos el mejor documento de todo el salón y en base a ese haremos cambios pertinentes para tener la mejor documentación posible. El documento de la api se actualizara cada vez que se creen nuevos endpoints y se verán reflejadas todas las funcionalidades y particularidades de la misma. Las pruebas de recorrido se llevaran acabo cada vez que se logre algún hito.
+
+Ritmo: Las primeras dos semanas se basaran en la actualización de documentación de las primeras 5 semanas. La api se ac tualizara durante todo el tiempo qeu desarrollemos el backend y por ultimo las pruebas de recorrido se hacen cada vez que completemos algun hito.
 
 ### Criterios de aceptación de pruebas
 
