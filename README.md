@@ -12,13 +12,12 @@
 3. [WBS](#wbs)
 4. [Requerimientos](#requerimientos)
 5. [Backlog](#backlog)
-6. [Análisis de Riesgos](#análisis-de-riesgos)
-7. [Misión Visión y Valores del Proyecto](#misión-visión-y-valores-del-proyecto)
-8. [Estimación de costos y esfuerzo](#estimación-de-costos-y-esfuerzo)
-9. [Diagrama de Gantt](#diagrama-de-gantt)
-10. [Arquitectura](#arquitectura)
-11. [Techstack](#techstack)
-12. [Administración de riesgos](#administración-de-riesgos)
+6. [Misión Visión y Valores del Proyecto](#misión-visión-y-valores-del-proyecto)
+7. [Estimación de costos y esfuerzo](#estimación-de-costos-y-esfuerzo)
+8. [Diagrama de Gantt](#diagrama-de-gantt)
+9. [Arquitectura](#arquitectura)
+10. [Techstack](#techstack)
+11. [Administración de riesgos](#administración-de-riesgos)
 
 ---
 
@@ -326,19 +325,6 @@ Nuestra visión es desarrollar una plataforma virtual en la que se puedan compra
 Nuestra misión es facilitar y agilizar el trámite de la compra de vehículos en la toda la República Mexicana.
 
 Nuestros valores están relacionados con una ética de trabajo impecable, entregas a tiempo y productos de calidad. Queremos crear una diferencia en la industria automotriz formando experiencias positivas con nuestros clientes.
-
----
-## Análisis de Riesgos
-
-| Riesgo                                                                               | Descripción de riesgo                                                                                                                                                                                                                                                                                                                                | Acción de mitigación                                                                                                                                                                                                                                                                                                                                                            | Probabilidad de que ocurra | Tamaño de pérdida |
-|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|-------------------|
-| Escacez de tiempo (10 semanas de desarrollo) o entrega incompleta del producto final | Falta de tiempo para alcanzar los requerimientos del proyecto y entregarlo con errores o de manera incompleta.                                                                                                                                                                                                                                       | Los requerimientos seran dividos con prioridades (Must, Should, Could). Como equipo los desarrollaremos en ese orden, para acabar primero las funcionalidades mas importantes de la plataforma y asegurar el MVP. Una vez que el MVP está completado podemos abordar los demás requerimientos entregando un producto completo a tiempo.                                         | Media                      | Alta              |
-| Data leaks de credenciales de usuarios dentro de la plataforma                       | La ley federal de protección de datos personales indica que las contraseñas de un sistema deben de mantenerse cifradas y seguras. Si almacenamos la información de autenticación corremos el riesgo de tener una filtración de datos y por ende de futuras demandas que causarían estragos en el negocio y falta de confianza con nuestros clientes. | Para las contraseñas utilizaremos el servicio de Firebase Auth que se encarga de mantener seguras las credenciales de los usuarios, cifra las contraseñas y crea tokens de autenticación, los cuales serán validados en el backend. En términos de datos personales todo se encontrará cifrado en la base de datos.                                                             | Alta                       | Muy Alta          |
-| Problemas de comunicación entre desarrolladores                                      | Pueden aparecer como merge conflicts,  incongruencia en el diseño, brechas de habilidades o de rapidez                                                                                                                                                                                                                                               | Agendar tres reuniones semanales para que cada desarrollador le comunique al equipo lo que está trabajando, así  todos los desarrolladores estarán al día de lo que esta ocurriendo en el proyecto. En caso de que ocurran merge conflicts haremos reuniones entre la persona que hizo el pull request y la persona que hizo el commit anterior en ese archivo para resolverlo. | Muy Alta                   | Media             |
-| Sobrepasar los 100 creditos de AWS                                                   | Tenemos un número limitado de créditos dentro de AWS y no son acumulables, el costo del proyecto puede exceder los 100 créditos y en este caso perderíamos el progreso en esta cuenta, por lo que tendríamos que empezar de nuevo en una cuenta diferente                                                                                            | En el caso de AWS es muy importante cerrar la sesión de las máquinas virtuales y de otros servicios después de usarlos, investigar y leer documentación sobre estos para economizar los créditos disponibles. También vamos a utilizar AWS Lambda que cobra por uso y no por tiempo, esto hará que nuestros créditos duren más y evitará cargos excesivos.                      | Media-Alta                 | Muy Alta          |
-| Poca seguridad al manejar datos bancarios de usuario                                 | Problemas de filtración de datos al momento de que el cliente ingrese sus datos bancarios.                                                                                                                                                                                                                                                           | Utilizar una API segura como Stripe que se especializa en estos temas y que proporciona herrmientas e interfaces confiables para el proceso.                                                                                                                                                                                                                                    | Alta                       | Muy Alta          |
-
-
 
 ---
 
