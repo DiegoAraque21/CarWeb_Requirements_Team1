@@ -112,10 +112,6 @@ Cada cierto número de sprints se hará una prueba de aceptación con el cliente
 
 Las pruebas estáticas se realizan simultáneamente con las demás pruebas puesto que tanto este documento como los demás que describen el sistema deben de actualizarse y verificar que sigan siendo correctos mientras avanza el sistema.
 
-**5. Pruebas No Funcionales**
-
-Las pruebas no funcionales se realizarán en menor medida y solo las esenciales requeridas por el cliente por cuestiones de falta de tiempo y recursos. Las pruebas de carga y rendimiento se ejecutarán en las últimas semanas del proyecto.
-
 ### Registro de Resultados
 Las pruebas y sus resultados serán registrados en una aplicación tercera. Las pruebas tendrán 4 estados distintos:
 - Pendiente
@@ -165,13 +161,15 @@ Ritmo: Para realizar este tipo de pruebas necesitamos tener ya alguna parte del 
 
 Propósito: Le presentaremos la plataforma a el socio formador, ellos nos darán critica constructiva para ajustarnos aún más a sus necesidades.
 
-Alcance: Cadda semana y de igual manera hasta el final del proceso de desarrollo el socio formador verá todas las funcionalidades que se han implementado hasta el momento y nos darán su opinión al respecto.
+Alcance: Cada semana y de igual manera hasta el final del proceso de desarrollo el socio formador verá todas las funcionalidades que se han implementado hasta el momento y nos darán su opinión al respecto.
 
 Probadores: Socio formador (NDS) con el equipo de pruebas
 
 Método: Presentar el software de manera formal al socio formador para que nos den retroalimentación. 
 
 Ritmo: Cada vez que se complete una funcionalidad de la plataforma, se le enseñara al socio formador.
+
+#### - Pruebas estáticas
 
 ### Criterios de aceptación de pruebas
 
@@ -180,6 +178,8 @@ Ritmo: Cada vez que se complete una funcionalidad de la plataforma, se le enseñ
 ##### - Pruebas de Integración
 
 ##### - Pruebas de aceptación de usuarios
+
+##### - Pruebas estáticas
 
 ### Entregables de Pruebas
 
