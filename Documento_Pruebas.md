@@ -24,8 +24,7 @@
     4. [Niveles de pruebas](#niveles-de-pruebas)
     5. [Criterios de aceptación de pruebas](#criterios-de-aceptación-de-pruebas)
     6. [Entregables de pruebas](#entregables-de-pruebas)
-    7. [Lista de hitos](#lista-de-hitos)
-    8. [Estimación del esfuerzo de prueba](#estimación-del-esfuerzo-de-prueba)
+    7. [Estimación del esfuerzo de prueba](#estimación-del-esfuerzo-de-prueba)
     
     
 ---
@@ -197,14 +196,98 @@ Ritmo: Las primeras dos semanas se basaran en la actualización de documentació
 
 ##### - Pruebas Unitarias
 
+Pruebas de autenticación y administración de usuarios
+
+- Se crean cuentas de manera correcta, con los datos ingresados por el usuario.
+- Si se ingresa un email o una contraseña incorrecta, se debe de regresar un error.
+- Si se hace un login de manera correcta se da acceso a la pagina web (a los usuarios que no son considerados como clientes) y a los cleintes se le permitirá acceder al chat, pagos y solicitar pruebas de manejo.
+- Cuando se crean cuentas para los vendedores, gerentes, agencias, grupos automotrices y super-usuarios hay que verificar que se creen con contraseñas aleatorias.
+- Proteger endpoints con JWT tokens, para no dar acceso a cualquier usuario a la información.
+    - Si la token es valida, permitir al usuario obtener la información.
+    - Si la token no es válida debemos de regresar un error de que el usuario no tiene autorización
+- Siempre y cuando el usuario ha iniciado sesión este podrá cerrarla.
+- Un usuario no puede tener mas de un rol.
+- Como usuario puedo cambiar roles de los usuarios que se encuentren bajo mi mando.
+- Como usuario podre elmimnar cuentas de los usuarios que esten bajo mi mando.
+    
+Pruebas de búsqueda y filtración de vehículos
+
+- Los filtros y la barra de busqueda aparecen en la interfaz.
+- Al buscar vehículos a traves de filtros, nombre y lenguaje natural, recibimos una respuesta esperada
+- En caso de no encontrar resultados, enseñar una pagina personalizada que diga que no se encontro nada y que cambie su busqueda.
+
+Pruebas de chat con el servicio al cliente
+
+- El botón del chat esta siempre disponible en la interfaz.
+- Si el usuario accede al chat y no ha iniciado sesión, será redirigido a crear una cuenta o iniciar sesión.
+- Si el usuario ha iniciado sesión y entra al chat sera hecho sin problemas.
+- A los vendedores se les asigna un cliente automaticamente.
+
+Pruebas de visualización y catálogo de automóviles
+
+- El encargado de subir el catálogo tendra acceso a un archivo tipo pruebas para ajustar el suyo.
+- Si se sube el catalogo con campos incorrectos se regresara un error, para que se llene bien el catálogo.
+- El encargado del catalogo de la agencia tendra la capacidad de modificarlos, siempre y cuando no sobrepase los limites de vehículos que contenga su plan.
+- Si se sobrepasa el limite de vehículos, se enviara un error para informar al encargado que necesita actualizar su plan para subir mas vehículos.
+
+Pruebas del proceso de agendar pruebas de manejo
+
+- Se verifica que se envian los documentos necesarios para la prueba de manejo.
+- El vendedor es capaz de revisarlos manualmente para dar un veredicto final. En caso de ser incorrecto se le avisara al usuario cual es el problema, de otra forma se le avisara al usuario que todo sali bien y cuando se enviara el coche a su casa para realizar la prueba de manejo.
+- Se enseñara el estado actual de tu prueba de manejo en la plataforma.
+
+Pruebas de compra de vehículos
+
+- La forma de stripe se renderea justo cuando el usuario decide hacer el primer pago de un coche.
+- Al usuario se le permite cambiar el método de pago.
+- En caso de ingresar datos incorrectos, se envia un mensaje de error para que el usuario lo corrija.
+- En caso de que todo esta correcto, redirigir a una pagina de exito.
+- Como agencia estoy obligado a ingresar datos de mi cuenta bancaria.
+
 ##### - Pruebas de Integración
+
+Pruebas de autenticación y administración de usuarios
+
+- El servicio de firebase-auth crea la token de manera correcta.
+- Si mi token es valida sere capaz de restablecer mi contraseña.
+- Se revisara mi token en todo momento para los endpoints necesarios, para verificar si estoy autorizado o no.
+
+Pruebas de búsqueda y filtración de vehículos
+
+- Verificar las palabras clave que genera el servico de la busqueda por lenguaje natural, para asi poder verificar que todo funciona correctamente.
+- Verificar que si se esta haciendo la conexión con el servicio de lenguaje natural.
+
+Pruebas de chat con el servicio al cliente
+
+- Se hace la conexión on el servicio de dialogflow correctamente.
+
+Pruebas de performance y estadísticas de agencias
+
+- Los roles solo tendrán acceso a información especifica de su respectivo tipo de usuario.
+- Como usuario no tendre acceso a funcionalidaes que exceden mis privilegios.
+
+Pruebas de compra de vehículos
+
+- Stripe se integra correctamen y permite hacer pagos. 
+- Los pagos se ven reflejados en el dashboard de stripe.
+- Al ser redirigido a una pagina de exito se tiene que comprobar que el pago se haya hecho a traves de un webhook para modificar la base de datos.
+
+##### - Pruebas informales
+
+El desarrollador tendra que verificar durante todo el proceso que se cumplan los criterios de acpetación especificados en la tarea asignada. Estas pruebas se haran en forma de recorrido y es el primer tipo de pruebas que se realizan. 
 
 ##### - Pruebas de aceptación de usuarios
 
+El usuario estará satisfecho con el producto final.
+
 ##### - Pruebas estáticas
 
-### Entregables de Pruebas
+Como equipo cambiaremos toda la documentación para generalizar el ambiente de trabajo y que sea mucho mas facil el trabajo para los desarrolladores y los probadores. 
 
-### Lista de Hitos
+En terminos de la documentacion de la api, se tienen que especificar todas las particularidades de un endpoint. En otras palabras una breve descripción de que hace, definir cuales son sus entradas y tambien sus salidas.
+
+POr ultimo las pruebas de recorrido las hara un desarrollador o probador a lado de un estudiante de otro salón. Tomara notas de todo lo que se comente y se darán prioridades para hacer los cambios que se consideren totalmente necesarios.
+
+### Entregables de Pruebas
 
 ---
