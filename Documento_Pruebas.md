@@ -180,8 +180,13 @@ Ritmo: Cada vez que se complete una funcionalidad de la plataforma, se le enseñ
 
 ### Proceso de Manejo de Pruebas
 
+#### Participantes
+Durante todo el proceso de desarrollo de pruebas del proyecto, participaran los siguientes roles:
+
+- Tester: Encargado de realizar las pruebas informales, de caja negra y de caja blanca.
+- Jefe de Testers: Encargado de repartir tareas a los testers, sera el que determine si las pruebaas realizadas fueron correctas y pasan los estandares de calidad. Esta persona sera encargada de aprobar o no las pruebas realizadas, y tambien de tomar decisicones durante el desarrollo de pruebas
+
 #### Pruebas Informales 
-##### Participantes: Desarrolladores
 
 Las pruebas informales se llevaran acabo durante el sprint, cada desarrollador debera de probar su codigo antes de enviar un pull rquest al repositorio. Esto con fin de agilizar el proceso de pruebas y reducir la cantidad de bugs a la hora de hacer las pruebas formales.
 
@@ -190,7 +195,6 @@ De igual manera, mientras se desarrolla, cada programador debe asegurarse que se
 Por ultimo cada programador debera proponer al menos tres pruebas unitarias, ya sean casos de exito o de error. Mas adelante el encargado de pruebas del sprint aprobara las pruebas unitarias que se deberan de desarrollar el siguiente sprint.
 
 #### Pruebas Formales 
-**Participantes: Desarrolladores y Jefes de Pruebas** 
 
 Pruebas de caja Negra:
 
