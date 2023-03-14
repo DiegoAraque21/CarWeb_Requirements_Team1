@@ -183,4 +183,6 @@ Ritmo: Cada vez que se complete una funcionalidad de la plataforma, se le enseñ
 
 ### Entregables de Pruebas
 
+### Lista de Hitos
+
 ---
