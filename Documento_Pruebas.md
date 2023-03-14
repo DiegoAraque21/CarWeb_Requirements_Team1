@@ -148,7 +148,7 @@ Las pruebas y sus resultados serán registrados en una aplicación tercera. Las 
 - Completada
 - Fallida
 
-Las pruebas serán registradas usando un formato predefinido el cual se encuentra en la siguiente liga o en la sección de anexos:
+Las pruebas serán registradas usando un formato predefinido el cual se encuentra en la siguiente liga:
 https://docs.google.com/document/d/1t2Xix2SGu7ehTf0pryhvRfB8F-wArDWJ7EIHMivqNzc/edit?usp=sharing
 
 
