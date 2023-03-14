@@ -111,6 +111,8 @@ A continuación podrán observar una lista de requerimientos detallados de prueb
 
 Para asegurar el correcto funcionamiento del sistema, en comparación a lo necesitado y establecido por el cliente, se necesita tener una estrategia para la ejecución de pruebas. Nuestra propuesta de estrategia considera las necesidades y limitaciones que se tienen en el proyecto.
 
+En este proyecto solamente se probarán requerimientos funcionales puesto que los requerimiento no funcionales fueron establecidos muy generales y no hay la suficiente especificación para que sean probados.
+
 ### Descripción de la Estrategia
 
 **1. Pruebas Informales**
