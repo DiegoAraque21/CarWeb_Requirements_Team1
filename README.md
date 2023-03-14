@@ -300,6 +300,9 @@
 
 ## Diagrama de Gantt
 
+#### Link:
+https://tec312034.monday.com/boards/4085501437/views/92544208
+
 #### Tablas
 ![Screenshot 2023-03-04 at 1 14 50](https://user-images.githubusercontent.com/70352787/222881757-b1846572-df31-4f7a-a04f-d03af4a617b8.jpg)
 ![Screenshot 2023-03-04 at 1 16 34](https://user-images.githubusercontent.com/70352787/222881850-c5d83494-ba1c-45d5-af99-ca10bdaf0ae2.jpg)
