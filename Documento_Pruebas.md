@@ -365,3 +365,9 @@ Pruebas de caja Blanca:
 - En caso de que sea necesario una prueba de caja blanca, el tester debera relizar un analisis profundo del modulo que se esta desarrollando, con fin de encontrar el problema. Una vez identificado el problema, el bug debera de ser resuelto por la misma persona que realizo la prueba de caja blanca.
 - Cuando el tester termine la preuba de caja blanca, se realizaran de nuevo pruebas de caja negra. 
 - El ciclo continua hasta que se hayan resuelto los problemas encontrados
+
+
+
+#### Cronográma de Actividades
+<img width="742" alt="image" src="https://user-images.githubusercontent.com/90577455/225387651-d0031cb0-3788-4e30-a573-f3ff5a3ee4ed.png">
+
