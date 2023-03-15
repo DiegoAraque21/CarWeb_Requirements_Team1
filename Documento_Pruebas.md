@@ -27,7 +27,10 @@
     8. [Estimación del esfuerzo de prueba](#estimación-del-esfuerzo-de-prueba)
   
 6. [Proceso de Manejo de Pruebas](#Proceso-de-Manejo-de-Pruebas)
-    
+7. [Ambiente de pruebas](#ambiente-de-pruebas)
+8. [Pruebas](#pruebas)
+9. [Conclusiones](#conclusiones)
+10. [Apéndices](#apendices)
 ---
 
 ## Objetivos
@@ -392,4 +395,18 @@ Pruebas de caja Blanca:
 
 #### Cronográma de Actividades
 <img width="742" alt="image" src="https://user-images.githubusercontent.com/90577455/225387651-d0031cb0-3788-4e30-a573-f3ff5a3ee4ed.png">
+
+---
+
+## Ambiente de pruebas
+El ambiente de pruebas consistirá en una computadora con ambiente Windows con un procesador core  i5. Memoria RAM de 8GB, corriendo Google Chrome versión mínima 111.
+Todos los testers tendrán acceso a la misma instancia de la base de datos.
+
+---
+
+## Pruebas
+
+---
+
+# Conclusiones
 
