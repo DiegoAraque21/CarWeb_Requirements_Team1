@@ -133,10 +133,6 @@ Cada cierto número de sprints se hará una prueba de aceptación con el cliente
 
 Las pruebas estáticas se realizan simultáneamente con las demás pruebas puesto que tanto este documento como los demás que describen el sistema deben de actualizarse y verificar que sigan siendo correctos mientras avanza el sistema.
 
-**6. Pruebas No Funcionales**
-
-Las pruebas no funcionales se realizarán en menor medida y solo las esenciales requeridas por el cliente por cuestiones de falta de tiempo y recursos. Las pruebas de carga y rendimiento se ejecutarán en las últimas semanas del proyecto si se tiene el tiempo suficiente. En las asunciones indicamos que realizar esta etapa es muy complicada y que probablemente no lo hagamos en estas 10 semanas.
-
 ### Registro de Resultados
 Las pruebas y sus resultados serán registrados en una aplicación tercera. Las pruebas tendrán 4 estados distintos:
 - Pendiente
