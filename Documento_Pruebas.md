@@ -338,7 +338,10 @@ Por ultimo las pruebas de recorrido las hara un desarrollador o probador a lado 
 Durante todo el proceso de desarrollo de pruebas del proyecto, participaran los siguientes roles:
 
 - Tester: Encargado de realizar las pruebas informales, de caja negra y de caja blanca.
-- Jefe de Testers: Encargado de repartir tareas a los testers, sera el que determine si las pruebaas realizadas fueron correctas y pasan los estandares de calidad. Esta persona sera encargada de aprobar o no las pruebas realizadas, y tambien de tomar decisicones durante el desarrollo de pruebas
+- Jefe de Testers: Encargado de repartir tareas a los testers, sera el que determine si las pruebaas realizadas fueron correctas y pasan los estandares de calidad. Esta persona sera encargada de aprobar o no las pruebas realizadas, y tambien de tomar decisicones durante el desarrollo de pruebas.
+- Desarrollador: Encargados en programar la funcionalidad de la plataforma siguiendo los requerimientos acordados en otros documentos. 
+- Project Manager: Encargado de dirigir y ordenar al equipo, para completar el producto.
+- Product Owner: Encargado de verificar y validar que todo lo que se esta haciendo es correcto.
 
 #### Pruebas Informales 
 
