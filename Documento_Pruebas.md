@@ -12,9 +12,9 @@
     2. [Etapa 2 Pruebas de búsqueda y filtración de vehículos](#etapa-2-pruebas-de-búsqueda-y-filtración-de-vehículos)
     3. [Etapa 3 Pruebas de chat con el servicio al cliente](#etapa-3-pruebas-de-chat-con-el-servicio-al-cliente)
     4. [Etapa 4 Pruebas de visualización y catálogo de automóviles](#etapa-4-pruebas-de-visualización-y-catálogo-de-automóviles)
-    5. [Etapa 5 Pruebas de performance y estadísticas de agencias](#etapa-5-pruebas-de-performance-y-estadísticas-de-agencias)
+    5. [Etapa 5 Visualización de estadísticas de grupos automotrices y agencias mediante gráficas.](#etapa-5-visualización-de-estadísticas-de-grupos-automotrices-y-agencias-mediante-gráficas)
     6. [Etapa 6 Pruebas del proceso de agendar pruebas de manejo](#etapa-6-pruebas-del-proceso-de-agendar-pruebas-de-manejo)
-    7. [Etapa 7 Pruebas de compra de vehículos](#etapa-7-pruebas-de-compra-de-vehículos)
+    7. [Etapa 7 Pruebas de compra de vehículos y fiabilidad](#etapa-7-pruebas-de-compra-de-vehículos-y-fiabilidad)
      
 5. [Estrategia de pruebas](#estrategia-de-pruebas)
     1. [Descripción de la Estrategia](#descripción-de-la-estrategia)
@@ -37,7 +37,7 @@ Las metas que se desean alcanzar en el desarrollo de las pruebas de software est
 * Búsqueda de vehículos exacta y fidedigna
 * Chat con servicio al cliente amigable 
 * Visualización de vehículos flexible y accesible
-* Performance confiable y preciso
+* Visualización de estadísticas de grupos automotrices y agencias mediante gráficas.
 * Pruebas de manejo rápidas y a domicilio
 * Experiencia de compra de vehículos fiable, funcional, rápida y flexible
 
@@ -82,7 +82,7 @@ A continuación podrán observar una lista de requerimientos detallados de prueb
 * Pruebas para comparar las características y precios de los diferentes vehículos que la plataforma ofrece
 * Pruebas para dar de alta el catálogo de los vehículos de cada agencia
 
-### Etapa 5: Pruebas de performance y estadísticas de agencias
+### Etapa 5: Visualización de estadísticas de grupos automotrices y agencias mediante gráficas.
 * Pruebas relacionadas con las estadísticas de las ventas, contactos, performance e información general de las agencias
 * Pruebas del estado del proceso en el que se encuentra una venta activa
 
@@ -288,7 +288,7 @@ Pruebas de chat con el servicio al cliente
 
 - Se hace la conexión on el servicio de dialogflow correctamente.
 
-Pruebas de performance y estadísticas de agencias
+Visualización de estadísticas de grupos automotrices y agencias mediante gráficas.
 
 - Los roles solo tendrán acceso a información especifica de su respectivo tipo de usuario.
 - Como usuario no tendre acceso a funcionalidaes que exceden mis privilegios.
