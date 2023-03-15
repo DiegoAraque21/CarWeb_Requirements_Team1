@@ -15,7 +15,7 @@
     5. [Etapa 5 Visualización de estadísticas de grupos automotrices y agencias mediante gráficas.](#etapa-5-visualización-de-estadísticas-de-grupos-automotrices-y-agencias-mediante-gráficas)
     6. [Etapa 6 Pruebas del proceso de agendar pruebas de manejo](#etapa-6-pruebas-del-proceso-de-agendar-pruebas-de-manejo)
     7. [Etapa 7 Pruebas de compra de vehículos y fiabilidad](#etapa-7-pruebas-de-compra-de-vehículos-y-fiabilidad)
-     
+4. [Dependencias](#dependencias)
 5. [Estrategia de pruebas](#estrategia-de-pruebas)
     1. [Descripción de la Estrategia](#descripción-de-la-estrategia)
     2. [Registro de Resultados](#registro-de-resultados)
@@ -100,6 +100,28 @@ A continuación podrán observar una lista de requerimientos detallados de prueb
 * Pruebas para visualizar la información de las cuentas bancarias de las agencias
 * Pruebas para realizar pagos mensuales y de contado
 * Pruebas de fiabilidad generales para asegurarnos de que estamos entregando una plataforma de calidad
+
+---
+## Dependencias
+A continuación mostramos la lista de eventos que deberán ser completados antes de comenzar las actividad de pruebas.
+
+**Pruebas dinámicas funcionales.**
+| Tipo de test.          | Test                                                                                                                                                                | Dependencia                                                                                                                                                |
+|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Prueba unitaria.       | Probar conexión con base de datos.                                                                                                                                  | Base de datos con setup completo.                                                                                                                          |
+| Prueba unitaria        | Probar card que muestra el contenido del auto.                                                                                                                      | UI de las cards.                                                                                                                                           |
+| Prueba de interacción. | Probar pasarela de pagos.                                                                                                                                           | UI de pago.<br>Conexión con Stripe.                                                                                                                        |
+| Prueba de integración. | Probar barra de búsqueda.                                                                                                                                           | UI del feed inicial lista.<br>Base de datos completa.<br>Integración con GCP Natural Language completa.                                                    |
+| Prueba de integración. | El supervisor es el único que tiene acceso a las solicitudes de agencias.                                                                                           | Roles completos.<br>Ventana en donde se visualizan las solicitudes de agencias completadas.                                                                |
+| Prueba de humo.        | Probar que un cliente pueda acceder, que se le muestre el feed, que al querer comprar un carro, se le redireccione a login y pueda colocar los datos de su tarjeta. | Base de datos completa.<br>Funciones serverless completas.<br>Autenticación con firebase completa.<br>Frontend completo.                                   |
+| Prueba de humo.        | Probar que una marca pueda crear una cuenta y pueda subir los documentos necesarios y estos se almacenen en S3.                                                     | Setup de S3 e integración con frontend completa.<br>Funciones serverless completas.<br>Autenticación con firebase completa.<br>Vista de la marca completa. |
+| Pruebas de validación. | UI del feed inicial y los autos cumplen con los estándares del cliente.                                                                                             | UI completo.<br>Base de datos completa.<br>Funciones serverless completas.<br>Vista de usuario completa.                                                   |
+
+**Pruebas estáticas.**
+| Tipo de test. | Test                                          | Dependencia                                                   |
+|---------------|-----------------------------------------------|---------------------------------------------------------------|
+| Recorrido     | Probar escenario: comprar un vehículo.        | Módulos integrados y que exista poca probabilidad de cambios. |
+| Recorrido     | Probar escenario: subir archivo con catálogo. | Módulos integrados y que exista poca probabilidad de cambios. |
 
 ---
 
