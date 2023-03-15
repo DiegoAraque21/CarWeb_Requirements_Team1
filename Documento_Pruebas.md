@@ -181,7 +181,7 @@ Método: Se seguira el metodo "Top Down", el que busca que se hagan pruebas de i
 
 Ritmo: Para realizar este tipo de pruebas necesitamos tener ya alguna parte del sistema avanzada. De igual manera definiremos hitos en relacion a pruebas de integración, que nos harán saber cuando es el momento indicado para probar.
 
-##### - Pruebas de aceptación de usuario
+##### - Pruebas de aceptación
 
 Propósito: Le presentaremos la plataforma a el socio formador, ellos nos darán critica constructiva para ajustarnos aún más a sus necesidades.
 
