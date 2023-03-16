@@ -384,12 +384,12 @@ Por ultimo las pruebas de recorrido las hara un desarrollador o probador a lado 
 | ID | Nombre del entregable             | Autor             | Crítico                   |
 |----|-----------------------------------|-------------------|---------------------------|
 | 1  | Plan de pruebas de software       | Equipo de Pruebas | Esteban Castillo          |
-| 2  | Casos de prueba                   | Equipo de Pruebas | Esteban Castillo y Felipe |
-| 3  | Pruebas de integración            | Equipo de Pruebas | Esteban Castillo y Felipe |
-| 4  | Pruebas de funcionalidad          | Equipo de Pruebas | Esteban Castillo y Felipe |
-| 5  | Pruebas de aceptación del usuario | Equipo de Pruebas | Esteban Castillo y Felipe |
-| 6  | Informes semanales de pruebas     | Equipo de Pruebas | Esteban Castillo y Felipe |
-| 7  | Reporte final de pruebas          | Equipo de Pruebas | Esteban Castillo y Felipe |
+| 2  | Casos de prueba                   | Equipo de Pruebas | Esteban Castillo y Felipe Morales |
+| 3  | Pruebas de integración            | Equipo de Pruebas | Esteban Castillo y Felipe Morales |
+| 4  | Pruebas de funcionalidad          | Equipo de Pruebas | Esteban Castillo y Felipe Morales |
+| 5  | Pruebas de aceptación del usuario | Equipo de Pruebas | Esteban Castillo y Felipe Morales |
+| 6  | Informes semanales de pruebas     | Equipo de Pruebas | Esteban Castillo y Felipe Morales |
+| 7  | Reporte final de pruebas          | Equipo de Pruebas | Esteban Castillo y Felipe Morales |
 
 
 ### Estimación del esfuerzo de pruebas
@@ -422,52 +422,52 @@ Por ultimo las pruebas de recorrido las hara un desarrollador o probador a lado 
 
 ---
 
-### Proceso de Manejo de Pruebas
+## Proceso de Manejo de Pruebas
 
-#### Participantes
+### Participantes
 Durante todo el proceso de desarrollo de pruebas del proyecto, participaran los siguientes roles:
 
 - Tester: Encargado de realizar las pruebas informales, de caja negra y de caja blanca.
-- Jefe de Testers: Encargado de repartir tareas a los testers, sera el que determine si las pruebaas realizadas fueron correctas y pasan los estandares de calidad. Esta persona sera encargada de aprobar o no las pruebas realizadas, y tambien de tomar decisicones durante el desarrollo de pruebas.
+- Jefe de Testers: Encargado de repartir tareas a los testers, será el que determine si las pruebaas realizadas fueron correctas y pasan los estandares de calidad. Esta persona sera encargada de aprobar o no las pruebas realizadas, y tambien de tomar decisicones durante el desarrollo de pruebas.
 - Desarrollador: Encargados en programar la funcionalidad de la plataforma siguiendo los requerimientos acordados en otros documentos. 
 - Project Manager: Encargado de dirigir y ordenar al equipo, para completar el producto.
 - Product Owner: Encargado de verificar y validar que todo lo que se esta haciendo es correcto.
 
-#### Pruebas Informales 
+### Pruebas Informales 
 
 Las pruebas informales se llevaran acabo durante el sprint, cada desarrollador debera de probar su codigo antes de enviar un pull request al repositorio. Esto con fin de agilizar el proceso de pruebas y reducir la cantidad de bugs a la hora de hacer las pruebas formales.
 
 De igual manera, mientras se desarrolla, cada programador debe asegurarse que se estan llevando los lineamientos de calidad de software, como nombramiento de variables correctas, tener el codigo en ingles, separar codigo en funciones, etc. Lo cual ayudara a mejorar la legibilidad del codigo.
 
-De igual manera el probador hara una prueba informal sobre el codigo entregado, para verificar que todo funciona correctamente. Si la prueba falla, se le regresará al desarrollador, para que corriga los errores encontrados. De esta manera nos ahorramos hacer mas pruebas unitarias de las que necesitamos.
+De igual manera el probador hará una prueba informal sobre el codigo entregado, para verificar que todo funciona correctamente. Si la prueba falla, se le regresará al desarrollador, para que corriga los errores encontrados. De esta manera nos ahorramos hacer más pruebas unitarias de las que necesitamos.
 
-Por ultimo cada programador debera proponer al menos tres pruebas unitarias, ya sean casos de exito o de error. Mas adelante el encargado de pruebas del sprint aprobara las pruebas unitarias que se deberan de desarrollar el siguiente sprint.
+Por último cada programador debera proponer al menos tres pruebas unitarias, ya sean casos de exito o de error. Mas adelante el encargado de pruebas del sprint aprobara las pruebas unitarias que se deberan de desarrollar el siguiente sprint.
 
-#### Pruebas Formales 
+### Pruebas Formales 
 
-Pruebas de caja Negra:
+**Pruebas de Caja Negra:**
 
 - Cada sprint, el jefe de pruebas debera revisar las propuestas enviadas previamente por los desarolladores. Despues de confirmar estas, el jefe debera asignar a cada desarrollador cierto numero de pruebas, de preferencia de algo que no hayan trabajado previamente, con fin de evitar sesgos.
 
 
-Pruebas de caja Blanca:
+**Pruebas de Caja Blanca:**
 
 - En caso de encontrar un Bug, o que fallen las pruebas de caja negra, el tester debera de notificar al equipo.
 - Una vez notifcado, el jefe de de testing, debera de decidir si es necesario llevar una prueba de caja blanca o si no es necesario para solucionar el problema.
-- En caso de que sea necesario una prueba de caja blanca, el tester debera relizar un analisis profundo del modulo que se esta desarrollando, con fin de encontrar el problema. Una vez identificado el problema, el bug debera de ser resuelto por la misma persona que realizo la prueba de caja blanca.
-- Cuando el tester termine la preuba de caja blanca, se realizaran de nuevo pruebas de caja negra. 
+- En caso de que sea necesario una prueba de caja blanca, el tester debera relizar un analisis profundo del modulo que se esta desarrollando con caja blanca de cobertura, con fin de encontrar el problema. Una vez identificado el problema, el bug debera de ser resuelto por la misma persona que realizo la prueba de caja blanca.
+- Cuando el tester termine la preuba de caja blanca y se haya corregido el error, se realizaran de nuevo pruebas de caja negra. 
 - El ciclo continua hasta que se hayan resuelto los problemas encontrados.
 
-#### Plan de comunicación
+### Plan de Comunicación
 
 Como equipo proponemos usar monday.com para llevar acabo todo el manejo de tareas de cada sprint. Se asignaran las tareas a cada desarrollador y ahi se llevara acabo todo el seguimiento. De igual manera pensamos utilizar github para el control de versiones y tener una plataforma que ya es conocida por todos nosotros para el desarrollo del proyecto. El lunes todo el grupo tendrá sprint planning donde el project manager decidirá que se hara en el sprint. Los miercoles todo el grupo tendrá una reunión para dar seguimiento a lo que se esta haciendo en el sprint y aclarar dudas. El viernes tendremos un sprint demo, donde se enseñara a todo el equipo lo que se desarrollo y en caso de existir dudas tambien se podrán hacer en este día.
 
-#### Cronográma de Actividades
+### Cronográma de Actividades
 <img width="742" alt="image" src="https://user-images.githubusercontent.com/90577455/225387651-d0031cb0-3788-4e30-a573-f3ff5a3ee4ed.png">
 
 ---
 
-## Ambiente de pruebas
+## Ambiente de Pruebas
 El ambiente de pruebas consistirá en una computadora con ambiente Windows con un procesador core  i5. Memoria RAM de 8GB, corriendo Google Chrome versión mínima 111.
 Todos los testers tendrán acceso a la misma instancia de la base de datos.
 
@@ -477,6 +477,6 @@ Todos los testers tendrán acceso a la misma instancia de la base de datos.
 
 ---
 
-# Conclusiones
+## Conclusiones
 En conclusión, las metas establecidas para el desarrollo de pruebas de software se enfocan en garantizar que se cumplan todos los requerimientos funcionales acordados con el socio formador, para asegurar la entrega de un producto funcional, seguro, escalable, adaptable y con una experiencia de usuario amigable. El alcance se enfoca principalmente en pruebas funcionales de caja negra y en la revisión de los componentes principales de la plataforma. La lista de requerimientos detallados de prueba especifica los módulos que deben ser probados para asegurar el correcto funcionamiento de la plataforma. Aunque en este momento no se llevarán a cabo pruebas no funcionales por falta de tiempo y presupuesto, se considera su implementación en un futuro con fechas de entrega y presupuestos más razonables. El documento será utilizado por stakeholders, el Project Manager y el equipo de desarrollo para analizar, determinar, programar, planear y desarrollar las pruebas dinámicas y estáticas en sprints subsecuentes. Las pruebas dinámicas funcionales dependen de otros eventos que deberán ser completados antes de comenzar con la actividad de pruebas.
 
