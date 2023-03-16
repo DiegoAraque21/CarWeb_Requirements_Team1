@@ -174,7 +174,10 @@ Las pruebas y sus resultados serán registrados en una aplicación tercera. Las 
 - Fallida
 
 Las pruebas serán registradas usando un formato predefinido el cual se encuentra en la siguiente liga:
-https://docs.google.com/document/d/1t2Xix2SGu7ehTf0pryhvRfB8F-wArDWJ7EIHMivqNzc/edit?usp=sharing
+
+**Pruebas Unitarias y de Integración:** https://docs.google.com/document/d/1t2Xix2SGu7ehTf0pryhvRfB8F-wArDWJ7EIHMivqNzc/edit?usp=sharing
+
+**Pruebas de Recorrido:**: https://docs.google.com/document/d/1vHTkammTuz_Hge0dDyK6ucC-7Ur951y5PPI69JeFQgk/edit?usp=sharing
 
 
 ### Asunciones
