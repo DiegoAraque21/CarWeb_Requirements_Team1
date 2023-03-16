@@ -206,65 +206,65 @@ Las pruebas serán registradas usando un formato predefinido el cual se encuentr
 
 ### Niveles de Pruebas
 
-##### - Pruebas Unitarias
+#### - Pruebas Unitarias
 
-Propósito: Estas pruebas son realizadas para verificar la funcionalidad de los requerimientos funcionales ya definidos.
+**Propósito:** Estas pruebas son realizadas para verificar la funcionalidad de los requerimientos funcionales ya definidos.
 
-Alcance: Todos los requerimientos funcionales que terminan siendo implementados para generar el producto serán probados.
+**Alcance:** Todos los requerimientos funcionales que terminan siendo implementados para generar el producto serán probados.
 
-Probadores: Equipo de Pruebas
+**Probadores:** Equipo de Pruebas
 
-Método: Se harán pruebas de caja negra para cada requerimiento funcional del sistema. En caso de que las prubas fallen, el equipo de pruebs estará encargado de correr pruebas de caja blanca para identificar en donde yace el problema
+**Método:** Se harán pruebas de caja negra para cada requerimiento funcional del sistema. En caso de que las prubas fallen, el equipo de pruebs estará encargado de correr pruebas de caja blanca para identificar en donde yace el problema
 
-Ritmo: Cada vez que logremos algun hito, se realizaran las pruebas para verificar que todo esta en orden.
+**Ritmo:** Cada vez que logremos algun hito, se realizaran las pruebas para verificar que todo esta en orden.
 
-##### - Pruebas de integración
+#### - Pruebas de integración
 
-Propósito: Aqui probaremos la interacción de nuestra plataforma con distintos servicios, como lo es la base de datos, comunicación entre frontend y backend, etc. 
+**Propósito:** Aqui probaremos la interacción de nuestra plataforma con distintos servicios, como lo es la base de datos, comunicación entre frontend y backend, etc. 
 
-Alcance: Se buscara probar todas las interacciones de multiples procesos de esta manera. Para así verificar que no estamos teniendo ningun problema en ese sentido.
+**Alcance:** Se buscara probar todas las interacciones de multiples procesos de esta manera. Para así verificar que no estamos teniendo ningun problema en ese sentido.
 
-Probadores: Equipo de Pruebas
+**Probadores:** Equipo de Pruebas
 
-Método: Se seguira el metodo "Top Down", el que busca que se hagan pruebas de integración en modulos de alto nivel primero y hasta el final hacer pruebas de bajo nivel.
+**Método:** Se seguira el metodo "Top Down", el que busca que se hagan pruebas de integración en modulos de alto nivel primero y hasta el final hacer pruebas de bajo nivel.
 
-Ritmo: Para realizar este tipo de pruebas necesitamos tener ya alguna parte del sistema avanzada. De igual manera definiremos hitos en relacion a pruebas de integración, que nos harán saber cuando es el momento indicado para probar.
+**Ritmo:** Para realizar este tipo de pruebas necesitamos tener ya alguna parte del sistema avanzada. De igual manera definiremos hitos en relacion a pruebas de integración, que nos harán saber cuando es el momento indicado para probar.
 
-##### - Pruebas de aceptación
+#### - Pruebas de aceptación
 
-Propósito: Le presentaremos la plataforma a el socio formador, ellos nos darán critica constructiva para ajustarnos aún más a sus necesidades.
+**Propósito:** Le presentaremos la plataforma a el socio formador, ellos nos darán critica constructiva para ajustarnos aún más a sus necesidades.
 
-Alcance: Cada semana y de igual manera hasta el final del proceso de desarrollo el socio formador verá todas las funcionalidades que se han implementado hasta el momento y nos darán su opinión al respecto.
+**Alcance:** Cada semana y de igual manera hasta el final del proceso de desarrollo el socio formador verá todas las funcionalidades que se han implementado hasta el momento y nos darán su opinión al respecto.
 
-Probadores: Socio formador (NDS) con el equipo de pruebas
+**Probadores:** Socio formador (NDS) con el equipo de pruebas
 
-Método: Presentar el software de manera formal al socio formador para que nos den retroalimentación. 
+**Método:** Presentar el software de manera formal al socio formador para que nos den retroalimentación. 
 
-Ritmo: Cada vez que se complete una funcionalidad de la plataforma, se le enseñara al socio formador.
+**Ritmo:** Cada vez que se complete una funcionalidad de la plataforma, se le enseñara al socio formador.
 
-##### - Pruebas informales
+#### - Pruebas informales
 
-Próposito: Hacer pull-request y merges de calidad. En otras palabras que el probador se asegure que lo que hizo funciona bien sin realizar ninguna prueba unitaria.
+**Próposito:** Hacer pull-request y merges de calidad. En otras palabras que el probador se asegure que lo que hizo funciona bien sin realizar ninguna prueba unitaria.
 
-Alcance: Cada vez que se termine un task del backlog, el probador estará encargado de checar que todo este en orden. De esta manera disminuiriamos la cantidad de errores que salgan en los otros tipos de pruebas.
+**Alcance:** Cada vez que se termine un task del backlog, el probador estará encargado de checar que todo este en orden. De esta manera disminuiriamos la cantidad de errores que salgan en los otros tipos de pruebas.
 
-Probadores: Probadores
+**Probadores:** Probadores
 
-Método: Revisiones de probadores en cada task del backlog para verificar que todo esta funcionando correctamente de acuerdo con los criterios de aceptación ya definidos.
+**Método:** Revisiones de probadores en cada task del backlog para verificar que todo esta funcionando correctamente de acuerdo con los criterios de aceptación ya definidos.
 
-Ritmo: Este tipo de pruebas tienen un ritmo muy diferente a las demas. Se hacen cada que se termina una tarea del sprint en el que nos encontramos.
+**Ritmo:** Este tipo de pruebas tienen un ritmo muy diferente a las demas. Se hacen cada que se termina una tarea del sprint en el que nos encontramos.
 
-##### - Pruebas estáticas
+#### - Pruebas estáticas
 
-Próposito: Actualizar documentos para que el salón entero tenga documentación bien formulada para empezar con el desarrollo. Empezar con la documentación de la API, para que todo el equipo este informado de todos los endpoints y de sus funcionalidades. Por ultimo se hará pruebsa de recorrido con estudiantes del otros salón para recibir retroalimentación y criticas.
+**Próposito:** Actualizar documentos para que el salón entero tenga documentación bien formulada para empezar con el desarrollo. Empezar con la documentación de la API, para que todo el equipo este informado de todos los endpoints y de sus funcionalidades. Por ultimo se hará pruebsa de recorrido con estudiantes del otros salón para recibir retroalimentación y criticas.
 
-Alcance: Se actualizaran todo los documentos creados en las primeras 5 semanas, se creara uno en relación a la api (el cual sera modificado durante las 10 semanas) y por ultimo cada vez que cumplamos un milestone de desarrollo se buscaran hacer pruebas de recorrido.
+**Alcance:** Se actualizaran todo los documentos creados en las primeras 5 semanas, se creara uno en relación a la api (el cual sera modificado durante las 10 semanas) y por ultimo cada vez que cumplamos un milestone de desarrollo se buscaran hacer pruebas de recorrido.
 
-Probadores: Equipo de pruebas y desarrollo para la actualizacion de la documentación. Estudiantes del otro salón para las pruebas de recorrido.
+**Probadores:** Equipo de pruebas y desarrollo para la actualizacion de la documentación. Estudiantes del otro salón para las pruebas de recorrido.
 
-Método: Elegiremos el mejor documento de todo el salón y en base a ese haremos cambios pertinentes para tener la mejor documentación posible. El documento de la api se actualizara cada vez que se creen nuevos endpoints y se verán reflejadas todas las funcionalidades y particularidades de la misma. Las pruebas de recorrido se llevaran acabo cada vez que se logre algún hito.
+**Método:** Elegiremos el mejor documento de todo el salón y en base a ese haremos cambios pertinentes para tener la mejor documentación posible. El documento de la api se actualizara cada vez que se creen nuevos endpoints y se verán reflejadas todas las funcionalidades y particularidades de la misma. Las pruebas de recorrido se llevaran acabo cada vez que se logre algún hito.
 
-Ritmo: Las primeras dos semanas se basaran en la actualización de documentación de las primeras 5 semanas. La api se ac tualizara durante todo el tiempo qeu desarrollemos el backend y por ultimo las pruebas de recorrido se hacen cada vez que completemos algun hito.
+**Ritmo:** Las primeras dos semanas se basaran en la actualización de documentación de las primeras 5 semanas. La api se ac tualizara durante todo el tiempo qeu desarrollemos el backend y por ultimo las pruebas de recorrido se hacen cada vez que completemos algun hito.
 
 ### Criterios de aceptación de pruebas
 
