@@ -206,43 +206,7 @@ Las pruebas serán registradas usando un formato predefinido el cual se encuentr
 
 ### Niveles de Pruebas
 
-#### - Pruebas Unitarias
-
-**Propósito:** Estas pruebas son realizadas para verificar la funcionalidad de los requerimientos funcionales ya definidos.
-
-**Alcance:** Todos los requerimientos funcionales que terminan siendo implementados para generar el producto serán probados.
-
-**Probadores:** Equipo de Pruebas
-
-**Método:** Se harán pruebas de caja negra para cada requerimiento funcional del sistema. En caso de que las prubas fallen, el equipo de pruebs estará encargado de correr pruebas de caja blanca para identificar en donde yace el problema
-
-**Ritmo:** Cada vez que logremos algun hito, se realizaran las pruebas para verificar que todo esta en orden.
-
-#### - Pruebas de integración
-
-**Propósito:** Aqui probaremos la interacción de nuestra plataforma con distintos servicios, como lo es la base de datos, comunicación entre frontend y backend, etc. 
-
-**Alcance:** Se buscara probar todas las interacciones de multiples procesos de esta manera. Para así verificar que no estamos teniendo ningun problema en ese sentido.
-
-**Probadores:** Equipo de Pruebas
-
-**Método:** Se seguira el metodo "Top Down", el que busca que se hagan pruebas de integración en modulos de alto nivel primero y hasta el final hacer pruebas de bajo nivel.
-
-**Ritmo:** Para realizar este tipo de pruebas necesitamos tener ya alguna parte del sistema avanzada. De igual manera definiremos hitos en relacion a pruebas de integración, que nos harán saber cuando es el momento indicado para probar.
-
-#### - Pruebas de aceptación
-
-**Propósito:** Le presentaremos la plataforma a el socio formador, ellos nos darán critica constructiva para ajustarnos aún más a sus necesidades.
-
-**Alcance:** Cada semana y de igual manera hasta el final del proceso de desarrollo el socio formador verá todas las funcionalidades que se han implementado hasta el momento y nos darán su opinión al respecto.
-
-**Probadores:** Socio formador (NDS) con el equipo de pruebas
-
-**Método:** Presentar el software de manera formal al socio formador para que nos den retroalimentación. 
-
-**Ritmo:** Cada vez que se complete una funcionalidad de la plataforma, se le enseñara al socio formador.
-
-#### - Pruebas informales
+#### - Pruebas Informales
 
 **Próposito:** Hacer pull-request y merges de calidad. En otras palabras que el probador se asegure que lo que hizo funciona bien sin realizar ninguna prueba unitaria.
 
@@ -254,17 +218,66 @@ Las pruebas serán registradas usando un formato predefinido el cual se encuentr
 
 **Ritmo:** Este tipo de pruebas tienen un ritmo muy diferente a las demas. Se hacen cada que se termina una tarea del sprint en el que nos encontramos.
 
-#### - Pruebas estáticas
+#### - Pruebas Unitarias
 
-**Próposito:** Actualizar documentos para que el salón entero tenga documentación bien formulada para empezar con el desarrollo. Empezar con la documentación de la API, para que todo el equipo este informado de todos los endpoints y de sus funcionalidades. Por ultimo se hará pruebsa de recorrido con estudiantes del otros salón para recibir retroalimentación y criticas.
+**Propósito:** Estas pruebas son realizadas para verificar la funcionalidad de los requerimientos funcionales ya definidos.
 
-**Alcance:** Se actualizaran todo los documentos creados en las primeras 5 semanas, se creara uno en relación a la api (el cual sera modificado durante las 10 semanas) y por ultimo cada vez que cumplamos un milestone de desarrollo se buscaran hacer pruebas de recorrido.
+**Alcance:** Todos los requerimientos funcionales que terminan siendo implementados para generar el producto serán probados.
 
-**Probadores:** Equipo de pruebas y desarrollo para la actualizacion de la documentación. Estudiantes del otro salón para las pruebas de recorrido.
+**Probadores:** Equipo de Pruebas
 
-**Método:** Elegiremos el mejor documento de todo el salón y en base a ese haremos cambios pertinentes para tener la mejor documentación posible. El documento de la api se actualizara cada vez que se creen nuevos endpoints y se verán reflejadas todas las funcionalidades y particularidades de la misma. Las pruebas de recorrido se llevaran acabo cada vez que se logre algún hito.
+**Método:** Se harán pruebas de caja negra para cada requerimiento funcional del sistema. En caso de que las prubas fallen, el equipo de pruebas estará encargado de correr pruebas de caja blanca para identificar en donde yace el problema
 
-**Ritmo:** Las primeras dos semanas se basaran en la actualización de documentación de las primeras 5 semanas. La api se ac tualizara durante todo el tiempo qeu desarrollemos el backend y por ultimo las pruebas de recorrido se hacen cada vez que completemos algun hito.
+**Ritmo:** Cada vez que logremos algun hito, se realizaran las pruebas para verificar que todo esta en orden.
+
+#### - Pruebas de Integración
+
+**Propósito:** Aqui probaremos la interacción de nuestra plataforma con distintos servicios, como lo es la base de datos, comunicación entre frontend y backend, etc, así como la comunicación de los diferentes componentes desarrollados que conforman un módulo del sistema. 
+
+**Alcance:** Se buscara probar todas los módulos completos del sistema. Para así verificar que no estamos teniendo ningun problema en ese sentido.
+
+**Probadores:** Equipo de Pruebas
+
+**Método:** Se seguira el metodo descendente, en el que busca que se hagan pruebas de integración en modulos de alto nivel primero y hasta el final hacer pruebas de bajo nivel.
+
+**Ritmo:** Para realizar este tipo de pruebas necesitamos tener modulos terminados para integrarlos y probarlos. De igual manera definiremos hitos en relacion a pruebas de integración, que nos harán saber cuando es el momento indicado para probar.
+
+#### - Pruebas de Recorrido
+
+**Próposito:** Mostrar el funcionamiento del sistema a personas ajenas a él para recibir retroalimentación.
+
+**Alcance:** Se probarán las funcionalidades más importantes a nivel general.
+
+**Probadores:** Usuario ajenos al sistema (estudiantes del otro salón)
+
+**Método:** Personas ajenas al usuario interactuarán con el sistema ejecutando las funcionalidades más importantes buscando áreas de mejora o errores.
+
+**Ritmo:** Se espera probar cada módulo o funcionalidad completa más importante del sistema que ya no vaya a sufrir cambios. Se harán las pruebas en las últimas etapas del desarrollo.
+
+#### - Pruebas de Aceptación
+
+**Propósito:** Le presentaremos la plataforma a el socio formador, ellos nos darán critica constructiva para ajustarnos aún más a sus necesidades.
+
+**Alcance:** Se buscará mostrar al socio formados (NDS) el funcionamiento del sistema completo.
+
+**Probadores:** Socio formador (NDS) con el equipo de pruebas
+
+**Método:** Presentar el software de manera formal al socio formador para que nos den retroalimentación. 
+
+**Ritmo:** Cada vez que se complete una funcionalidad completa de la plataforma, se le enseñara al socio formador.
+
+
+#### - Pruebas Estáticas
+
+**Próposito:** Actualizar documentos para que el salón entero tenga documentación bien formulada y poder empezar con el desarrollo. Empezar con la documentación de la API, para que todo el equipo este informado de todos los endpoints y de sus funcionalidades.
+
+**Alcance:** Se actualizaran todos los documentos creados en las primeras 5 semanas, se creara uno en relación a la API (el cual sera modificado durante las 10 semanas).
+
+**Probadores:** Equipo de pruebas y desarrollo para la actualizacion de la documentación.
+
+**Método:** Elegiremos el mejor documento de todo el salón y en base a ese haremos cambios pertinentes para tener la mejor documentación posible. El documento de la api se actualizara cada vez que se creen nuevos endpoints y se verán reflejadas todas las funcionalidades y particularidades de la misma.
+
+**Ritmo:** Las primeras dos semanas se basaran en la actualización de documentación de las primeras 5 semanas. La api se actualizara durante todo el tiempo qeu desarrollemos el backend.
 
 ### Criterios de aceptación de pruebas
 
