@@ -29,8 +29,9 @@
     1. [Participantes](#participantes)
     2. [Pruebas Informales](#pruebas-informales)
     3. [Pruebas Formales](#pruebas-formales)
-    4. [Plan de Comunicación](#plan-de-comunicación)
-    5. [Cronográma de Actividades](#cronográma-de-actividades)
+    4. [Pruebas Estáticas](#pruebas-estáticas)
+    5. [Plan de Comunicación](#plan-de-comunicación)
+    6. [Cronográma de Actividades](#cronográma-de-actividades)
 8. [Ambiente de pruebas](#ambiente-de-pruebas)
 9. [Pruebas](#pruebas)
 10. [Conclusiones](#conclusiones)
@@ -462,6 +463,14 @@ Por último cada programador debera proponer al menos tres pruebas unitarias, ya
 - En caso de que sea necesario una prueba de caja blanca, el tester debera relizar un analisis profundo del modulo que se esta desarrollando con caja blanca de cobertura, con fin de encontrar el problema. Una vez identificado el problema, el bug debera de ser resuelto por la misma persona que realizo la prueba de caja blanca.
 - Cuando el tester termine la preuba de caja blanca y se haya corregido el error, se realizaran de nuevo pruebas de caja negra. 
 - El ciclo continua hasta que se hayan resuelto los problemas encontrados.
+
+### Pruebas Estáticas
+
+Durante las primeras 2 semanas de la etapa de desarrollo, le daremos seguimiento a todos los documentos y crearemos uno general. En el cual como salón tendremos todo generalizado en ambitos de arquitectura, requerimientos y pruebas. De esta manera el ambiente de desarrollo será mas amigable y ya habriamos tomado el primer paso de comuniación de todo el grupo para actualizar los documentos.
+
+De igual manera durante toda la etapa de desarrollo, de generará una api de acuerdo a nuestras nececidades. Esta tendrá que ser documentada cada vez que se creen nuevas rutas, de esta manera si existen dudas en el equipo la manera mas fácil para arreglarlas será consultando la documentación. Aquí se registraran entradas y salidas de las rutas, como una breve descripción de que hace cada una.
+
+Por ultimo tenemos pruebas de recorrido, las cuales se haran cada vez que se logre alguna dependencia relacionada con la interfaz y backend (busqueda, autenticación y compra). Al tener estas funcionalidades hechas, se declará un paso po paso, para que estudiantes del otro salón los sigan y nos dejen sus comentarios/críticas. Despues de este proceso se tomara en cuenta todo lo mencionado y se darán prioridades para mejorar la experiencia de el usuario final
 
 ### Plan de Comunicación
 
