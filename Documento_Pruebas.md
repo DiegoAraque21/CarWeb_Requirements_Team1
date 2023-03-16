@@ -430,7 +430,7 @@ Pruebas de caja Blanca:
 
 #### Plan de comunicación
 
-Como equipo proponemos usar monday.com para llevar acabo todo el manejo de tareas de cada sprint. Se asignaran las tareas a cada desarrollador y ahi se llevara acabo todo el seguimiento. De igual manera pensamos utilizar github para el control de versiones y tener una plataforma que ya es conocida por todos nosotros para el desarrollo del proyecto. 
+Como equipo proponemos usar monday.com para llevar acabo todo el manejo de tareas de cada sprint. Se asignaran las tareas a cada desarrollador y ahi se llevara acabo todo el seguimiento. De igual manera pensamos utilizar github para el control de versiones y tener una plataforma que ya es conocida por todos nosotros para el desarrollo del proyecto. El lunes todo el grupo tendrá sprint planning donde el project manager decidirá que se hara en el sprint. Los miercoles todo el grupo tendrá una reunión para dar seguimiento a lo que se esta haciendo en el sprint y aclarar dudas. El viernes tendremos un sprint demo, donde se enseñara a todo el equipo lo que se desarrollo y en caso de existir dudas tambien se podrán hacer en este día.
 
 #### Cronográma de Actividades
 <img width="742" alt="image" src="https://user-images.githubusercontent.com/90577455/225387651-d0031cb0-3788-4e30-a573-f3ff5a3ee4ed.png">
