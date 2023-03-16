@@ -118,10 +118,19 @@ A continuación mostramos la lista de eventos que deberán ser completados antes
 | Pruebas de validación. | UI del feed inicial y los autos cumplen con los estándares del cliente.                                                                                             | UI completo.<br>Base de datos completa.<br>Funciones serverless completas.<br>Vista de usuario completa.                                                   |
 
 **Pruebas estáticas.**
-| Tipo de test. | Test                                          | Dependencia                                                   |
-|---------------|-----------------------------------------------|---------------------------------------------------------------|
-| Recorrido     | Probar escenario: comprar un vehículo.        | Módulos integrados y que exista poca probabilidad de cambios. |
-| Recorrido     | Probar escenario: subir archivo con catálogo. | Módulos integrados y que exista poca probabilidad de cambios. |
+| Tipo de test. | Test                                                                                | Dependencia                                                   |
+|---------------|-------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| Recorrido     | Probar escenario: comprar un vehículo.                                              | Módulos integrados y que exista poca probabilidad de cambios. |
+| Recorrido     | Probar escenario: subir archivo con catálogo.                                       | Módulos integrados y que exista poca probabilidad de cambios. |
+| Recorrido     | Probar escenario: buscar un auto.                                                   | Módulos integrados y que exista poca probabilidad de cambios. |
+| Recorrido     | Probar escenario: Crear cuenta.                                                     | Módulos integrados y que exista poca probabilidad de cambios. |
+| Recorrido     | Probar escenario: Buscar un auto                                                    | Módulos integrados y que exista poca probabilidad de cambios. |
+| Recorrido     | Probar escenario: Subir documentos para validación de marca.                        | Módulos integrados y que exista poca probabilidad de cambios. |
+| Recorrido     | Probar escenario: La marca ve datos acerca de sus agencias.                         | Módulos integrados y que exista poca probabilidad de cambios. |
+| Recorrido     | Probar escenario: La agencia da de alta un vendedor.                                | Módulos integrados y que exista poca probabilidad de cambios. |
+| Recorrido     | Probar escenario: La marca de de alta una agencia.                                  | Módulos integrados y que exista poca probabilidad de cambios. |
+| Recorrido     | Probar escenario: El super-admin da de alta una marca.                              | Módulos integrados y que exista poca probabilidad de cambios. |
+| Recorrido     | Probar escenario:El cliente se pone en contacto con un vendedor por medio del chat. | Módulos integrados y que exista poca probabilidad de cambios. |
 
 ---
 
