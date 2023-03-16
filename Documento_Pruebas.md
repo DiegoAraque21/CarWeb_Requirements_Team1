@@ -24,9 +24,8 @@
     5. [Criterios de aceptación de pruebas](#criterios-de-aceptación-de-pruebas)
     6. [Entregables de pruebas](#entregables-de-pruebas)
     7. [Estimación del esfuerzo de pruebas](#estimación-del-esfuerzo-de-pruebas)
-    8. [Estimación del esfuerzo de prueba](#estimación-del-esfuerzo-de-prueba)
   
-6. [Proceso de Manejo de Pruebas](#Proceso-de-Manejo-de-Pruebas)
+6. [Proceso de Manejo de Pruebas](#proceso-de-manejo-de-pruebas)
 7. [Ambiente de pruebas](#ambiente-de-pruebas)
 8. [Pruebas](#pruebas)
 9. [Conclusiones](#conclusiones)
@@ -362,7 +361,31 @@ Por ultimo las pruebas de recorrido las hara un desarrollador o probador a lado 
 
 ### Estimación del esfuerzo de pruebas
 
-
+| N  | Test                                                                                                                                                            | Estimation (time,min) |
+|----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|
+| 1  | Pruebas de registro, login y autenticación de usuarios                                                                                                          | 140                   |
+| 2  | Pruebas de administración de empleados (para dar de alta vendedores, gerentes, dueños de agencia, etc.)                                                         | 120                   |
+| 3  | Pruebas de administración de agencias (para dar de alta super-admins, grupos automotrices, agencias individuales, etc.)                                         | 120                   |
+| 4  | Pruebas para dar de alta nuevas agencias                                                                                                                        | 60                    |
+| 5  | Pruebas para asegurarnos de que la API de GCP está recibiendo el lenguaje natural y está guardando los valores importantes de los vehículos de forma pertinente | 90                    |
+| 6  | Pruebas para asegurarnos de que los filtros convencionales estén funcionando de manera correcta                                                                 | 60                    |
+| 7  | Pruebas de contacto entre el servicio al cliente y el usuario                                                                                                   | 60                    |
+| 8  | Pruebas para visualizar las tarjetas de los vehículos registrados en la plataforma                                                                              | 30                    |
+| 9  | Pruebas para comparar las características y precios de los diferentes vehículos que la plataforma ofrece                                                        | 60                    |
+| 10 | Pruebas para dar de alta el catálogo de los vehículos de cada agencia                                                                                           | 160                   |
+| 11 | Pruebas relacionadas con las estadísticas de las ventas, contactos, performance e información general de las agencias                                           | 120                   |
+| 12 | Pruebas del estado del proceso en el que se encuentra una venta activa                                                                                          | 60                    |
+| 13 | Probar que se puedan subir y verificar los documentos personales                                                                                                | 60                    |
+| 14 | Probar que el cliente se ponga en contacto con el vendedor de la agencia                                                                                        | 30                    |
+| 15 | Probar la selección de ubicación por parte del cliente para acordar la entrega del automóvil                                                                    | 30                    |
+| 16 | Probar la selección de fecha y horario asignado para realizar la prueba de manejo                                                                               | 30                    |
+| 17 | Pruebas relacionadas a la configuración de planes de financiamiento por parte de las agencias                                                                   | 160                   |
+| 18 | Pruebas para seleccionar plan de financiamiento por parte del cliente                                                                                           | 90                    |
+| 19 | Pruebas para elegir método de pago                                                                                                                              | 60                    |
+| 20 | Pruebas para visualizar la información de las cuentas bancarias de las agencias                                                                                 | 30                    |
+| 21 | Pruebas para realizar pagos mensuales y de contado                                                                                                              | 90                    |
+| 22 | Pruebas de fiabilidad generales para asegurarnos de que estamos entregando una plataforma de calidad                                                            | 180                   |
+|    | Total                                                                                                                                                           | 1840                  |
 
 ---
 
