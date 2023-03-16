@@ -33,7 +33,7 @@
 ---
 
 ## Objetivos
-Las metas que se desean alcanzar en el desarrollo de las pruebas de software están relacionadas con cumplir todos los requerimientos funcionales que el socio formador nos proveyó y a grandes rasgos estas son nuestras metas:
+Las metas que se desean alcanzar en el desarrollo de las pruebas de software están relacionadas con cumplir todos los requerimientos funcionales que el socio formador nos proveyó, a nivel general nuestras metas serían las siguientes:
 
 * Autenticación funcional y segura
 * Búsqueda de vehículos exacta y fidedigna
@@ -59,20 +59,20 @@ Nosotros utilizaremos este documento para programar, planear y desarrollar las p
 
 
 
-En este periodo únicamente nos enfocaremos en realizar pruebas funcionales de caja negra para revisar los componentes principales de nuestra plataforma. En caso de que las pruebas de caja negra fallen tendremos que implementar pruebas de caja blanca. En este momento no está dentro de nuestro alcance hacer pruebas no funcionales por falta de tiempo y presupuesto, pero si en el futuro el socio formador desea que realicemos este tipo de pruebas podemos tomarlo en cuenta para implementarlo en un nuevo plan con fechas de entrega y presupuestos más razonables. 
+A lo largo del proyecto, nos centraremos principalmente en realizar pruebas funcionales de caja negra para revisar los componentes principales de nuestra plataforma. En caso de que las pruebas de caja negra fallen tendremos que implementar pruebas de caja blanca. En este momento no está dentro de nuestro alcance hacer pruebas no funcionales por falta de tiempo y presupuesto, pero si en el futuro el socio formador desea que realicemos este tipo de pruebas podemos tomarlo en cuenta para implementarlo en un nuevo plan con fechas de entrega y presupuestos más razonables. 
 
 ---
 
 ## Requerimientos para pruebas
 A continuación podrán observar una lista de requerimientos detallados de prueba en donde se especificarán cada uno de los módulos que tienen que ser probados para asegurar que la plataforma funcione de forma adecuada:
 
-### Etapa 1 Pruebas de autenticación y administración de usuarios
+### Etapa 1: Pruebas de autenticación y administración de usuarios
 * Pruebas de registro, login y autenticación de usuarios
 * Pruebas de administración de empleados (para dar de alta vendedores, gerentes, dueños de agencia, etc.)
 * Pruebas  de administración de agencias (para dar de alta super-admins, grupos automotrices, agencias individuales, etc.)
 * Pruebas para dar de alta nuevas agencias
 
-### Etapa 2 Pruebas de búsqueda y filtración de vehículos
+### Etapa 2: Pruebas de búsqueda y filtración de vehículos
 * Pruebas para asegurarnos de que la API de GCP está recibiendo el lenguaje natural y está guardando los valores importantes de los vehículos de forma pertinente
 * Pruebas para asegurarnos de que los filtros convencionales estén funcionando de manera correcta
 
@@ -84,7 +84,7 @@ A continuación podrán observar una lista de requerimientos detallados de prueb
 * Pruebas para comparar las características y precios de los diferentes vehículos que la plataforma ofrece
 * Pruebas para dar de alta el catálogo de los vehículos de cada agencia
 
-### Etapa 5: Visualización de estadísticas de grupos automotrices y agencias mediante gráficas.
+### Etapa 5: Visualización de estadísticas de grupos automotrices y agencias mediante gráficas
 * Pruebas relacionadas con las estadísticas de las ventas, contactos, performance e información general de las agencias
 * Pruebas del estado del proceso en el que se encuentra una venta activa
 
