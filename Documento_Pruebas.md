@@ -281,7 +281,9 @@ Las pruebas serán registradas usando un formato predefinido el cual se encuentr
 
 ### Criterios de aceptación de pruebas
 
-Pruebas de autenticación y administración de usuarios
+#### - Criterios Generales
+
+**Pruebas de autenticación y administración de usuarios**
 
 - Se crean cuentas de manera correcta, con los datos ingresados por el usuario.
 - Si se ingresa un email o una contraseña incorrecta, se debe de regresar un error.
@@ -295,33 +297,33 @@ Pruebas de autenticación y administración de usuarios
 - Como usuario puedo cambiar roles de los usuarios que se encuentren bajo mi mando.
 - Como usuario podre elmimnar cuentas de los usuarios que esten bajo mi mando.
     
-Pruebas de búsqueda y filtración de vehículos
+**Pruebas de búsqueda y filtración de vehículos**
 
 - Los filtros y la barra de busqueda aparecen en la interfaz.
 - Al buscar vehículos a traves de filtros, nombre y lenguaje natural, recibimos una respuesta esperada
 - En caso de no encontrar resultados, enseñar una pagina personalizada que diga que no se encontro nada y que cambie su busqueda.
 
-Pruebas de chat con el servicio al cliente
+**Pruebas de chat con el servicio al cliente**
 
 - El botón del chat esta siempre disponible en la interfaz.
 - Si el usuario accede al chat y no ha iniciado sesión, será redirigido a crear una cuenta o iniciar sesión.
 - Si el usuario ha iniciado sesión y entra al chat sera hecho sin problemas.
 - A los vendedores se les asigna un cliente automaticamente.
 
-Pruebas de visualización y catálogo de automóviles
+**Pruebas de visualización y catálogo de automóviles**
 
 - El encargado de subir el catálogo tendra acceso a un archivo tipo pruebas para ajustar el suyo.
 - Si se sube el catalogo con campos incorrectos se regresara un error, para que se llene bien el catálogo.
 - El encargado del catalogo de la agencia tendra la capacidad de modificarlos, siempre y cuando no sobrepase los limites de vehículos que contenga su plan.
 - Si se sobrepasa el limite de vehículos, se enviara un error para informar al encargado que necesita actualizar su plan para subir mas vehículos.
 
-Pruebas del proceso de agendar pruebas de manejo
+**Pruebas del proceso de agendar pruebas de manejo**
 
 - Se verifica que se envian los documentos necesarios para la prueba de manejo.
 - El vendedor es capaz de revisarlos manualmente para dar un veredicto final. En caso de ser incorrecto se le avisara al usuario cual es el problema, de otra forma se le avisara al usuario que todo sali bien y cuando se enviara el coche a su casa para realizar la prueba de manejo.
 - Se enseñara el estado actual de tu prueba de manejo en la plataforma.
 
-Pruebas de compra de vehículos
+**Pruebas de compra de vehículos**
 
 - La forma de stripe se renderea justo cuando el usuario decide hacer el primer pago de un coche.
 - Al usuario se le permite cambiar el método de pago.
@@ -329,7 +331,9 @@ Pruebas de compra de vehículos
 - En caso de que todo esta correcto, redirigir a una pagina de exito.
 - Como agencia estoy obligado a ingresar datos de mi cuenta bancaria.
 
-##### - Pruebas de Integración
+#### - Criterios por Tipo de Prueba
+
+**Pruebas de Integración**
 
 Pruebas de autenticación y administración de usuarios
 
@@ -357,15 +361,15 @@ Pruebas de compra de vehículos
 - Los pagos se ven reflejados en el dashboard de stripe.
 - Al ser redirigido a una pagina de exito se tiene que comprobar que el pago se haya hecho a traves de un webhook para modificar la base de datos.
 
-##### - Pruebas informales
+**Pruebas Informales**
 
 El desarrollador tendra que verificar durante todo el proceso que se cumplan los criterios de acpetación especificados en la tarea asignada. Estas pruebas se haran en forma de recorrido y es el primer tipo de pruebas que se realizan. 
 
-##### - Pruebas de aceptación de usuarios
+**Pruebas de Aceptación de Usuarios**
 
 El usuario estará satisfecho con el producto final.
 
-##### - Pruebas estáticas
+**Pruebas Estáticas**
 
 Como equipo cambiaremos toda la documentación para generalizar el ambiente de trabajo y que sea mucho mas facil el trabajo para los desarrolladores y los probadores. 
 
