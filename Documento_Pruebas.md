@@ -402,9 +402,11 @@ Durante todo el proceso de desarrollo de pruebas del proyecto, participaran los 
 
 #### Pruebas Informales 
 
-Las pruebas informales se llevaran acabo durante el sprint, cada desarrollador debera de probar su codigo antes de enviar un pull rquest al repositorio. Esto con fin de agilizar el proceso de pruebas y reducir la cantidad de bugs a la hora de hacer las pruebas formales.
+Las pruebas informales se llevaran acabo durante el sprint, cada desarrollador debera de probar su codigo antes de enviar un pull request al repositorio. Esto con fin de agilizar el proceso de pruebas y reducir la cantidad de bugs a la hora de hacer las pruebas formales.
 
 De igual manera, mientras se desarrolla, cada programador debe asegurarse que se estan llevando los lineamientos de calidad de software, como nombramiento de variables correctas, tener el codigo en ingles, separar codigo en funciones, etc. Lo cual ayudara a mejorar la legibilidad del codigo.
+
+De igual manera el probador hara una prueba informal sobre el codigo entregado, para verificar que todo funciona correctamente. Si la prueba falla, se le regresará al desarrollador, para que corriga los errores encontrados. De esta manera nos ahorramos hacer mas pruebas unitarias de las que necesitamos.
 
 Por ultimo cada programador debera proponer al menos tres pruebas unitarias, ya sean casos de exito o de error. Mas adelante el encargado de pruebas del sprint aprobara las pruebas unitarias que se deberan de desarrollar el siguiente sprint.
 
@@ -421,9 +423,11 @@ Pruebas de caja Blanca:
 - Una vez notifcado, el jefe de de testing, debera de decidir si es necesario llevar una prueba de caja blanca o si no es necesario para solucionar el problema.
 - En caso de que sea necesario una prueba de caja blanca, el tester debera relizar un analisis profundo del modulo que se esta desarrollando, con fin de encontrar el problema. Una vez identificado el problema, el bug debera de ser resuelto por la misma persona que realizo la prueba de caja blanca.
 - Cuando el tester termine la preuba de caja blanca, se realizaran de nuevo pruebas de caja negra. 
-- El ciclo continua hasta que se hayan resuelto los problemas encontrados
+- El ciclo continua hasta que se hayan resuelto los problemas encontrados.
 
+#### Plan de comunicación
 
+Como equipo proponemos usar monday.com para llevar acabo todo el manejo de tareas de cada sprint. Se asignaran las tareas a cada desarrollador y ahi se llevara acabo todo el seguimiento. De igual manera pensamos utilizar github para el control de versiones y tener una plataforma que ya es conocida por todos nosotros para el desarrollo del proyecto. 
 
 #### Cronográma de Actividades
 <img width="742" alt="image" src="https://user-images.githubusercontent.com/90577455/225387651-d0031cb0-3788-4e30-a573-f3ff5a3ee4ed.png">
