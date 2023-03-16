@@ -146,13 +146,13 @@ En este proyecto solamente se probarán requerimientos funcionales puesto que lo
 
 **1. Pruebas Informales**
 
-Las primeras pruebas a realizar en cada componente elaborado deberán ser las pruebas informales, las cuales serán ejecutadas por los mismos desarrolladores al terminar sus componentes verificando que el componente funcione como se esperaba. Esto puede ahorrar mucho tiempo y recursos puesto que las siguientes no se harán pruebas más elaboradas si se detectan los errores en esta primera etapa.
+Las primeras pruebas a realizar en cada componente elaborado deberán ser las pruebas informales, las cuales serán ejecutadas por los probadores al terminar los componentes verificando que este funcione como se esperaba. Esto puede ahorrar mucho tiempo y recursos puesto que las siguientes no se harán pruebas más elaboradas si se detectan los errores en esta primera etapa.
 
 
 **2. Pruebas Unitarias**
 
 Las primeras pruebas a desarrollar serán las unitarias, dichas pruebas se harán en paralelo con el desarrollo del proyecto, ejecutando las cada que se desarrolle un nuevo componente o módulo con el fin de detectar errores en tempranas etapas y evitar costos en un futuro. 
-El primer tipo de prueba unitaria que se deberá ejecutar al desarrollar un nuevo componente será la ‘caja negra’ de entrada y salida para todos los componentes y ‘caja negra’ de historias de usuario con funcionalidades críticas. Si la prueba es exitosa se continuará con los siguientes componentes. En caso de fallar, se ejecutará la prueba de ‘caja blanca’ de camino básico para detectar en qué parte exactamente está el error.
+El primer tipo de prueba unitaria que se deberá ejecutar al desarrollar un nuevo componente será la ‘caja negra’ de entrada y salida para todos los componentes y ‘caja negra’ de historias de usuario con funcionalidades críticas. Si la prueba es exitosa se continuará con los siguientes componentes. De igual manera las de 'caja negra' se realizaran unicamente cuando se pasan las pruebas informales. En caso de fallar la 'caja negra', se ejecutará la prueba de ‘caja blanca’ de camino básico para detectar en qué parte exactamente está el error.
 
 **3. Pruebas de Integración**
 
@@ -228,15 +228,15 @@ Ritmo: Cada vez que se complete una funcionalidad de la plataforma, se le enseñ
 
 ##### - Pruebas informales
 
-Próposito: Hacer pull-request y merges de calidad. En otras palabras que el desarrollador se asegure que lo que hico funciona bien sin realizar ninguna prueba unitaria.
+Próposito: Hacer pull-request y merges de calidad. En otras palabras que el probador se asegure que lo que hizo funciona bien sin realizar ninguna prueba unitaria.
 
-Alcance: Cada vez que se termine un task del backlog, el desarrolador estará encargado de entregarlo bien hecho. De esta manera diminuiriamos la cantidad de errores que salgan en los otros tipos de pruebas.
+Alcance: Cada vez que se termine un task del backlog, el probador estará encargado de checar que todo este en orden. De esta manera disminuiriamos la cantidad de errores que salgan en los otros tipos de pruebas.
 
-Probadores: Desarrolladores
+Probadores: Probadores
 
-Método: Revisiones de desarrolladores en cada task del backlog para verificar que todo esta funcionando correctamente de acuerdo con los criterios de aceptación ya definidos.
+Método: Revisiones de probadores en cada task del backlog para verificar que todo esta funcionando correctamente de acuerdo con los criterios de aceptación ya definidos.
 
-Ritmo: Este tipo de pruebas tienen un ritmo muy diferente a las demas. Principalmente porque la hace el desarrollador y dependen de cuando se terminen cada actividad.
+Ritmo: Este tipo de pruebas tienen un ritmo muy diferente a las demas. Se hacen cada que se termina una tarea del sprint en el que nos encontramos.
 
 ##### - Pruebas estáticas
 
