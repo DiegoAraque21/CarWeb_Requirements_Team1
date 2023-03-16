@@ -140,31 +140,44 @@ A continuación mostramos la lista de eventos que deberán ser completados antes
 
 Para asegurar el correcto funcionamiento del sistema, en comparación a lo necesitado y establecido por el cliente, se necesita tener una estrategia para la ejecución de pruebas. Nuestra propuesta de estrategia considera las necesidades y limitaciones que se tienen en el proyecto.
 
-En este proyecto solamente se probarán requerimientos funcionales puesto que los requerimiento no funcionales fueron establecidos muy generales y no hay la suficiente especificación para que sean probados.
+En este proyecto solamente se probarán requerimientos funcionales puesto que los requerimientos no funcionales fueron establecidos muy generales y no hay la suficiente especificación para que sean probados.
 
 ### Descripción de la Estrategia
 
 **1. Pruebas Informales**
 
-Las primeras pruebas a realizar en cada componente elaborado deberán ser las pruebas informales, las cuales serán ejecutadas por los probadores al terminar los componentes verificando que este funcione como se esperaba. Esto puede ahorrar mucho tiempo y recursos puesto que las siguientes no se harán pruebas más elaboradas si se detectan los errores en esta primera etapa.
+Las primeras pruebas a realizar en cada componente elaborado deberán ser las pruebas informales, las cuales serán ejecutadas por los testers al terminar los componentes verificando que este funcione como se esperaba. Esto puede ahorrar mucho tiempo y recursos puesto que las siguientes no se harán pruebas más elaboradas si se detectan los errores en esta primera etapa. Esperamos que las pruebas informales ayuden a los testers a familiarizarse y entender con mayor profundidad un componente, y así realizar las siguientes pruebas con un mejor criterio.
 
 
-**2. Pruebas Unitarias**
+**2. Pruebas de Caja Negra**
 
-Las primeras pruebas a desarrollar serán las unitarias, dichas pruebas se harán en paralelo con el desarrollo del proyecto, ejecutando las cada que se desarrolle un nuevo componente o módulo con el fin de detectar errores en tempranas etapas y evitar costos en un futuro. 
-El primer tipo de prueba unitaria que se deberá ejecutar al desarrollar un nuevo componente será la ‘caja negra’ de entrada y salida para todos los componentes y ‘caja negra’ de historias de usuario con funcionalidades críticas. Si la prueba es exitosa se continuará con los siguientes componentes. De igual manera las de 'caja negra' se realizaran unicamente cuando se pasan las pruebas informales. En caso de fallar la 'caja negra', se ejecutará la prueba de ‘caja blanca’ de camino básico para detectar en qué parte exactamente está el error.
+Estas pruebas serán ejecutadas cada que se desarrolle un nuevo componente o módulo con el fin de detectar errores en tempranas etapas y evitar costos en un futuro. 
+El primer tipo de prueba unitaria que se deberá ejecutar al desarrollar un nuevo componente será la ‘caja negra’ de entrada y salida para todos los componentes y ‘caja negra’ de historias de usuario con funcionalidades críticas. Si la prueba es exitosa se continuará con los siguientes componentes. De igual manera las de 'caja negra' se realizaran unicamente cuando se pasan las pruebas informales. 
 
-**3. Pruebas de Integración**
+**3. Pruebas de Caja Blanca**
 
-Las pruebas de integración se harán cuando se hayan hecho pruebas unitarias sobre todos los componentes de una parte del sistema. Se harán pruebas de integración ascendentes para conseguir identificar los errores con mayor facilidad.
+Si la prueba de 'caja negra' falla, se realizará una prueba de 'caja blanca' de cobertura para detectar el error. Solamente se harán pruebas de 'caja blanca' de camino básico cuando sean componentes relacionados con la funcionalidad más crítica, que es la de ventas.
 
-**4. Pruebas de Aceptación**
+**4. Pruebas de Integración**
+
+Las pruebas de integración se harán cuando se hayan hecho pruebas unitarias sobre los componentes de un módulo del sistema. Se harán pruebas de integración descendentes para conseguir identificar los errores con mayor facilidad. No todos los componentes requeriran ser integrados a una prueba de integración, el jefe de testers será el que decida si la funcionalidad del componetne no tiene la relevancia suficiente para ser integrado a la prueba.
+
+**5. Pruebas de Recorrido**
+
+En las últimas etapas del desarrollo se harán pruebas de recorrido en donde personas ajenas al proyecto probarán las funcionalidades para detectar errores o áreas de oportunidad.
+
+**5. Pruebas de Aceptación**
 
 Cada cierto número de sprints se hará una prueba de aceptación con el cliente en base a las historias de usuario, previamente definidas, para que acepte el funcionamiento y comportamiento de esa funcionalidad. En caso de aceptación se continuará con el desarrollo. En caso de falló se revisará la diferencia con lo establecido en los requerimientos y se decidirá si los cambios proceden o se ignoran.
 
-**5. Pruebas Estáticas**
 
-Las pruebas estáticas se realizan simultáneamente con las demás pruebas puesto que tanto este documento como los demás que describen el sistema deben de actualizarse y verificar que sigan siendo correctos mientras avanza el sistema.
+**6. Pruebas Estáticas**
+
+Las pruebas estáticas se realizan simultáneamente con las demás pruebas puesto que tanto este documento como los demás que describen el sistema deben de actualizarse y verificar que sigan siendo correctos mientras avanza el sistema. 
+
+![Flujo de Pruebas-Página-2 (1)](https://user-images.githubusercontent.com/90577455/225683399-6acd6cfa-e98d-40a8-a229-06e06d8f4793.jpg)
+
+
 
 ### Registro de Resultados
 Las pruebas y sus resultados serán registrados en una aplicación tercera. Las pruebas tendrán 4 estados distintos:
