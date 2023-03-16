@@ -26,10 +26,15 @@
     7. [Estimación del esfuerzo de pruebas](#estimación-del-esfuerzo-de-pruebas)
   
 6. [Proceso de Manejo de Pruebas](#proceso-de-manejo-de-pruebas)
-7. [Ambiente de pruebas](#ambiente-de-pruebas)
-8. [Pruebas](#pruebas)
-9. [Conclusiones](#conclusiones)
-10. [Apéndices](#apendices)
+    1. [Participantes](#participantes)
+    2. [Pruebas Informales](#pruebas-informales)
+    3. [Pruebas Formales](#pruebas-formales)
+    4. [Plan de Comunicación](#plan-de-comunicación)
+    5. [Cronográma de Actividades](#cronográma-de-actividades)
+8. [Ambiente de pruebas](#ambiente-de-pruebas)
+9. [Pruebas](#pruebas)
+10. [Conclusiones](#conclusiones)
+11. [Apéndices](#apendices)
 ---
 
 ## Objetivos
@@ -463,7 +468,7 @@ Por último cada programador debera proponer al menos tres pruebas unitarias, ya
 Como equipo proponemos usar monday.com para llevar acabo todo el manejo de tareas de cada sprint. Se asignaran las tareas a cada desarrollador y ahi se llevara acabo todo el seguimiento. De igual manera pensamos utilizar github para el control de versiones y tener una plataforma que ya es conocida por todos nosotros para el desarrollo del proyecto. El lunes todo el grupo tendrá sprint planning donde el project manager decidirá que se hara en el sprint. Los miercoles todo el grupo tendrá una reunión para dar seguimiento a lo que se esta haciendo en el sprint y aclarar dudas. El viernes tendremos un sprint demo, donde se enseñara a todo el equipo lo que se desarrollo y en caso de existir dudas tambien se podrán hacer en este día.
 
 ### Cronográma de Actividades
-<img width="742" alt="image" src="https://user-images.githubusercontent.com/90577455/225387651-d0031cb0-3788-4e30-a573-f3ff5a3ee4ed.png">
+<img width="737" alt="Imagen1" src="https://user-images.githubusercontent.com/90577455/225692036-189d365b-7688-4895-b598-c12d0499127f.png">
 
 ---
 
