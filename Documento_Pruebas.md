@@ -181,7 +181,7 @@ Cada cierto número de sprints se hará una prueba de aceptación con el cliente
 
 Las pruebas estáticas se realizan simultáneamente con las demás pruebas puesto que tanto este documento como los demás que describen el sistema deben de actualizarse y verificar que sigan siendo correctos mientras avanza el sistema. 
 
-![Flujo de Pruebas-Página-2 (2)](https://user-images.githubusercontent.com/90577455/225801709-bd9a28ad-87e5-4fd9-99d3-426a318174e6.jpg)
+![Flujo de Pruebas-Página-2 drawio](https://user-images.githubusercontent.com/84464594/225811946-827854ee-8162-4f2d-9094-bd3a00b3b37b.png)
 
 
 ### Registro de Resultados
@@ -473,7 +473,7 @@ Por ultimo tenemos pruebas de recorrido, las cuales se haran cada vez que se log
 
 ### Plan de Comunicación
 
-Como equipo proponemos usar monday.com para llevar acabo todo el manejo de tareas de cada sprint. Se asignaran las tareas a cada desarrollador y ahi se llevara acabo todo el seguimiento. De igual manera pensamos utilizar github para el control de versiones y tener una plataforma que ya es conocida por todos nosotros para el desarrollo del proyecto. El lunes todo el grupo tendrá sprint planning donde el project manager decidirá que se hara en el sprint. Los miercoles todo el grupo tendrá una reunión para dar seguimiento a lo que se esta haciendo en el sprint y aclarar dudas. El viernes tendremos un sprint demo, donde se enseñara a todo el equipo lo que se desarrollo y en caso de existir dudas tambien se podrán hacer en este día.
+Como equipo proponemos usar monday.com para llevar acabo todo el manejo de tareas de cada sprint. Se asignaran las tareas a cada desarrollador y ahi se llevara acabo todo el seguimiento. De igual manera pensamos utilizar github para el control de versiones y tener una plataforma que ya es conocida por todos nosotros para el desarrollo del proyecto. El grupo estará divido en minigrupos (basados en funcionalidades de la aplicación), cada uno tendrá su scrum-master. Se haran reuniones generales entre los scrum-masters de cada grupo, para analizar que esta sucediendo en cada uno de sus equipos y todos los avances. De igual manera todos los desarrolladores tendrán reuniones con su respectivo scrum-master para que se les asignen las actividades, se resuelvan dudas, etc. En cuestión de las pruebas, se busca que a cada desarrollador se le asignen pruebas que no esten relacionadas con lo que el esta desarrollando en ese momento para evitar cualquier tipo de sesgos, se requiere una comunicación muy bueno entre ambos roles para tener el ambiente mas amigable posible.
 
 ### Cronográma de Actividades
 <img width="737" alt="Imagen1" src="https://user-images.githubusercontent.com/90577455/225692036-189d365b-7688-4895-b598-c12d0499127f.png">
