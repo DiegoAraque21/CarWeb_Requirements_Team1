@@ -181,8 +181,7 @@ Cada cierto número de sprints se hará una prueba de aceptación con el cliente
 
 Las pruebas estáticas se realizan simultáneamente con las demás pruebas puesto que tanto este documento como los demás que describen el sistema deben de actualizarse y verificar que sigan siendo correctos mientras avanza el sistema. 
 
-![Flujo de Pruebas-Página-2 (1)](https://user-images.githubusercontent.com/90577455/225683399-6acd6cfa-e98d-40a8-a229-06e06d8f4793.jpg)
-
+![Flujo de Pruebas-Página-2 (2)](https://user-images.githubusercontent.com/90577455/225801709-bd9a28ad-87e5-4fd9-99d3-426a318174e6.jpg)
 
 
 ### Registro de Resultados
